@@ -128,21 +128,37 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
    var nVisits = aParts[5];
  
 
-   function setGFields(f) { 
-      term = term.replace(/%20/g, ' '); 
-	  try {
-		  document.getElementById('CustomFields_19_3').value  = source; 
-	      document.getElementById('CustomFields_20_3').value  = medium; 
-	      document.getElementById('CustomFields_21_3').value    = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
-	      document.getElementById('CustomFields_22_3').value = content; 
-	      document.getElementById('CustomFields_23_3').value = campaign; 
-	      document.getElementById('CustomFields_24_3').value = csegment; 
-	      document.getElementById('CustomFields_25_3').value = nVisits;
-	  } 
-	  catch(err) { }
+   //for GA tracking hide this which not required and used anywhere in pagefor GA tracking
+   //function setGFields(f) { 
+   //   term = term.replace(/%20/g, ' '); 
+   //   try {
+   // 	  document.getElementById('CustomFields_19_3').value  = source; 
+   //       document.getElementById('CustomFields_20_3').value  = medium; 
+   //       document.getElementById('CustomFields_21_3').value  = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
+   //       document.getElementById('CustomFields_22_3').value = content; 
+   //       document.getElementById('CustomFields_23_3').value = campaign; 
+   //       document.getElementById('CustomFields_24_3').value = csegment; 
+   //       document.getElementById('CustomFields_25_3').value = nVisits;
+   //   } 
+   //   catch(err) { }
  
-	  return true;
-   } 
+   //   return true;
+   //} 
+   
+   //for GA tracking Added New Function to Set cookie valuefor GA tracking
+   function SetHiddenFields() {
+       term = term.replace(/%20/g, ' '); 
+       try {
+           document.getElementById('CustomFields_19_12').value = source;
+           document.getElementById('CustomFields_20_12').value = medium;
+           document.getElementById('CustomFields_21_12').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
+           document.getElementById('CustomFields_22_12').value = content;
+           document.getElementById('CustomFields_23_12').value = campaign;
+           document.getElementById('CustomFields_24_12').value = csegment;
+           document.getElementById('CustomFields_25_12').value = nVisits;
+       }
+       catch (err) { }
+   }
 
   } catch(err) {
   }
@@ -189,7 +205,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
 </head>
 
-<body>
+ <!--for GA tracking call setHiddenfields function on page loadfor GA tracking -->
+<body onload="SetHiddenFields();">
 	<!--Container-->
 
   <div class="container">
@@ -260,10 +277,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     <dt><input class="inbuilt" id="CustomFields_5_12" dir="rtl" placeholder="טלפון" type="tel" pattern="^[0-9]+[\- ]*[0-9]+$"></dt>
                     <dd dir="rtl">&nbsp;</dd> <dt><input class="inbuilt" type="text" dir="rtl" placeholder="דוא"ל" type="email" pattern="[^ @]*@[^ @]*" value=""></dt><dd dir="rtl">&nbsp;</dd>
                     
-                       <input type="submit" dir="rtl" value="להגיש" onclick="setGFields(document.forms[0]);
-                            document.forms[0].submit();">
+                    <!--<input type="submit" dir="rtl" value="להגיש" onclick="setGFields(document.forms[0]);
+                            document.forms[0].submit();">-->
+                    <!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
+                    <input type="submit" dir="rtl" value="להגיש" onclick="document.forms[0].submit();">
 
- <!-- for the GA data -->
+                <!-- for the GA data -->
                 <!--<input type='hidden' name='source' /> --> <input
                   name="CustomFields[19]" id="CustomFields_19_12"
                   value="" type="hidden">
