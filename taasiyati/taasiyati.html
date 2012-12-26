@@ -1,14 +1,11 @@
-<!DOCTYPE html>
+<!doctype html>
 <!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
 <!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
 <!--[if IE 9]>    <html class="no-js ie9" lang="en" itemscope itemtype="http://schema.org/Product"> <![endif]-->
 <!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 9]><!-->
-<html class="no-js" itemscope="" itemtype="http://schema.org/Product"
-  dir="rtl" lang="he">
-  <!--<![endif]--><head>
+<!--[if gt IE 9]><!--><html class="no-js" itemscope="" itemtype="http://schema.org/Product" dir="rtl" lang="he">  <!--<![endif]--><head>
     <meta charset="utf-8">
     <!-- Use the .htaccess and remove these lines to avoid edge case issues.
        More info: h5bp.com/b/378 -->
@@ -127,25 +124,46 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
    var nVisits = aParts[5];
  
 
-   function setGFields(f) { 
-      term = term.replace(/%20/g, ' '); 
-	  try {
-		  document.getElementById('CustomFields_19_3').value  = source; 
-	      document.getElementById('CustomFields_20_3').value  = medium; 
-	      document.getElementById('CustomFields_21_3').value    = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
-	      document.getElementById('CustomFields_22_3').value = content; 
-	      document.getElementById('CustomFields_23_3').value = campaign; 
-	      document.getElementById('CustomFields_24_3').value = csegment; 
-	      document.getElementById('CustomFields_25_3').value = nVisits;
-	  } 
-	  catch(err) { }
+   //for GA tracking hide this which not required and used anywhere in pagefor GA tracking
+   //function setGFields(f) { 
+   //   term = term.replace(/%20/g, ' '); 
+   //   try {
+   // 	  document.getElementById('CustomFields_19_3').value  = source; 
+   //       document.getElementById('CustomFields_20_3').value  = medium; 
+   //       document.getElementById('CustomFields_21_3').value  = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
+   //       document.getElementById('CustomFields_22_3').value = content; 
+   //       document.getElementById('CustomFields_23_3').value = campaign; 
+   //       document.getElementById('CustomFields_24_3').value = csegment; 
+   //       document.getElementById('CustomFields_25_3').value = nVisits;
+   //   } 
+   //   catch(err) { }
  
-	  return true;
-   } 
+   //   return true;
+   //} 
+   
+   //for GA tracking Added New Function to Set cookie valuefor GA tracking
+   function SetHiddenFields() {
+       term = term.replace(/%20/g, ' '); 
+       try {
+           document.getElementById('CustomFields_19_12').value = source;
+           document.getElementById('CustomFields_20_12').value = medium;
+           document.getElementById('CustomFields_21_12').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
+           document.getElementById('CustomFields_22_12').value = content;
+           document.getElementById('CustomFields_23_12').value = campaign;
+           document.getElementById('CustomFields_24_12').value = csegment;
+           document.getElementById('CustomFields_25_12').value = nVisits;
+       }
+       catch (err) { }
+   }
 
   } catch(err) {
   }
-</script><!--End user script-->
+</script>
+
+
+
+
+<!--End user script-->
     <!-- Google Tag Manager --> <noscript></noscript>
   </head>
   <body>
