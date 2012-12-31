@@ -41,7 +41,7 @@ aside .columns{ margin-left:10px !important;}
 .pagesbg ul li a, .recent ul li a, .category ul li a{ font-size:0.8em; color:#21565e;}
 .category ul li{ border-top:1px solid #21565e !important;}
 .post ul{ list-style:none; margin:0;}
-.post ul li{ background:url(../img/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1em; margin-bottom:6px;}
+.post ul li{ background:url(../img/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1.1em; margin-bottom:6px;}
 .sidebar{ margin-top:-60px; }
 
 .contactform{width:177px; height:202px; background:url(../img/contactform.png) no-repeat; float:left; padding:72px 20px 10px 30px; overflow:hidden;}
