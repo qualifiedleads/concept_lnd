@@ -193,6 +193,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- end CSS-->
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
+    <script >
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=450,width=550,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
 </head>
 
  <!--for GA tracking call setHiddenfields function on page loadfor GA tracking -->
@@ -291,8 +298,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div></div>
 
   	<footer id="footer">
-    <p><strong>קונספט המכללה לעיצוב</strong> שפע טל 10 (<strong>5 דקות מעזריאלי</strong>) חניה חינם בשפע<br>
-    <span><strong><a href="tel:03-771-3018"onClick="_gaq.push(['_trackPageview', '/vpv/pnimhtml/footer/ClickToCall']);" >03-771-3018</a></strong></span></p>
+    <p><strong>קונספט המכללה לעיצוב</strong> רח’שפע טל 10 (<strong>5 דקות מעזריאלי</strong>) חניה חינם בשפע &nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a><br><a href="tel:03-771-3018"onClick="_gaq.push(['_trackPageview', '/vpv/pnimhtml/footer/ClickToCall']);" >03-771-3018</a></strong></span></p>
     </footer>
 
 	</div>
