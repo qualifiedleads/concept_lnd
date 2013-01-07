@@ -16,7 +16,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86d8e6', end
 #header{ background:url(../img/header.png) no-repeat; width:395px; height:56px; padding:30px 40px 0 15px; margin:0 40px 8px 0; color:#fff; float:right;}
 #footer{ background:url(../img/footerbg.png) no-repeat; width:599px; height:66px; padding:14px 70px 10px 20px; float:right; margin:-2px 24px 50px 0; color:#000;}
 #footer p{ font-family:Arial, Helvetica, sans-serif; font-size:0.8em;}
-.header-top{ width:100%;  background:url(../img/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:960px; }
+.header-top{ width:100%;  background:url(../img/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:1060px; }
 .content{ background:url(../img/content.png) repeat-y; width:100%;  padding:20px 0 0 0; }
 .bottom{ background:url(../img/footer.png) bottom left no-repeat; min-height:51px; width:100%;}
 
