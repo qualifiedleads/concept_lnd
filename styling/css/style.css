@@ -1,7 +1,7 @@
 h1, h2, h3, h4, h5, h6{  font-family:Arial, Helvetica, sans-serif;}
 h1{ font-size:1.1em;} h2{ font-size:1em;} h3{ font-size:0.9em;} h4{ font-size:0.8em;} h5{ font-size:0.6em;} h6{ font-size:0.6em;}
 
-body{/* background:#B2F9D9 url(../img/taasiyati_bg.jpg) repeat-x;*/ color:#000; font-family:Arial, Helvetica, sans-serif;
+body{/* background:#B2F9D9 url(http://lnd.commondatastorage.googleapis.com/taasiyati_bg.jpg) repeat-x;*/ color:#000; font-family:Arial, Helvetica, sans-serif;
 background: #508ab2; /* Old browsers */
 background: -moz-linear-gradient(top,  #508ab2 1%, #5ea2d1 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#508ab2), color-stop(100%,#5ea2d1)); /* Chrome,Safari4+ */
@@ -11,41 +11,41 @@ background: -ms-linear-gradient(top,  #508ab2 1%,#5ea2d1 100%); /* IE10+ */
 background: linear-gradient(to bottom,  #508ab2 1%,#5ea2d1 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#508ab2', endColorstr='#5ea2d1',GradientType=0 ); /* IE6-9 */
 }
-.container{ padding-top:100px;  background:url(../img/bg.png) center top no-repeat;   direction: rtl;}
+.container{ padding-top:100px;  background:url(http://lnd.commondatastorage.googleapis.com/bg.png) center top no-repeat;   direction: rtl;}
 
-#header{ background:url(../img/header.png) no-repeat; width:395px; height:56px; padding:30px 40px 0 15px; margin:0 40px 8px 0; color:#fff; float:right;}
-#footer{ background:url(../img/footerbg.png) no-repeat; width:599px; height:66px; padding:14px 70px 10px 20px; float:right; margin:-2px 24px 50px 0; color:#000;}
+#header{ background:url(http://lnd.commondatastorage.googleapis.com/header.png) no-repeat; width:395px; height:56px; padding:30px 40px 0 15px; margin:0 40px 8px 0; color:#fff; float:right;}
+#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbg.png) no-repeat; width:599px; height:66px; padding:14px 70px 10px 20px; float:right; margin:-2px 24px 50px 0; color:#000;}
 #footer p{ font-family:Arial, Helvetica, sans-serif; font-size:0.8em;}
-.header-top{ width:100%;  background:url(../img/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:1060px; }
-.content{ background:url(../img/content.png) repeat-y; width:100%;  padding:20px 0 0 0; }
-.bottom{ background:url(../img/footer.png) bottom left no-repeat; min-height:51px; width:100%;}
+.header-top{ width:100%;  background:url(http://lnd.commondatastorage.googleapis.com/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:1060px; }
+.content{ background:url(http://lnd.commondatastorage.googleapis.com/content.png) repeat-y; width:100%;  padding:20px 0 0 0; }
+.bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer.png) bottom left no-repeat; min-height:51px; width:100%;}
 
 #header h1{ font-family:"arial", Times, serif; font-size:1.7em; margin:0; padding:0; color:#fff; text-align:center;}
 #header p{  font-family:Arial, Helvetica, sans-serif; font-size:10px;margin:0; padding:0;}
 .leftside{ padding-right:70px;}
 
-.post { background:url(../img/postbg.png) bottom right no-repeat; padding-bottom:20px; margin-bottom:10px;}
-.post h1{ font-weight:bold; font-size:1.8em; background:url(../img/h1.png) no-repeat bottom right; padding-bottom:20px; margin:0;}
+.post { background:url(http://lnd.commondatastorage.googleapis.com/postbg.png) bottom right no-repeat; padding-bottom:20px; margin-bottom:10px;}
+.post h1{ font-weight:bold; font-size:1.8em; background:url(http://lnd.commondatastorage.googleapis.com/h1.png) no-repeat bottom right; padding-bottom:20px; margin:0;}
 .post h2{ font-weight:normal; font-size:1.6em;  padding-bottom:10px; margin:0;}
 .post h2 strong{ font-weight:normal;}
 .post img{  margin:0 5px 5px 10px;}
 .content p{  font-family:Arial, Helvetica, sans-serif; font-size:1.4em;}
 
 aside .columns{ margin-left:10px !important;}
-.pagesbg{ width:177px; height:194px; background:url(../img/pagesBG.png) no-repeat; float:left; padding:92px 20px 10px 30px; overflow:hidden; }
-.recent{ width:177px; height:191px; background:url(../img/recentsBG.png) no-repeat; float:left; padding:95px 15px 15px 30px; overflow:hidden; margin-left:6px;}
-.category{ width:175px; height:220px; background:url(../img/categoriesBg.png) no-repeat; float:left; padding:92px 20px 10px 30px;}
+.pagesbg{ width:177px; height:194px; background:url(http://lnd.commondatastorage.googleapis.com/pagesBG.png) no-repeat; float:left; padding:92px 20px 10px 30px; overflow:hidden; }
+.recent{ width:177px; height:191px; background:url(http://lnd.commondatastorage.googleapis.com/recentsBG.png) no-repeat; float:left; padding:95px 15px 15px 30px; overflow:hidden; margin-left:6px;}
+.category{ width:175px; height:220px; background:url(http://lnd.commondatastorage.googleapis.com/categoriesBg.png) no-repeat; float:left; padding:92px 20px 10px 30px;}
 .maincontent{ clear:both; margin:0; padding:0;}
 
 .pagesbg ul, .recent ul, .category ul{ list-style:none;}
-.pagesbg ul li, .recent ul li, .category ul li{ list-style:none; background:url(../img/list.png)100% 8px no-repeat; padding-right:15px; margin:0; border-top:1px solid #ffffbe;}
+.pagesbg ul li, .recent ul li, .category ul li{ list-style:none; background:url(http://lnd.commondatastorage.googleapis.com/list.png)100% 8px no-repeat; padding-right:15px; margin:0; border-top:1px solid #ffffbe;}
 .pagesbg ul li a, .recent ul li a, .category ul li a{ font-size:0.8em; color:#21565e;}
 .category ul li{ border-top:1px solid #21565e !important;}
 .post ul{ list-style:none; margin:0;}
-.post ul li{ background:url(../img/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1em; margin-bottom:6px;}
+.post ul li{ background:url(http://lnd.commondatastorage.googleapis.com/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1em; margin-bottom:6px;}
 .sidebar{ margin-top:-60px; }
 
-.contactform{width:177px; height:202px; background:url(../img/contactform.png) no-repeat; float:left; padding:72px 20px 10px 30px; overflow:hidden;}
+.contactform{width:177px; height:202px; background:url(http://lnd.commondatastorage.googleapis.com/contactform.png) no-repeat; float:left; padding:72px 20px 10px 30px; overflow:hidden;}
 .cns{ text-align:center; display:block;}
 .contactform dl{ margin:0; padding:0;}
 .contactform dl dt{ float:left; width:160px;}
@@ -78,9 +78,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#508ab2', end
 @media screen and (-webkit-min-device-pixel-ratio:0){#header{ margin-bottom:8px;}}
 @media screen and (max-width:978px){
 
-.header-top{  background:url(../img/header-top.png) 100% 0  no-repeat;}
-.content{ background:url(../img/content.png) repeat-y 100% 0;}
-.bottom{ background:url(../img/footer.png) 100% 0 no-repeat; }
+.header-top{  background:url(http://lnd.commondatastorage.googleapis.com/header-top.png) 100% 0  no-repeat;}
+.content{ background:url(http://lnd.commondatastorage.googleapis.com/content.png) repeat-y 100% 0;}
+.bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer.png) 100% 0 no-repeat; }
 
 .header-top{ overflow:hidden;}
 #header{ margin-bottom:0px;}
@@ -92,7 +92,7 @@ aside .columns{ margin:0 !important; }
 @media screen and (max-width:767px){
 .header-top{ overflow:hidden;}
 #header{ margin-bottom:8px;}
-#footer{ background:url(../img/footerbgs.png)  no-repeat center top; width:300px;}
+#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center top; width:300px;}
 #header h1{ font-size:1.4em;}
 .pagesbg, .recent, .category, .contactform{  float:left; margin:0;}
 .post{ padding:10px;}
@@ -105,9 +105,9 @@ aside .columns{ margin:0 !important; }
 @media screen and (max-width:480px){
 	.container{ padding-top:40px;}
 	#header h1{ font-size:1em;}
-#header{ width:98%; margin:0 0 8px 20px; padding:30px 0 0 0; background:url(../img/headersmall.png) no-repeat center center; width:300px; height:46px; }	
+#header{ width:98%; margin:0 0 8px 20px; padding:30px 0 0 0; background:url(http://lnd.commondatastorage.googleapis.com/headersmall.png) no-repeat center center; width:300px; height:46px; }	
 .sideright{ padding-right:30px;}
-#footer{ background:url(../img/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding:0; margin:-2px auto 0 auto;}
+#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding:0; margin:-2px auto 0 auto;}
 .pagesbg, .recent, .category, .contactform{ float:none; clear:both; margin:0 auto;}
 .leftsidecol{ clear:both;}
 .post h2{line-height:normal;}
@@ -115,10 +115,10 @@ aside .columns{ margin:0 !important; }
 
 @media screen and (max-width:360px){
 	
-#header{  margin:0 auto 0 auto; padding:10px 20px 0 20px; background:url(../img/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }	
-.content{ background:url(../img/content-small.png) 100% 0 repeat-y;}
-.header-top{ background:url(../img/header-top-small.png)100% 0 no-repeat;}
-.bottom{ background:url(../img/footer-samll.png) 100% 0 no-repeat; min-height:26px;}
+#header{  margin:0 auto 0 auto; padding:10px 20px 0 20px; background:url(http://lnd.commondatastorage.googleapis.com/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }	
+.content{ background:url(http://lnd.commondatastorage.googleapis.com/content-small.png) 100% 0 repeat-y;}
+.header-top{ background:url(http://lnd.commondatastorage.googleapis.com/header-top-small.png)100% 0 no-repeat;}
+.bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer-samll.png) 100% 0 no-repeat; min-height:26px;}
 .leftside{ padding-right:20px;}
 .pagesbg, .recent, .category, .contactform{ float:none; clear:both; margin:0 0 10px 0;}
 .post h2{line-height:normal;}
