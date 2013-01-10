@@ -193,6 +193,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <!-- end CSS-->
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
+  <script >
+// Privacy Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		
+
+url,'popUpWindow','height=450,width=550,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=n
+
+o,menubar=no,location=no,directories=no,status=yes')
+}
+</script>
 </head>
 
  <!--for GA tracking call setHiddenfields function on page loadfor GA tracking -->
@@ -206,7 +217,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   	<div class="sixteen">
     	<!--Header-->
   	<header id="header">
-    	<h1>Call Now:<a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/header/ClickToCall']);" 
+    	<h1>خاطب تلفونيا:<a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/header/ClickToCall']);" 
 > 03-771-3027</a></h1>
         <p></p>
     </header>
@@ -222,7 +233,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <div class="post">
 
             <h1> مهنة تصميم و تجهيز الفعاليات والمناسبات تبدأ بكونسيبت</h1>
-            <img src="img/post.jpg" alt="image">
+            <img src="http://lnd.commondatastorage.googleapis.com/hafaka.jpg" alt="image">
             
             	<h2>  <strong>دراسة تصميم وتخطيط الفعاليات لنيل شهادة مهنية</strong ><br> </h2>
                  <h3> أهلا بكم في الكلية الوحيدة في اسرائيل التي تمنحكم شهادة في تصميم و تجهيز الفعاليات! </h3>
@@ -270,10 +281,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <dt><input class="inbuilt" type="text" dir="rtl" placeholder=" ايميل: 	" type="email" pattern="[^ @]*@[^ @]*" value="" name="email" id="email"></dt>
 <dd dir="rtl">&nbsp;</dd>
 
-<!--<input type="submit" dir="rtl" value="שלה" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
+<!--<input type="submit" dir="rtl" value="أرسل" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
 <!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
-<input type="submit" dir="rtl" value="שלה" onclick="document.forms[0].submit();">
-<input name="CustomFields[13]" id="CustomFields_13_18" Value="כללי" type="hidden">
+<input type="submit" dir="rtl" value="أرسل" onclick="document.forms[0].submit();">
+<input name="CustomFields[13]" id="CustomFields_13_18" Value="arabic אירועים" type="hidden">
 <!-- for the GA data -->
 <!--<input type='hidden' name='source' /> --> 
 <input name="CustomFields[19]" id="CustomFields_19_18" value="" type="hidden">
@@ -298,7 +309,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     </div></div>
 
   	<footer id="footer">
-    <p><strong>كلية كونسيبت للتصميم</strong> רח’שפע טל 10 <strong> (5 دقائق من عزرئيلي) موقف سيارات مجاني</strong> קונספט המכללה לעיצוב <span><strong><a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/footer/ClickToCall']);" >03-771-3027</a></strong></span></p>
+    <p><strong>كلية كونسيبت للتصميم</strong> רח’שפע טל 10 <strong> (5 دقائق من عزرئيلي) موقف سيارات مجاني</strong> קונספט המכללה לעיצוב&nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a> <span><strong><a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/footer/ClickToCall']);" >03-771-3027</a></strong></span></p>
     </footer>
 
 	</div>
