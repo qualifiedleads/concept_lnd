@@ -12,6 +12,10 @@ function newPopup(url) {
 209 - telephone
 خاطب تلفونيا
 
+
+230
+http://lnd.commondatastorage.googleapis.com/home_styling.jpg
+
 276 - send
 أرسل
 
