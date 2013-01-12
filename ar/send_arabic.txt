@@ -11,7 +11,11 @@ function newPopup(url) {
 
 209 - telephone
 خاطب تلفونيا
-
+<header id="header">
+    	<h1>خاطب تلفونيا<a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/header/ClickToCall']);" 
+> <span dir="LTR">03-771-3027</span></a></h1>
+        <p></p>
+    </header>
 
 230
 http://lnd.commondatastorage.googleapis.com/home_styling.jpg
@@ -21,6 +25,8 @@ http://lnd.commondatastorage.googleapis.com/home_styling.jpg
 
 
 304 Footer
-&nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a>
+<footer id="footer">
+    <p><strong>كلية كونسيبت للتصميم</strong> רח’שפע טל 10 <strong> (5 دقائق من عزرئيلي) موقف سيارات مجاني</strong> קונספט המכללה לעיצוב <span><strong><a href="tel:03-771-3026" onClick="_gaq.push(['_trackPageview', '/vpv/arabichtml/footer/ClickToCall']);" >03-771-3026&nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a></a></strong></span></p>
+    </footer>
 
 
