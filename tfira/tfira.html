@@ -128,13 +128,13 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
    //function setGFields(f) { 
    //   term = term.replace(/%20/g, ' '); 
    //   try {
-   // 	  document.getElementById('CustomFields_19_3').value  = source; 
-   //       document.getElementById('CustomFields_20_3').value  = medium; 
-   //       document.getElementById('CustomFields_21_3').value  = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
-   //       document.getElementById('CustomFields_22_3').value = content; 
-   //       document.getElementById('CustomFields_23_3').value = campaign; 
-   //       document.getElementById('CustomFields_24_3').value = csegment; 
-   //       document.getElementById('CustomFields_25_3').value = nVisits;
+   // 	  document.getElementById('CustomFields_19_51').value  = source; 
+   //       document.getElementById('CustomFields_20_51').value  = medium; 
+   //       document.getElementById('CustomFields_21_51').value  = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
+   //       document.getElementById('CustomFields_22_51').value = content; 
+   //       document.getElementById('CustomFields_23_51').value = campaign; 
+   //       document.getElementById('CustomFields_24_51').value = csegment; 
+   //       document.getElementById('CustomFields_25_51').value = nVisits;
    //   } 
    //   catch(err) { }
  
@@ -145,13 +145,13 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
    function SetHiddenFields() {
        term = term.replace(/%20/g, ' '); 
        try {
-           document.getElementById('CustomFields_19_3').value = source;
-           document.getElementById('CustomFields_20_3').value = medium;
-           document.getElementById('CustomFields_21_3').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
-           document.getElementById('CustomFields_22_3').value = content;
-           document.getElementById('CustomFields_23_3').value = campaign;
-           document.getElementById('CustomFields_24_3').value = csegment;
-           document.getElementById('CustomFields_25_3').value = nVisits;
+           document.getElementById('CustomFields_19_51').value = source;
+           document.getElementById('CustomFields_20_51').value = medium;
+           document.getElementById('CustomFields_21_51').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
+           document.getElementById('CustomFields_22_51').value = content;
+           document.getElementById('CustomFields_23_51').value = campaign;
+           document.getElementById('CustomFields_24_51').value = csegment;
+           document.getElementById('CustomFields_25_51').value = nVisits;
        }
        catch (err) { }
    }
@@ -268,31 +268,31 @@ function newPopup(url) {
                     <div class="contactform">
                     <span class="cns"><strong>רוצים להתחיל?</strong><br>
                     השאירו פרטיכם ונחזור אליכם בהקדם</span> 
-<form method="post" action="http://news.concept-academy.co.il/form.php?form=3" id="frmSS3" onsubmit="return CheckForm3(this);"><dl><dt>
-<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_3" value="" placeholder=שם:	></dt>
+<form method="post" action="http://news.concept-academy.co.il/form.php?form=51" id="frmSS51" onsubmit="return CheckForm3(this);"><dl><dt>
+<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_51" value="" placeholder=שם:	></dt>
 <dd dir="rtl">&nbsp;</dd>
 
-<dt><input class="inbuilt" id="CustomFields_5_3" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
+<dt><input class="inbuilt" id="CustomFields_5_51" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
 <dd dir="rtl">&nbsp;</dd> 
 
 <dt><input class="inbuilt" type="text" dir="rtl" placeholder="דואייל: 	" type="email" pattern="[^ @]*@[^ @]*" value="" name="email" id="email"></dt>
 <dd dir="rtl">&nbsp;</dd>
 
-<!--<input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
+<!--<input type="submit" dir="rtl" value="send" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
 <!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
 <input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="document.forms[0].submit();">
-<input name="CustomFields[13]" id="CustomFields_13_3" Value="tfira" type="hidden">
+<!--<input type='hidden' name='subject/Area of interest' />--><input name="CustomFields[13]" id="CustomFields_13_51" Value="tfira" type="hidden">
 <!-- for the GA data -->
 <!--<input type='hidden' name='source' /> --> 
-<input name="CustomFields[19]" id="CustomFields_19_3" value="" type="hidden">
-<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_3" value="" type="hidden">
-<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_3" value="" type="hidden">
-<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_3" value="" type="hidden">
-<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_3" value="" type="hidden">
-<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_3" value="" type="hidden">
-<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_3" value="" type="hidden">
-<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_3" value="http://www.concept-academy.co.il/lnd/tfira/tfira.html" type="hidden">
-<!--<input type='hidden' name='device' />--><input name="CustomFields[37]" id="CustomFields_37_18" value="" type="hidden">
+<input name="CustomFields[19]" id="CustomFields_19_51" value="" type="hidden">
+<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_51" value="" type="hidden">
+<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_51" value="" type="hidden">
+<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_51" value="" type="hidden">
+<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_51" value="" type="hidden">
+<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_51" value="" type="hidden">
+<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_51" value="" type="hidden">
+<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_51" value="http://www.concept-academy.co.il/lnd/tfira/tfira.html" type="hidden">
+<!--<input type='hidden' name='device' />--><input name="CustomFields[37]" id="CustomFields_517_18" value="" type="hidden">
 </dl>
 </form>
 <!--End Contactform-->
