@@ -145,13 +145,13 @@ document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.
    function SetHiddenFields() {
        term = term.replace(/%20/g, ' '); 
        try {
-           document.getElementById('CustomFields_19_12').value = source;
-           document.getElementById('CustomFields_20_12').value = medium;
-           document.getElementById('CustomFields_21_12').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
-           document.getElementById('CustomFields_22_12').value = content;
-           document.getElementById('CustomFields_23_12').value = campaign;
-           document.getElementById('CustomFields_24_12').value = csegment;
-           document.getElementById('CustomFields_25_12').value = nVisits;
+           document.getElementById('CustomFields_19_50').value = source;
+           document.getElementById('CustomFields_20_50').value = medium;
+           document.getElementById('CustomFields_21_50').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
+           document.getElementById('CustomFields_22_50').value = content;
+           document.getElementById('CustomFields_23_50').value = campaign;
+           document.getElementById('CustomFields_24_50').value = csegment;
+           document.getElementById('CustomFields_25_50').value = nVisits;
        }
        catch (err) { }
    }
@@ -272,11 +272,11 @@ function newPopup(url) {
                     <div class="contactform">
                     <span class="cns"><strong>רוצים להתחיל?</strong><br>
                     השאירו פרטיכם ונחזור אליכם בהקדם</span> 
-<form method="post" action="http://news.concept-academy.co.il/form.php?form=12" id="frmSS12" onsubmit="return CheckForm3(this);"><dl><dt>
-<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_12" value="" placeholder=שם:	></dt>
+<form method="post" action="http://news.concept-academy.co.il/form.php?form=50" id="frmSS50" onsubmit="return CheckForm3(this);"><dl><dt>
+<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_50" value="" placeholder=שם:	></dt>
 <dd dir="rtl">&nbsp;</dd>
 
-<dt><input class="inbuilt" id="CustomFields_5_12" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
+<dt><input class="inbuilt" id="CustomFields_5_50" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
 <dd dir="rtl">&nbsp;</dd> 
 
 <dt><input class="inbuilt" type="text" dir="rtl" placeholder="דואייל: 	" type="email" pattern="[^ @]*@[^ @]*" value="" name="email" id="email"></dt>
@@ -285,17 +285,17 @@ function newPopup(url) {
 <!--<input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
 <!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
 <input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="document.forms[0].submit();">
-<input name="CustomFields[13]" id="CustomFields_13_12" Value="illustrator" type="hidden">
+<input name="CustomFields[13]" id="CustomFields_13_50" Value="illustrator" type="hidden">
 <!-- for the GA data -->
 <!--<input type='hidden' name='source' /> --> 
-<input name="CustomFields[19]" id="CustomFields_19_12" value="" type="hidden">
-<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_12" value="" type="hidden">
-<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_12" value="" type="hidden">
-<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_12" value="" type="hidden">
-<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_12" value="" type="hidden">
-<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_12" value="" type="hidden">
-<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_12" value="" type="hidden">
-<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_12" value="http://www.concept-academy.co.il/lnd/illu/illustrator.html" type="hidden">
+<input name="CustomFields[19]" id="CustomFields_19_50" value="" type="hidden">
+<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_50" value="" type="hidden">
+<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_50" value="" type="hidden">
+<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_50" value="" type="hidden">
+<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_50" value="" type="hidden">
+<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_50" value="" type="hidden">
+<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_50" value="" type="hidden">
+<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_50" value="http://www.concept-academy.co.il/lnd/illu/illustrator.html" type="hidden">
 <!--<input type='hidden' name='device' />--><input name="CustomFields[37]" id="CustomFields_37_18" value="" type="hidden">
 </dl>
 </form>
