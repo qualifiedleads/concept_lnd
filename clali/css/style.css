@@ -89,6 +89,7 @@ aside .columns{ margin:0 !important; }
 
 }
 @media screen and (max-width:767px){
+a.teltop{color:#fff;}
 .header-top{ overflow:hidden;}
 #header{ margin-bottom:8px;}
 #footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center top; width:300px;}
