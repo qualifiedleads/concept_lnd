@@ -183,9 +183,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
   <!-- Mobile viewport optimized: j.mp/bplateviewport -->
   <meta name="viewport" content="width=device-width,initial-scale=1">
-
-
-  <link rel="stylesheet" href="css/imports.css">
+  <!-- CSS-->
+  <link rel="stylesheet" href="css/gumby.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/ui.css">
   <!-- end CSS-->
 
   <script src="js/libs/modernizr-2.0.6.min.js"></script>
@@ -209,7 +210,7 @@ function newPopup(url) {
   	<div class="sixteen">
     	<!--Header-->
   	<header id="header">
-    	<h1>התקשרו כעת:<a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/clalihtml/header/ClickToCall']);"> 03-771-3027</a></h1>
+    	<h1>התקשרו כעת:<a class="tel" href="tel:03-771-3027"> 03-771-3027</a></h1>
         <p></p>
     </header>
   	
@@ -308,8 +309,7 @@ function newPopup(url) {
     </div>
   </div> <!--! end of #container -->
 
-  <!-- JavaScript at the bottom for fast page loading -->
-
+  
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
@@ -318,6 +318,13 @@ function newPopup(url) {
   <script src="js/libs/gumby.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  
+  <!-- JQuery at the bottom for fast page loading -->
+<script>
+	$('.tel').click(function () {
+_gaq.push(['_trackPageview', '/vpv/clalihtml/header/ClickToCall']);
+});
+	</script>
   <!-- end scripts-->
 
 
