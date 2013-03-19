@@ -1,350 +1,364 @@
-<!doctype html>
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if IE 9]>    <html class="no-js ie9" lang="en" itemscope itemtype="http://schema.org/Product"> <![endif]-->
-<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
-<!--[if gt IE 9]><!--><html class="no-js" itemscope="" itemtype="http://schema.org/Product" dir="rtl" lang="he">  <!--<![endif]--><head>
-    <meta charset="utf-8">
-    <!-- Use the .htaccess and remove these lines to avoid edge case issues.
-       More info: h5bp.com/b/378 -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>קריירה בעיצוב מתחילה בקונספט</title>
-    <meta name="description" content="לימודי עיצוב">
-    <meta name="keywords" content="לימודי עיצוב">
-    <meta name="author" content="humans.txt">
-    <!--  Script by user-->
-    <script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
-    <script type="text/javascript">
-   try {
-	var pageTracker = _gat._createTracker("UA-6240543-1");
-	pageTracker._trackPageview();
-   function init_google(){
-		var pattern = /google\./i;
-		if (pattern.exec(document.referrer) != null){
-			var url_parts = document.referrer.split('?');
-			if (url_parts[1]){ 
-				var url_args = url_parts[1].split('&');
-				for(var i=0; i<url_args.length; i++){
-					var keyval = url_args[i].split('=');
-					if (keyval[0] == 'q'){
-						return _utf8_decode(decode_url(keyval[1])); //decode_url(keyval[1]);
+	<!doctype html>
+	<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+	<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+	<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+	<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+	<!--[if IE 9]>    <html class="no-js ie9" lang="en" itemscope itemtype="http://schema.org/Product"> <![endif]-->
+	<!-- Consider adding an manifest.appcache: h5bp.com/d/Offline -->
+	<!--[if gt IE 9]><!--><html class="no-js" itemscope="" itemtype="http://schema.org/Product" dir="rtl" lang="he">  <!--<![endif]--><head>
+		<meta charset="utf-8">
+		<!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		   More info: h5bp.com/b/378 -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>קריירה בעיצוב מתחילה בקונספט</title>
+		<meta name="description" content="לימודי עיצוב">
+		<meta name="keywords" content="לימודי עיצוב">
+		<meta name="author" content="humans.txt">
+		<!--  Script by user-->
+		<script type="text/javascript"> var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));</script>
+		<script type="text/javascript">
+	   try {
+		var pageTracker = _gat._createTracker("UA-6240543-1");
+		pageTracker._trackPageview();
+	   function init_google(){
+			var pattern = /google\./i;
+			if (pattern.exec(document.referrer) != null){
+				var url_parts = document.referrer.split('?');
+				if (url_parts[1]){ 
+					var url_args = url_parts[1].split('&');
+					for(var i=0; i<url_args.length; i++){
+						var keyval = url_args[i].split('=');
+						if (keyval[0] == 'q'){
+							return _utf8_decode(decode_url(keyval[1])); //decode_url(keyval[1]);
+						}
 					}
 				}
 			}
 		}
-	}
-	
-	// private method for UTF-8 decoding
-	function _utf8_decode(utftext) {
-		var string = "";
-		var i = 0;
-		var c = c1 = c2 = 0;
- 
-		while ( i < utftext.length ) {
- 
-			c = utftext.charCodeAt(i);
- 
-			if (c < 128) {
-				string += String.fromCharCode(c);
-				i++;
+		
+		// private method for UTF-8 decoding
+		function _utf8_decode(utftext) {
+			var string = "";
+			var i = 0;
+			var c = c1 = c2 = 0;
+	 
+			while ( i < utftext.length ) {
+	 
+				c = utftext.charCodeAt(i);
+	 
+				if (c < 128) {
+					string += String.fromCharCode(c);
+					i++;
+				}
+				else if((c > 191) && (c < 224)) {
+					c2 = utftext.charCodeAt(i+1);
+					string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
+					i += 2;
+				}
+				else {
+					c2 = utftext.charCodeAt(i+1);
+					c3 = utftext.charCodeAt(i+2);
+					string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
+					i += 3;
+				}
+	 
 			}
-			else if((c > 191) && (c < 224)) {
-				c2 = utftext.charCodeAt(i+1);
-				string += String.fromCharCode(((c & 31) << 6) | (c2 & 63));
-				i += 2;
-			}
-			else {
-				c2 = utftext.charCodeAt(i+1);
-				c3 = utftext.charCodeAt(i+2);
-				string += String.fromCharCode(((c & 15) << 12) | ((c2 & 63) << 6) | (c3 & 63));
-				i += 3;
-			}
- 
+	 
+			return string;
 		}
- 
-		return string;
-	}
-	
+		
 
-	function decode_url(url){
-		return unescape(url.replace(/\+/g,' '));
-	}
-	
-	function go_google(terms){
-		terms = terms.replace(/\"/g,"");
-		return terms;
-	}
-   
-   function _uGC(l,n,s) {
-    if (!l || l=="" || !n || n=="" || !s || s=="") return "-";
-    var i,i2,i3,c="-";
-    i=l.indexOf(n);
-    i3=n.indexOf("=")+1;
-    if (i > -1) {
-     i2=l.indexOf(s,i); if (i2 < 0) { i2=l.length; }
-     c=l.substring((i+i3),i2);
-    }
-    return c;
-   }
- 
-   // 
-   var z = _uGC(document.cookie, '__utmz=', ';'); 
-   // 
-   var source  = _uGC(z, 'utmcsr=', '|'); 
-   var medium  = _uGC(z, 'utmcmd=', '|'); 
-   var term    = _uGC(z, 'utmctr=', '|'); 
-   var content = _uGC(z, 'utmcct=', '|'); 
-   var campaign = _uGC(z, 'utmccn=', '|'); 
-   var gclid   = _uGC(z, 'utmgclid=', '|'); 
-   // 
-   if (gclid !="-") { 
-      source = 'google'; 
-      medium = 'cpc'; 
-   } 
+		function decode_url(url){
+			return unescape(url.replace(/\+/g,' '));
+		}
+		
+		function go_google(terms){
+			terms = terms.replace(/\"/g,"");
+			return terms;
+		}
+	   
+	   function _uGC(l,n,s) {
+		if (!l || l=="" || !n || n=="" || !s || s=="") return "-";
+		var i,i2,i3,c="-";
+		i=l.indexOf(n);
+		i3=n.indexOf("=")+1;
+		if (i > -1) {
+		 i2=l.indexOf(s,i); if (i2 < 0) { i2=l.length; }
+		 c=l.substring((i+i3),i2);
+		}
+		return c;
+	   }
+	 
+	   // 
+	   var z = _uGC(document.cookie, '__utmz=', ';'); 
+	   // 
+	   var source  = _uGC(z, 'utmcsr=', '|'); 
+	   var medium  = _uGC(z, 'utmcmd=', '|'); 
+	   var term    = _uGC(z, 'utmctr=', '|'); 
+	   var content = _uGC(z, 'utmcct=', '|'); 
+	   var campaign = _uGC(z, 'utmccn=', '|'); 
+	   var gclid   = _uGC(z, 'utmgclid=', '|'); 
+	   // 
+	   if (gclid !="-") { 
+		  source = 'google'; 
+		  medium = 'cpc'; 
+	   } 
 
-   var csegment = _uGC(document.cookie, '__utmv=', ';'); 
-   if (csegment != '-') { 
-      var csegmentex = /[1-9]*?\.(.*)/;
-      csegment    = csegment.match(csegmentex); 
-      csegment    = csegment[1]; 
-   } else { 
-      csegment = '(not set)'; 
-   } 
- 
-   // 
-   var a = _uGC(document.cookie, '__utma=', ';');
-   var aParts = a.split(".");
-   var nVisits = aParts[5];
- 
+	   var csegment = _uGC(document.cookie, '__utmv=', ';'); 
+	   if (csegment != '-') { 
+		  var csegmentex = /[1-9]*?\.(.*)/;
+		  csegment    = csegment.match(csegmentex); 
+		  csegment    = csegment[1]; 
+	   } else { 
+		  csegment = '(not set)'; 
+	   } 
+	 
+	   // 
+	   var a = _uGC(document.cookie, '__utma=', ';');
+	   var aParts = a.split(".");
+	   var nVisits = aParts[5];
 
-   //for GA tracking hide this which not required and used anywhere in pagefor GA tracking
-   //function setGFields(f) { 
-   //   term = term.replace(/%20/g, ' '); 
-   //   try {
-   // 	  document.getElementById('CustomFields_19_3').value  = source; 
-   //       document.getElementById('CustomFields_20_3').value  = medium; 
-   //       document.getElementById('CustomFields_21_3').value  = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term)); 
-   //       document.getElementById('CustomFields_22_3').value = content; 
-   //       document.getElementById('CustomFields_23_3').value = campaign; 
-   //       document.getElementById('CustomFields_24_3').value = csegment; 
-   //       document.getElementById('CustomFields_25_3').value = nVisits;
-   //   } 
-   //   catch(err) { }
- 
-   //   return true;
-   //} 
-   
-   //for GA tracking Added New Function to Set cookie value for GA tracking
-   function SetHiddenFields() {
-       term = term.replace(/%20/g, ' '); 
-       try {
-           document.getElementById('CustomFields_19_18').value = source;
-           document.getElementById('CustomFields_20_18').value = medium;
-           document.getElementById('CustomFields_21_18').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
-           document.getElementById('CustomFields_22_18').value = content;
-           document.getElementById('CustomFields_23_18').value = campaign;
-           document.getElementById('CustomFields_24_18').value = csegment;
-           document.getElementById('CustomFields_25_18').value = nVisits;
-       }
-       catch (err) { }
-   }
+	   //for GA tracking Added New Function to Set cookie value for GA tracking
+	   function SetHiddenFields() {
+		   term = term.replace(/%20/g, ' '); 
+		   try {
+			   document.getElementById('CustomFields_19_18').value = source;
+			   document.getElementById('CustomFields_20_18').value = medium;
+			   document.getElementById('CustomFields_21_18').value = term + ' | ' + init_google() + '>>' + _utf8_decode(decode_url(term));
+			   document.getElementById('CustomFields_22_18').value = content;
+			   document.getElementById('CustomFields_23_18').value = campaign;
+			   document.getElementById('CustomFields_24_18').value = csegment;
+			   document.getElementById('CustomFields_25_18').value = nVisits;
+		   }
+		   catch (err) { }
+	   }
 
-  } catch(err) {
-  }
-</script>
-<!--End user script-->
-
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-23J6"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-23J6');</script>
-<!-- End Google Tag Manager -->
-
-<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
-
-  <!--Facebook Metadata /-->
-  <meta property="fb:page_id" content="" />
-	<meta property="og:image" content="" />
-	<meta property="og:description" content=""/>
-	<meta property="og:title" content=""/>
-
-  <!--Google+ Metadata /-->
-	<meta itemprop="name" content="">
-	<meta itemprop="description" content="">
-	<meta itemprop="image" content="">
-
-  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <!-- CSS-->
-  <link rel="stylesheet" href="css/gumby.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/ui.css">
-  <!-- end CSS-->
-
-  <script src="js/libs/modernizr-2.0.6.min.js"></script>
-  <script >
-// Popup window code
-function newPopup(url) {
-	popupWindow = window.open(
-		url,'popUpWindow','height=450,width=550,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
-}
-</script>
-</head>
-
- <!--for GA tracking call setHiddenfields function on page loadfor GA tracking -->
-<body onload="SetHiddenFields();">
-	<!--Container-->
-
-  <div class="container">
-  
-  <!--	960-->
-  <div class="row">
-  	<div class="sixteen">
-    	<!--Header-->
-  	<header id="header">
-    	<h1>התקשרו כעת:<a class="tel" href="tel:03-771-3027"> 03-771-3027</a></h1>
-        <p></p>
-    </header>
-  	
-    <div class="maincontent"><div class="row">
-    <div class="content">
-    	<div class="header-top">
-        <!-- Left Side-->
-        <section class="leftsidecol">
-        	<div class="ten columns">
-            <div class="leftside">
-            <!--Post-->
-            <div class="post">
-
-            <h1> קריירה בעיצוב מתחילה בקונספט</h1>
-            <img src="http://lnd.commondatastorage.googleapis.com/clali.jpg" alt="image">
-            
-            	<h2>  <strong> לימודי תעודה או תואר במקצועות העיצוב:</strong ><br> </h2>
-<ul>
-				<li>עיצוב פנים</li>
-<li>הום סטיילינג</li>
-<li>עיצוב אופנה</li>
-<li>תפירה</li>
-<li>עיצוב מחוכים, שמלות כלה וערב</li>
-<li>אילוסטרייטור ופוטושופ למעצבי אופנה</li>
-<li>סטיילינג</li>
-<li>עיצוב תעשייתי</li>
-<li>עיצוב חלונות ראווה</li>
-<li>עיצוב והפקת אירועים</li>
-<li>מכינה קדם אקדמאית לעיצוב</li>
-הרשמו עוד היום והבטיחו לעצמכם קריירה משגשגת בעיצוב.<br>
-הלימודים מרוכזים וכוללים התנסות מעשית, חווייתית ומקצועית, כולל סטאזי'ם מעשיים
-להשתלבות מהירה כמעצבים.<br>
-הלימודים מתקיימים במבנה מעוצב ואסתטי, באווירה אירופאית מעוררת השראה...<br>
-<strong>הטבה מיוחדת לנרשמים מעמוד זה.</strong>
-</ul>
-<p></p>
-</div>
-</div>
-        	</div>
-        </section>
-        
-       <!--Sidebar-->
-        <aside>
-
-            	<div class="six columns sidebar">
-                
-                <div class="sideright">
-<!--Contactform-->
-                    <div class="contactform">
-                    <span class="cns"><strong>רוצים להתחיל?</strong><br>
-                    השאירו פרטיכם ונחזור אליכם בהקדם</span> 
-<form method="post" action="http://news.concept-academy.co.il/form.php?form=18" id="frmSS18" onsubmit="return CheckForm3(this);"><dl><dt>
-<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_18" value="" placeholder=שם:	></dt>
-<dd dir="rtl">&nbsp;</dd>
-
-<dt><input class="inbuilt" id="CustomFields_5_18" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
-<dd dir="rtl">&nbsp;</dd> 
-
-<dt><input class="inbuilt" type="email" dir="rtl" placeholder="דואייל: 	" type="email" pattern="[^ @]*@[^ @]*" value="" name="email" id="email"></dt>
-<dd dir="rtl">&nbsp;</dd>
-
-<!--<input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
-<!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
-<input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="document.forms[0].submit();">
-<input name="CustomFields[13]" id="CustomFields_13_18" Value="כללי" type="hidden">
-<!-- for the GA data -->
-<!--<input type='hidden' name='source' /> --> 
-<input name="CustomFields[19]" id="CustomFields_19_18" value="" type="hidden">
-<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_18" value="" type="hidden">
-<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_18" value="" type="hidden">
-<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_18" value="" type="hidden">
-<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_18" value="" type="hidden">
-<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_18" value="" type="hidden">
-<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_18" value="" type="hidden">
-<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_18" value="http://www.concept-academy.co.il/lnd/clali/clali.html" type="hidden">
-<input name="CustomFields[37]" id="CustomFields_37_18" value="" type="hidden">
-</dl>
-</form>
-<!--End Contactform-->
-                  </div>
-                  </div>
-                </div>
-        </aside>
-    	</div>
-          <!--bottom-->
-    </div>
-    <div class="bottom"></div>
-    </div></div>
-
-  	<footer id="footer">
-    <p><strong>קונספט המכללה לעיצוב</strong> רח’שפע טל 10 (<strong>5 דקות מעזריאלי</strong>) חניה חינם בשפע &nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a><br><a href="tel:03-771-3027" onClick="_gaq.push(['_trackPageview', '/vpv/mehinahtml/footer/ClickToCall']);" >03-771-3027</a></strong></span></p>
-    </footer>
-
-	</div>
-    
-    </div>
-  </div> <!--! end of #container -->
-
-  
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
-
-  <script src="js/libs/placeholders.min.js"></script>
-  <script src="js/libs/gumby.min.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
-  
-  <!-- JQuery at the bottom for fast page loading -->
-<script>
-	$('.tel').click(function () {
-_gaq.push(['_trackPageview', '/vpv/clalihtml/header/ClickToCall']);
-});
+	  } catch(err) {
+	  }
 	</script>
-  <!-- end scripts-->
+	<!--End user script-->
+
+	<!-- Google Tag Manager -->
+	<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-23J6"
+	height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+	<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-23J6');</script>
+	<!-- End Google Tag Manager -->
+
+	<link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+	  <!--Facebook Metadata /-->
+	  <meta property="fb:page_id" content="" />
+		<meta property="og:image" content="" />
+		<meta property="og:description" content=""/>
+		<meta property="og:title" content=""/>
+
+	  <!--Google+ Metadata /-->
+		<meta itemprop="name" content="">
+		<meta itemprop="description" content="">
+		<meta itemprop="image" content="">
+
+	  <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+	  <meta name="viewport" content="width=device-width,initial-scale=1">
+	  <!-- CSS-->
+	  <link rel="stylesheet" href="css/gumby.css">
+	  <link rel="stylesheet" href="css/style.css">
+	  <link rel="stylesheet" href="css/ui.css">
+	  <link rel="stylesheet" href="css/text.css">
+	  <!-- end CSS-->
+
+	  <script src="js/libs/modernizr-2.0.6.min.js"></script>
+	  <script >
+	// Popup window code
+	function newPopup(url) {
+		popupWindow = window.open(
+			url,'popUpWindow','height=450,width=550,left=10,top=10,resizable=yes,scrollbars=yes,toolbar=no,menubar=no,location=no,directories=no,status=yes')
+	}
+	</script>
+	</head>
+
+	 <!--for GA tracking call setHiddenfields function on page loadfor GA tracking -->
+	<body onload="SetHiddenFields();">
+		<!--Container-->
+
+	  <div class="container">
+	  
+	  <!--	960-->
+	  <div class="row">
+		<div class="sixteen">
+			<!--Header-->
+		<header id="header">
+			<h1>התקשרו כעת</h1>
+			<p></p>
+		</header>
+		
+		<div class="maincontent"><div class="row">
+		<div class="content">
+			<div class="header-top">
+			<!-- Left Side-->
+			<section class="leftsidecol">
+				<div class="ten columns">
+				<div class="leftside">
+				<!--Post-->
+				<div class="post">
+
+				<h1> קריירה בעיצוב מתחילה בקונספט</h1>
+				<img src="http://lnd.commondatastorage.googleapis.com/clali.jpg" alt="image">
+				
+					<h2>  <strong> לימודי תעודה או תואר במקצועות העיצוב:</strong ><br> </h2>
+						<ul>
+										<li>עיצוב פנים</li>
+						<li>הום סטיילינג</li>
+						<li>עיצוב אופנה</li>
+						<li>תפירה</li>
+						<li>עיצוב מחוכים, שמלות כלה וערב</li>
+						<li>אילוסטרייטור ופוטושופ למעצבי אופנה</li>
+						<li>סטיילינג</li>
+						<li>עיצוב תעשייתי</li>
+						<li>עיצוב חלונות ראווה</li>
+						<li>עיצוב והפקת אירועים</li>
+						<li>מכינה קדם אקדמאית לעיצוב</li>
+						הרשמו עוד היום והבטיחו לעצמכם קריירה משגשגת בעיצוב.<br>
+						הלימודים מרוכזים וכוללים התנסות מעשית, חווייתית ומקצועית, כולל סטאזי'ם מעשיים
+						להשתלבות מהירה כמעצבים.<br>
+						הלימודים מתקיימים במבנה מעוצב ואסתטי, באווירה אירופאית מעוררת השראה...<br>
+						<strong>הטבה מיוחדת לנרשמים מעמוד זה.</strong>
+						</ul>
+						<p></p>
+			<!--Call Now button-->
+					<a href="tel:03-771-3027" id="callnow" class="btn oval tel" onclick='goog_report_conversion('tel:03-771-3027')' onClick="_gaq.push(['_trackPageview', '/vpv/mehinahtml/footer/ClickToCall']);"> התקשרו כעת? </a>
+					</div>
+				</div>
+			</div>
+		</section>
+	 <!--Sidebar-->
+	
+			<aside>
+
+					<div class="six columns sidebar">
+					 
+					<div class="sideright">
+						<!--Contactform-->
+						<div class="contactform">
+						<span class="cns"><strong>רוצים להתחיל?</strong><br>השאירו פרטיכם ונחזור אליכם בהקדם</span> 
+						<form method="post" action="http://news.concept-academy.co.il/form.php?form=18" id="frmSS18" onsubmit="return CheckForm3(this);"><dl><dt>
+						<input type="text" class="inbuilt" name="CustomFields[2]" id="CustomFields_2_18" value="" placeholder=שם:	></dt>
+						<dd dir="rtl">&nbsp;</dd>
+
+						<dt><input class="inbuilt" id="CustomFields_5_18" dir="rtl" placeholder="טלפון: " type="tel" pattern="^[0-9]+[\- ]*[0-9]+$" name="CustomFields[5]"></dt>
+						<dd dir="rtl">&nbsp;</dd> 
+
+						<dt><input class="inbuilt" type="email" dir="rtl" placeholder="דואייל: 	" type="email" pattern="[^ @]*@[^ @]*" value="" name="email" id="email"></dt>
+						<dd dir="rtl">&nbsp;</dd>
+
+						<!--<input type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="setGFields(document.forms[0]); document.forms[0].submit();">-->
+						<!--for GA tracking Remove setGFields function from onclick event for GA tracking -->
+						<input class="btn" type="submit" dir="rtl" value="לחץ לקבלת מידע" onclick="document.forms[0].submit();">
+						<input name="CustomFields[13]" id="CustomFields_13_18" Value="כללי" type="hidden">
+						<!-- for the GA data -->
+						<!--<input type='hidden' name='source' /> --> 
+						<input name="CustomFields[19]" id="CustomFields_19_18" value="" type="hidden">
+						<!--<input type='hidden' name='medium' /> --> <input name="CustomFields[20]" id="CustomFields_20_18" value="" type="hidden">
+						<!--<input type='hidden' name='term' /> --> <input name="CustomFields[21]" id="CustomFields_21_18" value="" type="hidden">
+						<!--<input type='hidden' name='content' /> --> <input name="CustomFields[22]" id="CustomFields_22_18" value="" type="hidden">
+						<!--<input type='hidden' name='campaign' /> --> <input name="CustomFields[23]" id="CustomFields_23_18" value="" type="hidden">
+						<!--<input type='hidden' name='segment' />--> <input name="CustomFields[24]" id="CustomFields_24_18" value="" type="hidden">
+						<!--<input type='hidden' name='numVisits' />--> <input name="CustomFields[25]" id="CustomFields_25_18" value="" type="hidden">
+						<!--<input type='hidden' name='sourceURL' />--> <input name="CustomFields[26]" id="CustomFields_26_18" value="http://www.concept-academy.co.il/lnd/clali/clali.html" type="hidden">
+						<input name="CustomFields[37]" id="CustomFields_37_18" value="" type="hidden">
+						</dl>
+						</form>
+						<!--End Contactform-->
+						</div>
+					  </div>
+					</div>
+				</aside>
+				</br>
+			</div>
+			  <!--bottom-->
+		</div>
+		<div class="bottom"></div>
+		</div></div>
+
+		<footer id="footer">
+		<p><strong>קונספט המכללה לעיצוב</strong> רח’שפע טל 10 (<strong>5 דקות מעזריאלי</strong>) חניה חינם בשפע &nbsp <a href="JavaScript:newPopup('../privacy/p1.html');">מדיניות פרטיות</a><br>03-771-3027</strong></span></p>
+		</footer>
+
+		</div>
+		
+		</div>
+	  </div> <!--! end of #container -->
+
+	  
+	  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+
+	  <script src="js/libs/placeholders.min.js"></script>
+	  <script src="js/libs/gumby.min.js"></script>
+	  <script src="js/plugins.js"></script>
+	  <script src="js/main.js"></script>
+	  
+	  <!-- GA call tracking -->
+	<script>
+		$('.tel').click(function () {
+	_gaq.push(['_trackPageview', '/vpv/clalihtml/header/ClickToCall']);
+	});
+		</script>
+		<!-- mobile tracking -->
+		<script type="text/javascript">
+	  /* <![CDATA[ */
+	  goog_snippet_vars = function() {
+		var w = window;
+		w.google_conversion_id = 1058529710;
+		w.google_conversion_label = "LHIxCPq0yAIQrsPf-AM";
+		w.google_conversion_value = 0;
+	  }
+	  goog_report_conversion = function(url) {
+		goog_snippet_vars();
+		window.google_conversion_format = "3";
+		window.google_is_call = true;
+		var opt = new Object();
+		opt.onload_callback = function() {
+		if (typeof(url) != 'undefined') {
+		  window.location = url;
+		}
+	  }
+	  var conv_handler = window['google_trackConversion'];
+	  if (typeof(conv_handler) == 'function') {
+		conv_handler(opt);
+	  }
+	}
+	/* ]]> */
+	</script>
+	<script type="text/javascript"
+	  src="http://www.googleadservices.com/pagead/conversion_async.js">
+	</script>
+	  <!-- end scripts-->
 
 
-  <!-- Prompt IE 6 users to install Chrome Frame. We suggest that you not support IE 6.
-       chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
-  <!-- Social Widget Rendering Javascript /-->
-  <!-- End Social Widget Rendering Javascript /-->
-  <script type="text/javascript">
-    (function() {
-      var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-      po.src = 'https://apis.google.com/js/plusone.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-	  Placeholders.init();
-    })();
-  </script>
+	  <!-- Prompt IE 6 users to install Chrome Frame. We suggest that you not support IE 6.
+		   chromium.org/developers/how-tos/chrome-frame-getting-started -->
+	  <!--[if lt IE 7 ]>
+		<script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+		<script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+	  <![endif]-->
+	  
+	  <!-- Social Widget Rendering Javascript /-->
+	  <!-- End Social Widget Rendering Javascript /-->
+	  <script type="text/javascript">
+		(function() {
+		  var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+		  po.src = 'https://apis.google.com/js/plusone.js';
+		  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+		  Placeholders.init();
+		})();
+	  </script>
 
-</body>
-</html>
+	</body>
+	</html>

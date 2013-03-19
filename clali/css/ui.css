@@ -18,8 +18,7 @@
 	  
 		position: relative;
 		display: inline-block;
-		
-		width: auto;
+		width: 9em;
 		height: 36px;
 		font-size: 16px;
 		line-height: 36px;
@@ -27,20 +26,20 @@
 		border-radius: 4px;
 		cursor: pointer;
 		margin: 0 0 20px 0;
-
+		padding: 2px 15px 2px 15px;
 		-webkit-box-shadow: inset 0 1px 1px #fff,
 			0 1px 2px rgba(0,0,0,0.31); /* Remove this line if you dont want a dropshadow on your buttons*/
 		box-shadow: inset 0 1px 1px #fff,
 					0 1px 2px rgba(0,0,0,0.31); /* Remove this line if you dont want a dropshadow on your buttons*/
 		
-		background: #ccc; /* Old browsers */
-		background: -moz-linear-gradient(top, #eee 0%, #ccc 100%); /* FF3.6+ */
-		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eee), color-stop(100%,#ccc)); /* Chrome,Safari4+ */
-		background: -webkit-linear-gradient(top, #eee 0%,#ccc 100%); /* Chrome10+,Safari5.1+ */
-		background: -o-linear-gradient(top, #eee 0%,#ccc 100%); /* Opera 11.10+ */
-		background: -ms-linear-gradient(top, #eee 0%,#ccc 100%); /* IE10+ */
-		background: linear-gradient(top, #eee 0%,#ccc 100%); /* W3C */
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
+		background: #080808; /* Old browsers */
+		background: -moz-linear-gradient(top, #080808 0%, #ccc 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#080808), color-stop(100%,#ccc)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(top, #080808 0%,#ccc 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(top, #080808 0%,#ccc 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(top, #080808 0%,#ccc 100%); /* IE10+ */
+		background: linear-gradient(top, #080808 0%,#ccc 100%); /* W3C */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', endColorstr='#cccccc',GradientType=0 ); /* IE6-9 */
 	}
 	
 	.btn:hover {

@@ -6,27 +6,6 @@
  
  ========================================================================*/
  
- 	
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
  
  
  
@@ -41,7 +20,9 @@
  
  @media only screen and (min-width: 480px) {
    /* Style adjustments for viewports 480px and over go here */
- 
+
+   #callnow { display: none; }
+
  }
  
  @media only screen and (min-width: 768px) {

@@ -435,7 +435,7 @@
 	@media only screen and (max-width: 480px) {
 	  /* Style adjustments for viewports 480px and under go here */
 	  .row {
-	  	text-align: center;
+	  	text-align: right;
 	  }
 .leftsidecol .row .ten.columns{ width: 100% !important;}
 	}

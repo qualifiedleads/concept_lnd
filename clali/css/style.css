@@ -15,7 +15,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', end
 #header{ background:url(http://lnd.commondatastorage.googleapis.com/header.png) no-repeat; width:395px; height:56px; padding:30px 40px 0 15px; margin:0 40px 8px 0; color:#fff; float:right;}
 #footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbg.png) no-repeat; width:599px; height:66px; padding:14px 70px 10px 20px; float:right; margin:-2px 24px 50px 0; color:#000;}
 #footer p{ font-family:Arial, Helvetica, sans-serif; font-size:0.8em;}
-.header-top{ width:100%;  background:url(http://lnd.commondatastorage.googleapis.com/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:960px; }
+.header-top{ width:100%;  background:url(http://lnd.commondatastorage.googleapis.com/header-top.png) no-repeat; padding:20px 0; margin-top:-30px; min-height:1060px; }
 .content{ background:url(http://lnd.commondatastorage.googleapis.com/content.png) repeat-y; width:100%;  padding:20px 0 0 0; }
 .bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer.png) bottom left no-repeat; min-height:51px; width:100%;}
 
@@ -44,12 +44,12 @@ aside .columns{ margin-left:10px !important;}
 .post ul li{ background:url(http://lnd.commondatastorage.googleapis.com/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1.2em; margin-bottom:6px; font-family:caferegular, arial;}
 .sidebar{ margin-top:-60px; }
 
-.contactform{width:177px; height:202px; background:url(http://lnd.commondatastorage.googleapis.com/contactform.png) no-repeat; float:left; padding:72px 20px 10px 30px; overflow:hidden;}
+.contactform{width:177px; height:202px; background:url(http://lnd.commondatastorage.googleapis.com/contactform.png) no-repeat; float:left; padding:57px 30px 39px 34px; overflow:hidden;}
 .cns{ text-align:center; display:block;}
 .contactform dl{ margin:0; padding:0;}
 .contactform dl dt{ float:left; width:160px;}
 .contactform input[ type="text"]{ width:160px; border:none;}
-.inbuilt{width:160px; border:none; padding:5px 2px; margin:0 0 5px 0;}
+.inbuilt{width:160px; border:none; padding:5px 2px; margin:0 0 5px 0; font-size: 0.98em;}
 
 .sideright{ /*padding:0 10px;*/ padding-left:100px;}
 .contactform input[type="submit"]{ margin:5px 12px 0 0; padding:5px 8px; color:#fff; background:#18190b; border-radius:5px; float:right; border:none; font-size:14px;}
@@ -97,17 +97,19 @@ a.teltop{color:#fff;}
 .pagesbg, .recent, .category, .contactform{  float:left; margin:0;}
 .post{ padding:10px;}
 .sideright{ padding-right:50px;}
-#footer p{ font-size:0.53em !important;}
+#footer p{ font-size:0.63em !important;}
 #footer p span{font-size:2em; display:block;}
 .leftsidecol{ clear:both; width:100%;}
 }
 
 @media screen and (max-width:480px){
-	.container{ padding-top:40px;}
-	#header h1{ font-size:1em;}
-#header{ width:98%; margin:0 0 8px 20px; padding:30px 0 0 0; background:url(http://lnd.commondatastorage.googleapis.com/headersmall.png) no-repeat center center; width:300px; height:46px; }	
+.container{ padding-top:40px;}
+.post h1 { margin: -11px 2px 5px 2px; }
+.post img {margin: 3px -9px 1px 0px;}
+#header h1{ font-size:1em;}
+#header{ width:98%; margin:-15px 6px 7px 0px; padding:30px 12px 0 26px; background:url(http://lnd.commondatastorage.googleapis.com/headersmall.png) no-repeat center center; width:300px; height:46px; }	
 .sideright{ padding-right:30px;}
-#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding:0; margin:-2px auto 0 auto;}
+#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding: 8px 6px 13px 0px; margin:-2px 17px;}
 .pagesbg, .recent, .category, .contactform{ float:none; clear:both; margin:0 auto;}
 .leftsidecol{ clear:both;}
 .post h2{line-height:normal;}
@@ -115,7 +117,9 @@ a.teltop{color:#fff;}
 
 @media screen and (max-width:360px){
 	
-#header{  margin:0 auto 0 auto; padding:10px 20px 0 20px; background:url(http://lnd.commondatastorage.googleapis.com/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }	
+#header{  margin:-4px 13px 0 0; padding:19px 0px 0px 30px; background:url(http://lnd.commondatastorage.googleapis.com/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }
+.post h1 { margin: -11px 2px 5px 2px; }
+.post img {margin: 3px -9px 1px 0px;}
 .content{ background:url(http://lnd.commondatastorage.googleapis.com/content-small.png) 100% 0 repeat-y;}
 .header-top{ background:url(http://lnd.commondatastorage.googleapis.com/header-top-small.png)100% 0 no-repeat;}
 .bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer-samll.png) 100% 0 no-repeat; min-height:26px;}
