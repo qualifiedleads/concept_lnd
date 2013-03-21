@@ -25,7 +25,7 @@
 
  }
  
- @media only screen and (min-width: 768px) {
-   /* Style adjustments for viewports 768px and over go here */
- 
+ @media only screen and (min-width: 641px) {
+   /* Style adjustments for viewports 641px and over go here */
+    .callnow { display: none; }
  }

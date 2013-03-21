@@ -40,8 +40,8 @@ aside .columns{ margin-left:10px !important;}
 .pagesbg ul li, .recent ul li, .category ul li{ list-style:none; background:url(http://lnd.commondatastorage.googleapis.com/list.png)100% 8px no-repeat; padding-right:15px; margin:0; border-top:1px solid #ffffbe;}
 .pagesbg ul li a, .recent ul li a, .category ul li a{ font-size:0.8em; color:#21565e;}
 .category ul li{ border-top:1px solid #21565e !important;}
-.post ul{ list-style:none; margin:0; font-family:caferegular, arial;}
-.post ul li{ background:url(http://lnd.commondatastorage.googleapis.com/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1.2em; margin-bottom:6px; font-family:caferegular, arial;}
+.post ul{ list-style:none; margin:0;}
+.post ul li{ background:url(http://lnd.commondatastorage.googleapis.com/li.jpg) no-repeat 100% 12px; padding-right:20px; direction:rtl; font-size:1em; margin-bottom:6px;}
 .sidebar{ margin-top:-60px; }
 
 .contactform{width:177px; height:202px; background:url(http://lnd.commondatastorage.googleapis.com/contactform.png) no-repeat; float:left; padding:57px 30px 39px 34px; overflow:hidden;}
