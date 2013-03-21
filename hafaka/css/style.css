@@ -98,25 +98,31 @@ aside .columns{ margin:0 !important; }
 .pagesbg, .recent, .category, .contactform{  float:left; margin:0;}
 .post{ padding:10px;}
 .sideright{ padding-right:50px;}
-#footer p{ font-size:0.53em !important;}
+#footer p{ font-size:0.63em !important;}
 #footer p span{font-size:2em; display:block;}
 .leftsidecol{ clear:both; width:100%;}
 }
 
 @media screen and (max-width:480px){
-	.container{ padding-top:40px;}
-	#header h1{ font-size:1em;}
-#header{ width:98%; margin:0 0 8px 20px; padding:30px 0 0 0; background:url(http://lnd.commondatastorage.googleapis.com/headersmall.png) no-repeat center center; width:300px; height:46px; }	
+.container{ padding-top:40px;}
+.post h1 { margin: -11px 2px 5px 2px; }
+.post img {margin: 3px -9px 1px 0px;}
+#header h1{ font-size:1em;}
+#header{ width:98%; margin:-15px 6px 7px 0px; padding:30px 12px 0 26px; background:url(http://lnd.commondatastorage.googleapis.com/headersmall.png) no-repeat center center; width:300px; height:46px; }	
 .sideright{ padding-right:30px;}
-#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding:0; margin:-2px auto 0 auto;}
+#footer{ background:url(http://lnd.commondatastorage.googleapis.com/footerbgs.png)  no-repeat center center; width:260px; overflow:hidden; padding: 8px 6px 13px 0px; margin:-2px 17px;}
 .pagesbg, .recent, .category, .contactform{ float:none; clear:both; margin:0 auto;}
 .leftsidecol{ clear:both;}
 .post h2{line-height:normal;}
+#i2Style  {-webkit-user-select: none;
+
 }
 
 @media screen and (max-width:360px){
 	
-#header{  margin:0 auto 0 auto; padding:10px 20px 0 20px; background:url(http://lnd.commondatastorage.googleapis.com/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }	
+#header{  margin:-4px 13px 0 0; padding:19px 0px 0px 30px; background:url(http://lnd.commondatastorage.googleapis.com/headersmalls.png) no-repeat 100% 0; width:190px; height:50px; }
+.post h1 { margin: -11px 2px 5px 2px; }
+.post img {margin: 3px -9px 1px 0px;}
 .content{ background:url(http://lnd.commondatastorage.googleapis.com/content-small.png) 100% 0 repeat-y;}
 .header-top{ background:url(http://lnd.commondatastorage.googleapis.com/header-top-small.png)100% 0 no-repeat;}
 .bottom{ background:url(http://lnd.commondatastorage.googleapis.com/footer-samll.png) 100% 0 no-repeat; min-height:26px;}
