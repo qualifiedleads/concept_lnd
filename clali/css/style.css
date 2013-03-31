@@ -52,7 +52,7 @@ aside .columns{ margin-left:10px !important;}
 .inbuilt{width:160px; border:none; padding:5px 2px; margin:0 0 5px 0; font-size: 0.98em;}
 
 .sideright{ /*padding:0 10px;*/ padding-left:100px;}
-.contactform input[type="submit"]{ margin:5px 12px 0 0; padding:5px 8px; color:#fff; background:#18190b; border-radius:5px; float:right; border:none; font-size:14px;}
+.contactform input[type="submit"]{ margin:5px 12px 0 0; color:#fff; background:#18190b; border-radius:5px; float:right; border:none; font-size:14px;}
 #footer a{ color:#000;}
 a.visited, a.active{ color:b3ecff;}
 a.teltop{text-decoration:none; color:#fff;}
