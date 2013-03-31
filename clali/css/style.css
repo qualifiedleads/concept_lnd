@@ -113,8 +113,6 @@ a.teltop{color:#fff;}
 .pagesbg, .recent, .category, .contactform{ float:none; clear:both; margin:0 auto;}
 .leftsidecol{ clear:both;}
 .post h2{line-height:normal;}
-#i2Style  {-webkit-user-select: none;
-
 }
 
 @media screen and (max-width:360px){
