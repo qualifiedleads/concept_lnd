@@ -37,7 +37,7 @@
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
     <?php endif; ?>
 <span class="header"><h3>מעוניין ללמוד ב:</h3></span>
-    <form name="contact_form" method="post" action="/mail.php">
+    <form name="contact_form" method="post" action="http://www.concept-academy.co.il/lnd/fb/mail.php">
       <div class="form-row">
       <fieldset>
         <select name="uni" id="uni" class="icon-menu">

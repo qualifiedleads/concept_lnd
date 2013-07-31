@@ -17,9 +17,10 @@
         $from    = 'From:' . $email;
 
         // Send the email
-//        mail('info@concept-academy.co.il', $subject, $body, $from);
-//        mail('leadsbackup@conce.pt',       $subject, $body, $from);
-          mail('web@concept-academy.co.il',  $subject, $body, $from);
+       mail('info@concept-academy.co.il', $subject, $body, $from);
+       mail('ifat@concept-academy.co.il', $subject, $body, $from);
+       mail('leadsbackup@conce.pt',       $subject, $body, $from);
+       mail('web@concept-academy.co.il',  $subject, $body, $from);
 
         $contactMailSent = true;
         include 'success.php';
