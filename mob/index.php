@@ -30,26 +30,16 @@
             <!--Post-->
             <div class="post">
 
-<h1> מלגה ללימודים בבצלאל</h1>
-
-            <img src="http://lnd.commondatastorage.googleapis.com/bez-219wide.jpg" alt="image">
+            <img src="http://lnd.commondatastorage.googleapis.com/scholarship300w.jpg" alt="image">
             
-<h2>  <strong> המכינה המומלצת להכנת תיקי עבודות!</strong ><br> </h2>
+<h2>  המכינה המומלצת להכנת תיקי עבודות!<br> </h2>
                 <p>
                 <ul>
                  <li>מילגה של 1000 ש' לפונים מעמוד זה!</li>
                 <li>אנו מתחייבים לקבלתכם לשנקר, בצלאל, HIT, אונ' ת"א, הטכניון, ויצ"ו חיפה או מכללה למנהל</li>
                 <li>המכינה המעשית ביותר, פחות תאוריות יותר התנסות חוויתית! </li>
-                <li>אצלנו משלמים רק פעם אחת עד שמתקבלים!<br>
-                </li>
-                <li>שיטה ייחודית ללימודי רישום, גם מי שלא יודע להחזיק עפרון, יהיה מופתע מהתוצאות!!!</li>
-                <li>מפגשים אישיים אחד על אחד להכנת תיק העבודות</li>
-                <li>אבחון והתאמה מקצועית אישית </li>
-                <li><strong>מוכר למענק חיילים משוחררים</strong></li>
-              </ul>
-              * כמות המילגות מוגבלת, הבטח את זכאותך
-              </p>
-        <!--Contactform-->
+                </ul>
+                <!--Contactform-->
 <div class="contactform">
 <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
       <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
@@ -81,6 +71,17 @@
 
 </div>
 <!--End Contactform-->
+                <ul>
+                <li>אצלנו משלמים רק פעם אחת עד שמתקבלים!<br>
+                </li>
+                <li>שיטה ייחודית ללימודי רישום, גם מי שלא יודע להחזיק עפרון, יהיה מופתע מהתוצאות!!!</li>
+                <li>מפגשים אישיים אחד על אחד להכנת תיק העבודות</li>
+                <li>אבחון והתאמה מקצועית אישית </li>
+                <li><strong>מוכר למענק חיילים משוחררים</strong></li>
+              </ul>
+              * כמות המילגות מוגבלת, הבטח את זכאותך
+              </p>
+
         		</div>
                 
                 </div>

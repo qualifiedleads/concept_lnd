@@ -12,7 +12,7 @@
     } else {
         // Got here? Then user submitted data for each required field
         // Compose the email to send
-        $subject = 'Fb Mehina lead';
+        $subject = 'Mobile Mehina lead';
         $body    = sprintf('שם: %s נייד: %s דוא"ל:  %s פרטים: %s', $name, $phone, $email, $uni);
         $from    = 'From:' . $email;
 
