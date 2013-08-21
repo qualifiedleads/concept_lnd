@@ -1,25 +1,28 @@
 <!DOCTYPE html>
-<html xmlns:fb="http://ogp.me/ns/fb#" class="no-js" itemscope="" itemtype="http://schema.org/Product" dir="rtl" lang="he"> 
+<html dir="rtl" lang="he"> 
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
-    <title>Concept</title>
-    <link rel="stylesheet" href="stylesheets/reset.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="stylesheets/base.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
+    <title>מילגה לשנקר או בצלאל</title>
+    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/reset.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/base.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->
-    <meta property="og:title" content="Concept ac LP" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://apps.facebook.com/conceptac_lp/" />
-    <meta property="og:image" content="https://limitless-fortress-6366.herokuapp.com/logo.png" />
-    <meta property="og:site_name" content= "בצלאל"/>
-    <meta property="og:description" content="בצלאל" />
-    <meta property="fb:app_id" content="621963677837780" />
 </head>
   <body>
+  -        <!-- Google Tag Manager -->
+-        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-23J6"
+-        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+-        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+-        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+-        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+-        '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+-        })(window,document,'script','dataLayer','GTM-23J6');</script>
+-        <!-- End Google Tag Manager -->
+
     <div class="maincontent"><div class="row">
     <div class="content">
     	<div class="header-top">
