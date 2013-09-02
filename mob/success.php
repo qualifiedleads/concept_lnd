@@ -9,9 +9,9 @@
     <?php if(isset($contactMailSent) && $contactMailSent === true): ?>
     <?php endif; ?>
 
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/reset.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/base.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/reset.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/base.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
     <![endif]-->

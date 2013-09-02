@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
     <title>מילגה לשנקר או בצלאל</title>
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/reset.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/base.css" media="Screen" type="text/css" />
-    <link rel="stylesheet" href="http://mobads.commondatastorage.googleapis.com/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/reset.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/base.css" media="Screen" type="text/css" />
+    <link rel="stylesheet" href="http://mob-css.commondatastorage.googleapis.com/mobile.css" media="handheld, only screen and (max-width: 480px), only screen and (max-device-width: 480px)" type="text/css" />
 
     <!--[if IEMobile]>
     <link rel="stylesheet" href="mobile.css" media="screen" type="text/css"  />
@@ -42,13 +42,13 @@
                 <li>אנו מתחייבים לקבלתכם לשנקר, בצלאל, HIT, אונ' ת"א, הטכניון, ויצ"ו חיפה או מכללה למנהל</li>
                 <li>המכינה המעשית ביותר, פחות תאוריות יותר התנסות חוויתית! </li>
                 </ul>
-                <!--Contactform-->
+<!--Contactform-->
 <div class="contactform">
 <?php if (isset($_GET['contactErr']) && (int)$_GET['contactErr'] === 1): ?>
-      <p style="color:red;font-weight:bold">Failed to send email, check your input and try again</p>
+      <p style="color:red;font-weight:bold">Failed, please Call +972 3 561 2029</p>
     <?php endif; ?>
 <span class="header"><h3>מעוניין ללמוד ב:</h3></span>
-    <form name="contact_form" method="post" action="http://www.concept-academy.co.il/lnd/mob/mail.php">
+    <form name="contact_form" method="post" action="http://www.concept-academy.co.il/lnd/mob/mobile.php">
       <div class="form-row">
       <fieldset>
         <select name="uni" id="uni" class="icon-menu">
@@ -65,11 +65,8 @@
       <div class="form-row">
         <input type="tel" name="phone" pattern="^[0-9]+[\- ]*[0-9]+$" placeholder="טלפון:"/>
       </div>
-      <div class="form-row">
-        <input type="email" name="email" placeholder="דואייל:"/>
-      </div>
-      
-      <input type="submit" value="שלח"/>
+
+      <input type="submit" value="הגש בקשה"/>
     </form>
 
 </div>
