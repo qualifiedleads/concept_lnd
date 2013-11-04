@@ -114,27 +114,29 @@ var Sex = {
         if (clear == 1) {
 			Sex.clearMarkers();
 		}
-        for (var a = 0; a < numM; a++) {
-			var c = Math.random(),
-                d = Math.random(),
-                c = c * (0 == 1E6 * c % 2 ? 1 : -1),
-                d = d * (0 == 1E6 * d % 2 ? 1 : -1),
-                c = new google.maps.LatLng(b.lat() + 0.08 * c + 0.052, b.lng() + 0.2 * d + 0.08),
-                c = new google.maps.Marker({
-//                  map: Sex.map,
-                    title: datass.net[a].name + ", " + datass.net[a].age,
-                    position: c,
-                    icon: datass.net[a].pin,
-                    draggable: !1
-                });
-				georesult = Sex.addmarker(c,a);
-        }
+		var currentBounds = Sex.map.getBounds();
+		var a = 0;
+		for (var i = 0; i < locations.length; i++) {
+			if (a < numM){
+				var point = new google.maps.LatLng(locations[i][0], locations[i][1]);
+				if(currentBounds.contains(point)) { 
+						var c = new google.maps.LatLng(locations[i][0], locations[i][1]),
+						c = new google.maps.Marker({
+							map: Sex.map,
+							title: datass.net[a].name + ", " + datass.net[a].age,
+							position: c,
+							icon: datass.net[a].pin,
+							draggable: !1
+						});
+						georesult = Sex.addmarker(c,a);
+						a++;
+				} else	{
+//					console.log("Not In Bounds: " + i);
+				}			
+			}
+		}
     },
 	addmarker: function (marker, a) {
-	geocoder.geocode({'latLng': marker.position}, function(results, status) {
-					if (status == google.maps.GeocoderStatus.OK) {
-					  if (results[0]) {
-						if (results[0].types == "street_address"){
 							marker.setMap(Sex.map);
 							Sex.markers.push(marker);
 							d = new google.maps.InfoWindow({
@@ -142,20 +144,6 @@ var Sex = {
 								size: new google.maps.Size(50, 400)
 							});
 							google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));
-							//console.log(results[0].formatted_address + ": " + Sex.markers.length);
-						} else {
-								//console.log('Not A Street');
-							}
-					  } else {
-					  	//console.log('No Results');
-						}
-					} else {
-						setTimeout(function(){
-							//console.log('Geocoder failed due to: ' + status);
-							Sex.addmarker(marker, a);
-						}, 200 * Sex.markers.length);
-					}
-				});	
 	},
     openInfoWindow: function (b, a) {
         return function () {
@@ -186,6 +174,47 @@ var Sex = {
 	}
 	
 };
+var locations =[
+	[32.09106,34.87858],
+	[32.0845,34.8840],
+	[32.0828,34.8945],
+	[31.90365,34.799933333],
+	[31.90219,34.793293333],
+	[31.90219,34.793293333],
+	[31.895233333,34.8439],
+	[31.881583333,34.85635],
+	[31.90715,35.009466667],
+	[31.88325,35.010483333],
+	[31.883533333,35.022616667],
+	[31.7892,35.210383333],
+	[31.78895,35.208333333],
+	[31.78705,35.2161],
+	[31.787483333,35.219833333],
+	[31.776866667,35.221166667],
+	[31.7962,34.649883333],
+	[31.80005,34.6586],
+	[31.8033,34.6421],
+	[31.81115,34.646416667],
+	[31.8125,34.6672],
+	[32.08195,34.787983333],
+	[32.054683333,34.8188],
+	[32.087916667,34.772883333],
+	[32.07185,34.7673],
+	[32.087483333,34.7867],
+	[32.0733,34.780183333],
+	[32.0653,34.83305],
+	[32.11715,34.86755],
+	[32.247266667,34.908266667],
+	[32.218083333,34.991016667],
+	[32.1867,34.940883333],
+	[32.172466667,34.920116667],
+	[32.172883333,34.83555],
+	[32.0909,34.888333333],
+	[32.324466667,34.85505],
+	[32.350216667,34.854533333],
+	[32.319533333,34.86175],
+	[32.489033333,34.912433333]
+];
 new google.maps.event.addDomListener(window, "load", Sex.init, Sex);
 </script>  
 </body>
