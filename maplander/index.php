@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="he"  dir="rtl">
 <head>
 <meta charset="utf-8">
 <title>Map Lander</title>
@@ -8,7 +8,7 @@
 <script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>
 <script type="text/javascript" src="markers.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="style.css?mnv" />
+<link rel="stylesheet" href="style.css" />
 <meta name="viewport" content="width=device-width" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -23,7 +23,7 @@
     <div class="container">
 		<div id="header" class="full">
 			<h1>
-				Prepare Yourself For an Exciting Career in Design...
+מבטיחים לך קריירה בעיצוב פנים
 				<br />
 				But First Read Our Guidelines Below:
 			</h1>
@@ -32,50 +32,39 @@
 		<div id="container" class="full">   
 			<div class="grid-left">
 				<div id="mapContainer"></div>
-				<div id="side-bar" class="desktop-only">
-					 We have helped 1,132 students graduate since 1998. We provide a real Guarantee. There is high chance that you will see a new Life in Design. It may be 
-					 - <strong class="highlight">THEY ALL STARTED LIKE YOU!</strong>
-				<button class="accuracy" onclick="Sex.improveAccuracy()">To adjust the accuracy of our service,  click here to share your position.</button> 
+	<div id="side-bar" class="desktop-only">מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
+				<button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 				</div>
 				<div id="side-bar" class="mobile-only">
 					 We have helped 1,132 students graduate since 1998 - <strong class="highlight">THEY ALL STARTED LIKE YOU!</strong>
-				<button class="accuracy" onclick="Sex.improveAccuracy()">Share your position.</button> 
-				</div>
-				<div class="submit mobile-only">
-					<a href="go.php" class="btn">I Agree</a>
-				</div>
-				<div id="avatars">
-					<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
-					<a href="go.php" target="_blank"><img src="images/avatar-2.jpg" style="margin: 5px;" /></a>
-					<a href="go.php" target="_blank"><img src="images/avatar-3.jpg" style="margin: 5px;" /></a>
-					<a href="go.php" target="_blank"><img src="images/avatar-4.jpg" style="margin: 5px;" /></a>
-				</div>
-			</div>
-						<div id="form" class="grid-right">
-				<h2 class="rule">The Rules:</h2>
-				<div id="rules">
-					<p>
-						<img src="images/check-small.png" class="im_king" />
-						If you see someone you know, you DO NOT publicize it. Do not spread rumors.
-					</p>
-					<p>
-						<img src="images/check-small.png" class="im_king" />
-						When you speak with any of our members, it is your responsibility to stay safe.
-					</p>
-					<p>
-						<img src="images/check-small.png" class="im_king" />
-						Respect other members. Our members are normal men and women; they are not movie stars or crazy. 
-					</p>
-					<p>
-						<img src="images/check-small.png" class="im_king" />
-						We periodically close registration for men. This is to have approximately an equal number of male and female members. 
-					</p>
-				</div>
-				
-				<h2>Registration for MEN is currently OPEN and it is FREE, so we advise you to register now, while slots for male members are open.</h2>
-				<p>If you Agree, click the "I Agree" button below to proceed to Registration Page.</p>
-			
-				<div class="submit desktop-only">
+<button class="accuracy" onclick="Sex.improveAccuracy()">Share your position.</button> 
+</div>
+<div class="submit mobile-only">
+	<a href="go.php" class="btn">I Agree</a>
+</div>
+<div id="avatars">
+	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
+	<a href="go.php" target="_blank"><img src="images/avatar-2.jpg" style="margin: 5px;" /></a>
+	<a href="go.php" target="_blank"><img src="images/avatar-3.jpg" style="margin: 5px;" /></a>
+	<a href="go.php" target="_blank"><img src="images/avatar-4.jpg" style="margin: 5px;" /></a>
+</div>
+</div>
+    <div id="form" class="grid-right">
+    <h2 class="rule">תנאים להצלחה:</h2>
+    <div id="rules">
+    <p> <img src="images/check-small.png" class="im_king" />התעניינות עמוקה וכנה בעיצוב פנים</p>
+    <p> <img src="images/check-small.png" class="im_king" />הבטחה לא לסרב להצעות העבודה שאקבל במהלך הלימודים ו/או בסיומם</p>
+    <p><img src="images/check-small.png" class="im_king" /> כשאתה סוגר עיסקה עם אחד הספקים שהמלצנו לך, זו אחריות שלך לסגור עיסקה טובה לך וללקוח שלך</p>
+    <p><img src="images/check-small.png" class="im_king" />הבטחה לא לקבל " רגליים קרות" כשאתבקש לעצב פרויקט אמיתי</p>
+    <p><img src="images/check-small.png" class="im_king" />חברותיות ויכולת עבודה בקבוצה לצד עבודה אישית</p>
+    <p><img src="images/check-small.png" class="im_king" />פתיחות לקבלת רעיונות חדשים</p>
+    <p><img src="images/check-small.png" class="im_king" />רצון אמיתי להתעצם כמעצב/תי</p>
+    <p><img src="images/check-small.png" class="im_king" />רצון אמיתי לפתח קריירה בתחום</p>
+    </div>
+
+<h2>אם את/ה מסכים/ה לתנאים, לחצי על הכפתור " אני מסכימ/ה" כדי להתחיל קריירה בעיצוב.
+</h2>
+<div class="submit desktop-only">
 					<a href="go.php" class="btn">I Agree</a>
 				</div>
 			</div>
