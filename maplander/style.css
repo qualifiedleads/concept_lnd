@@ -131,7 +131,6 @@ a.btn:hover {
 	border-radius: 2px;
 	margin: 9px 10px 0px 10px;
 	display: block;
-	width: 100%;
 }
 .mobile-only a.btn {margin-bottom: 20px}
 .accuracy:hover { 

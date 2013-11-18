@@ -22,11 +22,7 @@
 <body>
     <div class="container">
 		<div id="header" class="full">
-			<h1>
-מבטיחים לך קריירה בעיצוב פנים
-				<br />
-				But First Read Our Guidelines Below:
-			</h1>
+			<h1>מבטיחים לך קריירה בעיצוב אופנה<br /></h1>
 		</div>
 			
 		<div id="container" class="full">   
@@ -36,8 +32,8 @@
 				<button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 				</div>
 				<div id="side-bar" class="mobile-only">
-					 We have helped 1,132 students graduate since 1998 - <strong class="highlight">THEY ALL STARTED LIKE YOU!</strong>
-<button class="accuracy" onclick="Sex.improveAccuracy()">Share your position.</button> 
+					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong>
+<button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 </div>
 <div class="submit mobile-only">
 	<a href="go.php" class="btn">I Agree</a>
