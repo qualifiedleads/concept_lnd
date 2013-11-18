@@ -33,7 +33,7 @@
 				</div>
 				<div id="side-bar" class="mobile-only">
 					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong>
-<button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
+<button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 </div>
 <div class="submit mobile-only">
 	<a href="go.php" class="btn">אני מסכימה</a>
@@ -80,13 +80,13 @@ var georesult;
 var city = geoip_city(),
     country = geoip_country_name();
 myplace = "" == city ? country : city + ", " + country;
-var Sex = {
+var geoLander = {
     map: null,
     mapContainer: document.getElementById("mapContainer"),
     markers: [],
     visibleInfoWindow: null,
     init: function () {
-        Sex.map = new google.maps.Map(Sex.mapContainer, {
+        geoLander.map = new google.maps.Map(geoLander.mapContainer, {
             mapTypeId: google.maps.MapTypeId.ROADMAP,
             disableDefaultUI: !0,
             disableDoubleClickZoom: !0,
@@ -97,31 +97,31 @@ var Sex = {
             scrollwheel: !1
         });
         geocoder = new google.maps.Geocoder;
-        Sex.geoLocate();
+        geoLander.geoLocate();
         window.setTimeout(function () {
-            Sex.generateRandomMarkers(Sex.map.getCenter(),2,1)
+            geoLander.generateRandomMarkers(geoLander.map.getCenter(),2,1)
         }, 2E3)
     },
     geoLocate: function () {
         geocoder.geocode({
             address: myplace,
             partialmatch: !0
-        }, Sex.geocodeResult)
+        }, geoLander.geocodeResult)
     },
     geocodeResult: function (b, a) {
-        "OK" == a && 0 < b.length ? (Sex.map.fitBounds(b[0].geometry.viewport), Sex.map.setZoom(12), lng = Sex.map.getCenter().lng()) : alert("Sorry but we can't find your location")
+        "OK" == a && 0 < b.length ? (geoLander.map.fitBounds(b[0].geometry.viewport), geoLander.map.setZoom(12), lng = geoLander.map.getCenter().lng()) : alert("Sorry but we can't find your location")
     },
     generateRandomMarkers: function (b,numM, clear) {
         if (clear == 1) {
-			Sex.clearMarkers();
+			geoLander.clearMarkers();
 		}
-		var currentBounds = Sex.map.getBounds();
+		var currentBounds = geoLander.map.getBounds();
 		var a = 0;
 		for (var i = 0; i < locations.length; i++) {
 			if (a < numM){
 				var point = new google.maps.LatLng(locations[i][0], locations[i][1]);
 				if(currentBounds.contains(point)) { 
-		var c = new google.maps.LatLng(locations[i][0], locations[i][1]),c = new google.maps.Marker({map: Sex.map, title: datass.net[a].name + ", " + datass.net[a].age, position: c, icon: datass.net[a].pin, draggable: !1 }); georesult = Sex.addmarker(c,a); a++;
+		var c = new google.maps.LatLng(locations[i][0], locations[i][1]),c = new google.maps.Marker({map: geoLander.map, title: datass.net[a].name + ", " + datass.net[a].age, position: c, icon: datass.net[a].pin, draggable: !1 }); georesult = geoLander.addmarker(c,a); a++;
     } else	{
 //		console.log("Not In Bounds: " + i);
 			}
@@ -129,19 +129,19 @@ var Sex = {
 		}
     },
 addmarker: function (marker, a) {
-marker.setMap(Sex.map);
-Sex.markers.push(marker);
+marker.setMap(geoLander.map);
+geoLander.markers.push(marker);
 d = new google.maps.InfoWindow({
 content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">Age: ' + datass.net[a].age + '</span><div class="status"><img src="images/online-status.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
 size: new google.maps.Size(50, 400)
 });
-google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));
+google.maps.event.addListener(marker, "click", geoLander.openInfoWindow(d, marker));
 	},
     openInfoWindow: function (b, a) {
         return function () {
-            Sex.visibleInfoWindow && Sex.visibleInfoWindow.close();
-            b.open(Sex.map, a);
-            Sex.visibleInfoWindow = b
+            geoLander.visibleInfoWindow && geoLander.visibleInfoWindow.close();
+            b.open(geoLander.map, a);
+            geoLander.visibleInfoWindow = b
         }
     },
     generateTriggerCallback: function (b, a) {
@@ -150,19 +150,19 @@ google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));
         }
     },
     clearMarkers: function () {
-        for (var b = 0, a; a = Sex.markers[b]; b++) a.setVisible(!1)
+        for (var b = 0, a; a = geoLander.markers[b]; b++) a.setVisible(!1)
     },
 	improveAccuracy: function () {
 		if (navigator.geolocation)
 		{
-			navigator.geolocation.getCurrentPosition(Sex.showPosition);
+			navigator.geolocation.getCurrentPosition(geoLander.showPosition);
 		}
 			else{console.log("Geolocation is not supported by this browser.");
 		}
 	},
 	showPosition: function (position)  {
-		  Sex.map.setCenter(new google.maps.LatLng(position.coords.latitude,position.coords.longitude));
-		  Sex.generateRandomMarkers(Sex.map.getCenter(),10, 0);
+		  geoLander.map.setCenter(new google.maps.LatLng(position.coords.latitude,position.coords.longitude));
+		  geoLander.generateRandomMarkers(geoLander.map.getCenter(),10, 0);
 	}
 	
 };
@@ -207,7 +207,7 @@ var locations =[
 	[32.319533333,34.86175],
 	[32.489033333,34.912433333]
 ];
-new google.maps.event.addDomListener(window, "load", Sex.init, Sex);
+new google.maps.event.addDomListener(window, "load", geoLander.init, geoLander);
 </script>  
 </body>
 </html>
