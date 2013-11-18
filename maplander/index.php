@@ -36,7 +36,7 @@
 <button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 </div>
 <div class="submit mobile-only">
-	<a href="go.php" class="btn">I Agree</a>
+	<a href="go.php" class="btn">אני מסכימה</a>
 </div>
 <div id="avatars">
 	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
@@ -121,27 +121,18 @@ var Sex = {
 			if (a < numM){
 				var point = new google.maps.LatLng(locations[i][0], locations[i][1]);
 				if(currentBounds.contains(point)) { 
-						var c = new google.maps.LatLng(locations[i][0], locations[i][1]),
-						c = new google.maps.Marker({
-							map: Sex.map,
-							title: datass.net[a].name + ", " + datass.net[a].age,
-							position: c,
-							icon: datass.net[a].pin,
-							draggable: !1
-						});
-						georesult = Sex.addmarker(c,a);
-						a++;
-				} else	{
-//					console.log("Not In Bounds: " + i);
-				}			
+		var c = new google.maps.LatLng(locations[i][0], locations[i][1]),c = new google.maps.Marker({map: Sex.map, title: datass.net[a].name + ", " + datass.net[a].age, position: c, icon: datass.net[a].pin, draggable: !1 }); georesult = Sex.addmarker(c,a); a++;
+    } else	{
+//		console.log("Not In Bounds: " + i);
+			}
 			}
 		}
     },
 	addmarker: function (marker, a) {
 							marker.setMap(Sex.map);
 							Sex.markers.push(marker);
-							d = new google.maps.InfoWindow({
-								content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">Age: ' + datass.net[a].age + '</span><div class="status"><img src="images/online-status.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
+d = new google.maps.InfoWindow({
+content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">Age: ' + datass.net[a].age + '</span><div class="status"><img src="images/online-status.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
 								size: new google.maps.Size(50, 400)
 							});
 							google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));

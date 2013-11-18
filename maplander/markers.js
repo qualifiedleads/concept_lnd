@@ -1,16 +1,16 @@
 var datass = {
     net: [{
-            name: "Keren Buskila",
+            name: "קרן בוסקילה",
             age: 26,
             pin: "images/pin1.png",
             avatar: "images/keren.png"
         }, {
-            name: "Riva",
+            name: "ריבה",
             age: 37,
             pin: "images/pin2.png",
             avatar: "images/avatar2.png"
         }, {
-            name: "Oshrat Romano",
+            name: "אושרת רומנו",
             age: 31,
             pin: "images/pin3.png",
             avatar: "images/avatar3.png"
