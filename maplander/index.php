@@ -29,7 +29,7 @@
 			<div class="grid-left">
 				<div id="mapContainer"></div>
 	<div id="side-bar" class="desktop-only">מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
-				<button class="accuracy" onclick="Sex.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
+				<button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 				</div>
 				<div id="side-bar" class="mobile-only">
 					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong>
@@ -128,14 +128,14 @@ var Sex = {
 			}
 		}
     },
-	addmarker: function (marker, a) {
-							marker.setMap(Sex.map);
-							Sex.markers.push(marker);
+addmarker: function (marker, a) {
+marker.setMap(Sex.map);
+Sex.markers.push(marker);
 d = new google.maps.InfoWindow({
 content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">Age: ' + datass.net[a].age + '</span><div class="status"><img src="images/online-status.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
-								size: new google.maps.Size(50, 400)
-							});
-							google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));
+size: new google.maps.Size(50, 400)
+});
+google.maps.event.addListener(marker, "click", Sex.openInfoWindow(d, marker));
 	},
     openInfoWindow: function (b, a) {
         return function () {
