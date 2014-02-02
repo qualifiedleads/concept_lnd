@@ -2,63 +2,63 @@ var datass = {
     net: [{
             name: "קרן בוסקילה",
             age: 26,
-            pin: "images/pin1.png",
-            avatar: "images/keren.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/1p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/1.jpg"
         }, {
             name: "ריבה",
             age: 37,
-            pin: "images/pin2.png",
-            avatar: "images/avatar2.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/2p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/2.jpg"
         }, {
             name: "אושרת רומנו",
             age: 31,
-            pin: "images/pin3.png",
-            avatar: "images/avatar3.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/3p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/3.jpg"
         }, {
             name: "Alana Muramats",
             age: 24,
-            pin: "images/pin4.png",
-            avatar: "images/avatar4.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/4p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/4.jpg"
         }, {
             name: "Kayla Barclay",
             age: 27,
-            pin: "images/pin5.png",
-            avatar: "images/avatar5.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/5p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/5.jpg"
         }, {
             name: "Caitlin Stawell",
             age: 26,
-            pin: "images/pin6.png",
-            avatar: "images/avatar6.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/6p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/6.jpg"
         }, {
             name: "Lauren Monson",
             age: 25,
-            pin: "images/pin7.png",
-            avatar: "images/avatar7.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/7p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/7.jpg"
         }, {
             name: "Stella Doolette",
             age: 22,
-            pin: "images/pin8.png",
-            avatar: "images/avatar8.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/8p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/8.jpg"
         }, {
             name: "Sophie Lindell",
             age: 21,
-            pin: "images/pin9.png",
-            avatar: "images/avatar9.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/9p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/9.jpg"
         }, {
             name: "Alicia Tout",
             age: 25,
-            pin: "images/pin10.png",
-            avatar: "images/avatar10.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/10p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/10.jpg"
         }, {
             name: "Stephanie Knorr",
             age: 26,
-            pin: "images/pin11.png",
-            avatar: "images/avatar11.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/11p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/11.jpg"
         }, {
             name: "Lauren Flierl",
             age: 24,
-            pin: "images/pin12.png",
-            avatar: "images/avatar12.png"
+            pin: "http://commondatastorage.googleapis.com/lnd/mob/12p.png",
+            avatar: "http://commondatastorage.googleapis.com/lnd/mob/12.jpg"
         }
     ]
 };

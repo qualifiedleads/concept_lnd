@@ -48,14 +48,14 @@
     <div id="form" class="grid-right">
     <h2 class="rule">תנאים להצלחה:</h2>
     <div id="rules">
-    <p> <img src="images/check-small.png" class="im_king" />התעניינות עמוקה וכנה בעיצוב פנים</p>
-    <p> <img src="images/check-small.png" class="im_king" />הבטחה לא לסרב להצעות העבודה שאקבל במהלך הלימודים ו/או בסיומם</p>
-    <p><img src="images/check-small.png" class="im_king" /> כשאתה סוגר עיסקה עם אחד הספקים שהמלצנו לך, זו אחריות שלך לסגור עיסקה טובה לך וללקוח שלך</p>
-    <p><img src="images/check-small.png" class="im_king" />הבטחה לא לקבל " רגליים קרות" כשאתבקש לעצב פרויקט אמיתי</p>
-    <p><img src="images/check-small.png" class="im_king" />חברותיות ויכולת עבודה בקבוצה לצד עבודה אישית</p>
-    <p><img src="images/check-small.png" class="im_king" />פתיחות לקבלת רעיונות חדשים</p>
-    <p><img src="images/check-small.png" class="im_king" />רצון אמיתי להתעצם כמעצב/תי</p>
-    <p><img src="images/check-small.png" class="im_king" />רצון אמיתי לפתח קריירה בתחום</p>
+    <p> <img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />התעניינות עמוקה וכנה בעיצוב פנים</p>
+    <p> <img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />הבטחה לא לסרב להצעות העבודה שאקבל במהלך הלימודים ו/או בסיומם</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" /> כשאתה סוגר עיסקה עם אחד הספקים שהמלצנו לך, זו אחריות שלך לסגור עיסקה טובה לך וללקוח שלך</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />הבטחה לא לקבל " רגליים קרות" כשאתבקש לעצב פרויקט אמיתי</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />חברותיות ויכולת עבודה בקבוצה לצד עבודה אישית</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />פתיחות לקבלת רעיונות חדשים</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />רצון אמיתי להתעצם כמעצב/תי</p>
+    <p><img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />רצון אמיתי לפתח קריירה בתחום</p>
     </div>
 
 <h2>אם את/ה מסכים/ה לתנאים, לחצי על הכפתור " אני מסכימ/ה" כדי להתחיל קריירה בעיצוב.
