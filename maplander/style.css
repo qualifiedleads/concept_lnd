@@ -1,7 +1,7 @@
 body {
 	margin: 0;
 	padding: 0;
-	background: url('images/bg.png') repeat top center;
+	background: url('http://commondatastorage.googleapis.com/lnd/mob/bg.png') repeat top center;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -40,7 +40,7 @@ h1 {
 	z-index: -9999;
 }
 #side-bar {
-    background: url("images/bg.png") repeat scroll center top transparent;
+    background: url("http://commondatastorage.googleapis.com/lnd/mob/bg.png") repeat scroll center top transparent;
     color: #D7DBE3;
     font-size: 14px;
     margin-bottom: 42px;
