@@ -49,16 +49,6 @@ var datass = {
             age: 25,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/10p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/10.jpg"
-        }, {
-            name: "Stephanie Knorr",
-            age: 26,
-            pin: "http://commondatastorage.googleapis.com/lnd/mob/11p.png",
-            avatar: "http://commondatastorage.googleapis.com/lnd/mob/11.jpg"
-        }, {
-            name: "Lauren Flierl",
-            age: 24,
-            pin: "http://commondatastorage.googleapis.com/lnd/mob/12p.png",
-            avatar: "http://commondatastorage.googleapis.com/lnd/mob/12.jpg"
         }
     ]
 };
