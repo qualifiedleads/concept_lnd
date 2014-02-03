@@ -5,7 +5,7 @@
 <title>Map Lander</title>
 <script type="text/javascript" src="http://maps.google.co.il/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<!--<script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>-->
+<script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>
 <script type="text/javascript" src="markers.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css" />
