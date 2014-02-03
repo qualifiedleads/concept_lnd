@@ -243,17 +243,49 @@ and (max-device-width : 568px) {
 	.mobile-only {display: block}
 	.desktop-only {display: none}
 	#avatars img {max-width: 48% !important;  margin: 0px 2% !important}
-	.mavatar {
-		width: 200px;
-	}
-	.mavatar img.photo {
-		width: 80px;
-		height: 80px;
-	}
-	.minfo {
-		width: 103px;
-		float: right;
-	}
+.mavatar {
+	width: 200px;
+}
+.mavatar img.photo {
+	width: 80px;
+	height: 80px;
+}
+.minfo {
+	width: 103px;
+	float: right;
+}
+#mapContainer {
+height: 275px;
+width: 90%;
+margin: 0px 18px 46px 18px;
+}
+}
+/* iPhone only */
+@media only screen and (max-device-width: 1136px) and (min-device-width: 960px) and (max-device-height: 640px) and (min-device-height: 560px),
+    only screen and (max-device-height: 1136px) and (min-device-height: 960px) and (max-device-width: 640px) and (min-device-width: 560px) 
+{
+.full { width: 100%; }
+	.grid-left { width: 100%; float: none }
+	.grid-right { width: 100%; float: none;}
+	.mobile-only {display: block}
+	.desktop-only {display: none}
+	#avatars img {max-width: 48% !important;  margin: 0px 2% !important}
+.mavatar {
+	width: 200px;
+}
+.mavatar img.photo {
+	width: 80px;
+	height: 80px;
+}
+.minfo {
+	width: 103px;
+	float: right;
+}
+#mapContainer {
+	height: 275px;
+	width: 90%;
+	margin: 0px 18px 46px 18px;
+}
 }
 
 /* Phone Portrait (320px) */
