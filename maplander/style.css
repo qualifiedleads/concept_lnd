@@ -286,6 +286,13 @@ margin: 0px 18px 46px 18px;
 	width: 90%;
 	margin: 0px 18px 46px 18px;
 }
+#header h1 {
+padding: 1px 1px !important;
+line-height: 1em !important;
+}
+#header {
+margin-bottom: 2px;
+}
 }
 
 /* Phone Portrait (320px) */
