@@ -271,6 +271,8 @@ margin-top: -135px !important;
 padding: 1px 1px !important;
 line-height: 1em !important;
 }
+#header {
+	margin-bottom: 2px;
 .mavatar {
 width: 200px;
 }
