@@ -5,7 +5,7 @@
 <title>Map Lander</title>
 <script type="text/javascript" src="http://maps.google.co.il/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>
+<!--<script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>-->
 <script type="text/javascript" src="markers.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css" />
@@ -28,21 +28,21 @@
 		<div id="container" class="full">   
 			<div class="grid-left">
 				<div id="mapContainer"></div>
-	<div id="side-bar" class="desktop-only">מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
-				<button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
+	<div id="side-bar" class="desktop-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button>מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
+				 
 				</div>
 				<div id="side-bar" class="mobile-only">
 					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong>
 <button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
 </div>
-<div class="submit mobile-only">
-	<a href="go.php" class="btn">אני מסכימה</a>
-</div>
+
 <div id="avatars">
 	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
 	<a href="go.php" target="_blank"><img src="images/avatar-2.jpg" style="margin: 5px;" /></a>
+	<div class=desktop-only>
 	<a href="go.php" target="_blank"><img src="images/avatar-3.jpg" style="margin: 5px;" /></a>
 	<a href="go.php" target="_blank"><img src="images/avatar-4.jpg" style="margin: 5px;" /></a>
+	</div>
 </div>
 </div>
     <div id="form" class="grid-right">
@@ -60,13 +60,16 @@
 
 <h2>אם את/ה מסכים/ה לתנאים, לחצי על הכפתור " אני מסכימ/ה" כדי להתחיל קריירה בעיצוב.
 </h2>
+<div class="submit mobile-only">
+	<a href="go.php" class="btn">אני מסכימה</a>
+</div>
 <div class="submit desktop-only">
 					<a href="go.php" class="btn">I Agree</a>
 				</div>
 			</div>
 
 			<div class="full notes" id="footer">
-				<h2>You Will Get into Shenkar. Guaranteed!</h2>
+				<h2>Starting Careers since 1998<br>Association of Stylists Approved</h2>
 			</div>
 		
 		</div>
