@@ -1,51 +1,51 @@
 var datass = {
     net: [{
-            name: "קרן בוסקילה",
+            name: "שירי_קדוש",
             age: 26,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/1p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/1.jpg"
         }, {
-            name: "ריבה",
+            name: "שגיא_מילר",
             age: 37,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/2p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/2.jpg"
         }, {
-            name: "אושרת רומנו",
+            name: "ענת_סמל",
             age: 31,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/3p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/3.jpg"
         }, {
-            name: "Alana Muramats",
+            name: "אייל_ארצי",
             age: 24,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/4p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/4.jpg"
         }, {
-            name: "Kayla Barclay",
+            name: "נורית_רז",
             age: 27,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/5p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/5.jpg"
         }, {
-            name: "Caitlin Stawell",
+            name: "מורן_נחמיאס",
             age: 26,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/6p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/6.jpg"
         }, {
-            name: "Lauren Monson",
+            name: "לימור_ירון",
             age: 25,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/7p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/7.jpg"
         }, {
-            name: "Stella Doolette",
+            name: "גלינה_ראובני",
             age: 22,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/8p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/8.jpg"
         }, {
-            name: "Sophie Lindell",
+            name: "בן_ירושלמי",
             age: 21,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/9p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/9.jpg"
         }, {
-            name: "Alicia Tout",
+            name: "אנה_טרבלסי",
             age: 25,
             pin: "http://commondatastorage.googleapis.com/lnd/mob/10p.png",
             avatar: "http://commondatastorage.googleapis.com/lnd/mob/10.jpg"
