@@ -261,25 +261,29 @@ and (max-device-width : 568px) {
 	.full { width: 100%; }
 	.grid-left { width: 100%; float: none }
 	.grid-right { width: 100%; float: none;}
-	#side-bar {
-		margin-top: -135px !important;
-	}
-	.mobile-only {display: block}
-	.desktop-only {display: none}
-	#avatars img {max-width: 48% !important;  margin: 0px 2% !important}
-	#header h1 {
-		padding: 20px 12px !important;
-		line-height: 1.2em !important;
-	}
-	.mavatar {
-		width: 200px;
-	}
-	.mavatar img.photo {
-		width: 80px;
-		height: 80px;
-	}
-	.minfo {
-		width: 103px;
-		float: right;
-	}
+#side-bar {
+margin-top: -135px !important;
+}
+.mobile-only {display: block}
+.desktop-only {display: none}
+#avatars img {max-width: 48% !important;  margin: 0px 2% !important}
+#header h1 {
+padding: 1px 1px !important;
+line-height: 1em !important;
+}
+.mavatar {
+width: 200px;
+}
+.mavatar img.photo {
+width: 80px;
+height: 80px;
+}
+.minfo {
+width: 103px;
+float: right;
+}
+#mapContainer {
+height: 275px;
+width: 90%;
+margin: 0px 18px 46px 18px;
 }		
