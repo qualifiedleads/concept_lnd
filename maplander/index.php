@@ -31,10 +31,8 @@
 	<div id="side-bar" class="desktop-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button>מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
 				 
 				</div>
-				<div id="side-bar" class="mobile-only">
-					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong>
-<button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
-</div>
+				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
+					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong></div>
 
 <div id="avatars">
 	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
