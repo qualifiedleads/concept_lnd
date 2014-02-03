@@ -231,7 +231,21 @@ line-height: 1em !important;
 #header {
 margin-bottom: 2px;
 }
+#side-bar {
+    background: url("http://commondatastorage.googleapis.com/lnd/mob/bg.png") repeat scroll center top transparent;
+    color: #D7DBE3;
+    font-size: 14px;
+    margin-bottom: 42px;
+    margin-top: -135px;
+    padding: 2px 35px 10px 14px;
+    position: relative;
+    text-shadow: 0 1px 0 #000000;
+    z-index: 99999999;
+	width: 84%;
+	max-width: 457px;
 }
+}
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
 	.full { width: 100%; }
