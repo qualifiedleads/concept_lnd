@@ -29,11 +29,9 @@
 			<div class="grid-left">
 				<div id="mapContainer"></div>
 	<div id="side-bar" class="desktop-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">See Stylists near You</button>Find Pro-Stylists - Approved by <strong class="highlight">The Israeli Assocciation of Stylists</strong>
-				 
-				</div>
-				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
-					 מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב. <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון</strong></div>
-
+			</div>
+				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">See Stylists near You</button>Find Pro-Stylists - Approved by <strong class="highlight">The Israeli Assocciation of Stylists</strong>
+			</div>
 <div id="avatars">
 	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
 	<a href="go.php" target="_blank"><img src="images/avatar-2.jpg" style="margin: 5px;" /></a>
