@@ -42,10 +42,8 @@
 </div> -->
 </div>
     <div id="form" class="grid-right">
-	<h2 class="rule"><img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logo.png/>
-	Israel Association of Stylists has <strong class="highlight">approved only one Trainining Institution</strong></h2>
-	
-    <h2 class="rule">תנאים להצלחה:</h2>
+	<h2 class="rule"><img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logo.png"/><strong class="highlight">Israel Association of Stylists has approved only one Trainining Institution</strong></h2>
+	<h2 class="rule">תנאים להצלחה:</h2>
     <div id="rules">
     <p> <img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />התעניינות עמוקה וכנה בעיצוב פנים</p>
     <p> <img src="http://commondatastorage.googleapis.com/lnd/mob/check-small.png" class="im_king" />הבטחה לא לסרב להצעות העבודה שאקבל במהלך הלימודים ו/או בסיומם</p>
