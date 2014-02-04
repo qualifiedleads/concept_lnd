@@ -42,7 +42,7 @@
 </div> -->
 </div>
     <div id="form" class="grid-right">
-	<img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logox2.png" style="float:left" width="50" height="80" style=padding:3px/>
+	<img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logox2.png" style="float:left" width="50" height="80" style=padding:3px />
 	<h2 class="rule"><strong class="highlight">Israel Association of Stylists has approved only one Trainining Institution</strong></h2>
 	<h2 class="rule">תנאים להצלחה:</h2>
     <div id="rules">
@@ -134,7 +134,7 @@ addmarker: function (marker, a) {
 marker.setMap(geoLander.map);
 geoLander.markers.push(marker);
 d = new google.maps.InfoWindow({
-content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">גיל: ' + datass.net[a].age + '</span><div class="status"><img src="http://commondatastorage.googleapis.com/lnd/mob/active.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
+content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">גיל: ' + datass.net[a].age + '</span><div class="status"><img src="http://commondatastorage.googleapis.com/lnd/mob/approved.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
 size: new google.maps.Size(50, 400)
 });
 google.maps.event.addListener(marker, "click", geoLander.openInfoWindow(d, marker));
