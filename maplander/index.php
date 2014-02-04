@@ -67,6 +67,7 @@
 
 			<div class="full notes" id="footer">
 				<h2>Exclusively Approved by Israel Association of Stylists</h2>
+				<h4>Address: Street, Tel Aviv, 60717 IL</h4>
 			</div>
 		
 		</div>
