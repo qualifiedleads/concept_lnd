@@ -42,7 +42,7 @@
 </div> -->
 </div>
     <div id="form" class="grid-right">
-	<img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logox2.png" style="float:left" width="50" height="80"/>
+	<img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logox2.png" style="float:left" width="50" height="80" padding="0px 0px 0px 3px"/>
 	<h2 class="rule"><strong class="highlight">Israel Association of Stylists has approved only one Trainining Institution</strong></h2>
 	<h2 class="rule">תנאים להצלחה:</h2>
     <div id="rules">
