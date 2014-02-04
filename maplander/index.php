@@ -32,14 +32,14 @@
 			</div>
 				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">See Stylists near You</button>Find Pro-Stylists - Approved by <strong class="highlight">The Israeli Assocciation of Stylists</strong>
 			</div>
-<div id="avatars">
+<!--<div id="avatars">
 	<a href="go.php" target="_blank"><img src="images/avatar-1.jpg" style="margin: 5px;" /></a>
 	<a href="go.php" target="_blank"><img src="images/avatar-2.jpg" style="margin: 5px;" /></a>
 	<div class=desktop-only>
 	<a href="go.php" target="_blank"><img src="images/avatar-3.jpg" style="margin: 5px;" /></a>
 	<a href="go.php" target="_blank"><img src="images/avatar-4.jpg" style="margin: 5px;" /></a>
 	</div>
-</div>
+</div> -->
 </div>
     <div id="form" class="grid-right">
 	<h2 class="rule"><img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logo.png/>
