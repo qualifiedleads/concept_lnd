@@ -22,13 +22,13 @@
 <body>
     <div class="container">
 		<div id="header" class="full">
-			<h1>מבטיחים לך קריירה בעיצוב אופנה<br /></h1>
+			<h1>Get a Career in Styling<br /></h1>
 		</div>
 			
 		<div id="container" class="full">   
 			<div class="grid-left">
 				<div id="mapContainer"></div>
-	<div id="side-bar" class="desktop-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button>מאז שנת 1998 ועד היום עזרנו לאלפי סטודנטים להגשים את חלומם ולהשתלב בעולם העיצוב.	 - <strong class="highlight">כולם התחילו כאן, עשה גם אתה את הצעד הראשון!</strong>
+	<div id="side-bar" class="desktop-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">See Stylists near You</button>Find Pro-Stylists - Approved by <strong class="highlight">The Israeli Assocciation of Stylists</strong>
 				 
 				</div>
 				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">בדוק מי עוד לומד בקונספט!</button> 
@@ -59,15 +59,15 @@
 <h2>אם את/ה מסכים/ה לתנאים, לחצי על הכפתור " אני מסכימ/ה" כדי להתחיל קריירה בעיצוב.
 </h2>
 <div class="submit mobile-only">
-	<a href="go.php" class="btn">אני מסכימה</a>
+	<a href="go.php" class="btn">I want to Join Them</a>
 </div>
 <div class="submit desktop-only">
-					<a href="go.php" class="btn">I Agree</a>
+					<a href="go.php" class="btn">I Want To Join</a>
 				</div>
 			</div>
 
 			<div class="full notes" id="footer">
-				<h2>Starting Careers since 1998<br>Association of Stylists Approved</h2>
+				<h2>Exclusively Approved by Israel Association of Stylists</h2>
 			</div>
 		
 		</div>
