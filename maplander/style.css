@@ -319,6 +319,8 @@ width: 90%;
 margin: 0px 18px 46px 18px;
 }
 }
+
+
 /* Phone Portrait (320px) */
 @media only screen and (max-width: 320px) {
 	.full { width: 100%; }
