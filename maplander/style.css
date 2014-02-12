@@ -8,7 +8,7 @@ body {
 
 
 h1, h2, h3, h4 {
-  font-family: 'Open Sans', cursive;
+  font-family: 'Arial', sans-serif;
   color: #F4F5F7;
     text-decoration: none;
     text-shadow: 0px 1px 0px #000000;
@@ -222,7 +222,7 @@ a.btn:hover {
 .desktop-only {display: none}
 #mapContainer {
   height: 275px;
-  width: 95%;
+  width: 85%;
   margin: 0px 18px 46px 18px;
 }
 #header h1 {
@@ -287,7 +287,7 @@ max-width: 375px;
 }
 #mapContainer {
 height: 275px;
-width: 90%;
+width: 85%;
 margin: 0px 18px 46px 18px;
 }
 }
@@ -325,7 +325,7 @@ float: right;
 }
 #mapContainer {
 height: 275px;
-width: 90%;
+width: 85%;
 margin: 0px 18px 46px 18px;
 }    
 }
