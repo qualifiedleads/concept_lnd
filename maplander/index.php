@@ -28,7 +28,6 @@
 			</div>
 				<div id="side-bar" class="mobile-only"><button class="accuracy" onclick="geoLander.improveAccuracy()">See Stylists near You</button>Find Pro-Stylists - Approved by <strong class="highlight">The Israeli Assocciation of Stylists</strong>
 			</div>
-
 </div>
     <div id="form" class="grid-right">
 	<img src="http://commondatastorage.googleapis.com/lnd/mob/stylist_logox2.png" style="float:left" width="50" height="80" style=padding:3px />
