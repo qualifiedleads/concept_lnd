@@ -43,14 +43,14 @@ h1 {
     background: url("http://commondatastorage.googleapis.com/lnd/mob/bg.png") repeat scroll center top transparent;
     color: #D7DBE3;
     font-size: 14px;
+    margin-top: -125px;
     margin-bottom: 42px;
-    margin-top: -135px;
     padding: 10px 25px 10px 10px;
     position: relative;
     text-shadow: 0 1px 0 #000000;
     z-index: 99999999;
-	width: 84%;
-	max-width: 457px;
+		width: 86%;
+		max-width: 457px;
 }
 #form {
     color: #D7DBE3;
@@ -237,12 +237,12 @@ margin-bottom: 2px;
     color: #D7DBE3;
     font-size: 14px;
     margin-bottom: 42px;
-    margin-top: -135px;
+    margin-top: -125px;
     padding: 2px 35px 10px 34px;
     position: relative;
     text-shadow: 0 1px 0 #000000;
     z-index: 99999999;
-	width: 84%;
+	width: 86%;
 	max-width: 457px;
 }
 }
@@ -273,6 +273,7 @@ margin-bottom: 2px;
 .mavatar {
 	width: 200px;
 }
+
 .mavatar img.photo {
 	width: 80px;
 	height: 80px;
@@ -305,6 +306,11 @@ margin-bottom: 2px;
 .mavatar {
 	width: 200px;
 }
+
+#side-bar {
+max-width: 375px;
+}
+
 .mavatar img.photo {
 	width: 80px;
 	height: 80px;
@@ -327,7 +333,8 @@ margin: 0px 18px 46px 18px;
 	.grid-left { width: 100%; float: none }
 	.grid-right { width: 100%; float: none;}
 #side-bar {
-margin-top: -135px !important;
+margin-top: -125px !important;
+width: 265px;
 }
 .mobile-only {display: block}
 .desktop-only {display: none}

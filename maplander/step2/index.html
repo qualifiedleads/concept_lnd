@@ -1,68 +1,115 @@
 <!DOCTYPE html>
 <html lang="he"  dir="rtl">
-<head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>Form</title>
+  <link type="text/css" rel="stylesheet"   href="css/golden-forms.css"/>
+  <!-- <link type="text/css" rel="stylesheet"   href="css/font-awesome.min.css"/> -->
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+  <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="//ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+  <script>
+  
+  // When the browser is ready...
+  $(function() {
+  
+    // Setup form validation on the #register-form element
+    $("#register-form").validate({
     
-    <title> Form </title>
-    
-    <link type="text/css" rel="stylesheet"   href="css/golden-forms.css"/>
-   <!-- <link type="text/css" rel="stylesheet"   href="css/font-awesome.min.css"/> -->
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
-    
-</head>
+        // Specify the validation rules
+        rules: {
+            names: "required",
+            email: {
+                required: true,
+                email: true
+            },
+            tele: {
+				required: true,
+				minlength: 10,
+				digits: true
+			}
+        },
+        
+        // Specify the validation error messages
+        messages: {
+            names: "Please enter your name",
+            email: "Please enter a valid email address",
+            tele: "Please enter a valid telephone number"
+        },
+        
+        submitHandler: function(form) {
+            form.submit();
+        }
+    });
 
-<body class="bg-linen">
+  });
+  
+  </script>
+  </head>
 
-       <div class="gforms spaced">
-    
-        <div class="golden-forms wrapper">
-            <form>
-                <div class="form-title">
-				<img src="http://commondatastorage.googleapis.com/lnd/mob/concept-logo-f.gif" height="50" style="float:left"/>
-                    <h2>Start your Styling Career</h2>
-                </div><!-- end .form-title section -->
-                <div class="form-enclose">
-				 <div class="form-section">
-					<section>
-						<a href="tel:03-771-3022"/>
-						<input type="tel" value="Call Now" class="button red" /> 
-						</a>
-						</section>
-                       <section>
-                       		<label for="names" class="lbl-text">שם</label>
-                            <label class="lbl-ui">
-                            	<input type="text" name="names" id="names" class="input" placeholder="שם:" autofocus />
-                            </label>                              
-                       </section>
-                       <section>
-                       		<label for="email" class="lbl-text">דואייל:</label>
-                            <label class="lbl-ui">
-                            	<input type="email" name="email" id="email" class="input" placeholder="דואייל"/>
-                            </label>                           
-                       </section>  
+  <body class="bg-linen">
+  <div class="gforms spaced">
+    <div class="golden-forms wrapper">
+      <form action="mail.php" method="post">
+        <div class="form-title"> <img src="http://commondatastorage.googleapis.com/lnd/mob/concept-logo-f.gif" height="50" style="float:left"/>
+          <h2>Start your Styling Career</h2>
+        </div>
+        <!-- end .form-title section -->
+        <div class="form-enclose">
+          <div class="form-section">
+            <section> <a href="tel:03-771-3022"/>
+              <input type="tel" value="Call Now" class="button red" id="register-form" novalidate="novalidate" />
+              </a> </section>
+            <section>
+              <label for="names" class="lbl-text">שם</label>
+              <label class="lbl-ui">
+                <input type="text" name="names" id="names" class="input" data-placeholder="שם:" value="שם:" autofocus />
+              </label>
+            </section>
+            <section>
+              <label for="email" class="lbl-text">דואייל:</label>
+              <label class="lbl-ui">
+                <input type="text" name="email" id="email" class="input" data-placeholder="דואייל" value="דואייל"/>
+              </label>
+            </section>
+            <section>
+              <label for="tele" class="lbl-text">טלפון:</label>
+              <label class="lbl-ui">
+                <input type="text" name="tele" id="tele" class="input" data-placeholder="05" value="05"/>
+              </label>
+            </section>
+          </div>
+          <!-- end .form-section section --> 
+        </div>
+        <!-- end .form-enclose section -->
+        <div class="form-buttons">
+          <section>
+            <input type="submit" value="Join" class="button blue" />
+          </section>
+        </div>
+        <!-- end .form-buttons section -->
+      </form>
+    </div>
+    <!-- end .golden-forms section --> 
+  </div>
+  <!-- end .gforms section -->
 
-                       <section>
-                       		<label for="tele" class="lbl-text">טלפון:</label>
-                            <label class="lbl-ui">
-                            	<input type="tel" name="tele" id="tele" class="input" placeholder="05"/>
-                            </label>                            
-                       </section>        
-                   </div><!-- end .form-section section -->
-                </div><!-- end .form-enclose section -->
-                <div class="form-buttons">
-                    <section> 
-                       <input type="submit" value="Join" class="button blue" />
-                     </section>                
-                </div><!-- end .form-buttons section -->
-            </form>
-        </div><!-- end .golden-forms section --> 
-    </div><!-- end .gforms section -->
-    
-    <div></div><!-- end section -->
-    <div></div><!-- end section -->
+  <div></div>
+  <!-- end section -->
+  <div></div>
+  <!-- end section --> 
+  <script>
+      var arr = [document.getElementById('names'),document.getElementById('email'),document.getElementById('tele')];
+      for (var i =0; i <= 2; i++) {
+        arr[i].onfocus = function () {
+        this.value = '';
+        }
+      } 
+	   
+    </script> 
+  <!-- jQuery Form Validation code -->
 
-</body>
+  </body>
 </html>
