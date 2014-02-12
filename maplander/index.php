@@ -6,8 +6,8 @@
 <script type="text/javascript" src="http://maps.google.co.il/maps/api/js?sensor=false"></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>
-<script type="text/javascript" src="markers.js"></script>
-<link rel="stylesheet" href="style.css" />
+<script type="text/javascript" src="http://commondatastorage.googleapis.com/lnd/mob/markers.js"></script>
+<link rel="stylesheet" href="http://commondatastorage.googleapis.com/lnd/mob/style.css" />
 <meta name="viewport" content="width=device-width" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -122,7 +122,7 @@ addmarker: function (marker, a) {
 marker.setMap(geoLander.map);
 geoLander.markers.push(marker);
 d = new google.maps.InfoWindow({
-content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">גיל: ' + datass.net[a].age + '</span><div class="status"><img src="http://commondatastorage.googleapis.com/lnd/mob/pro1.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
+content: "" + ('<div class="mavatar"><a href="go.php" target="_blank"><img class="photo" src="' + datass.net[a].avatar + '" /></a><div class="minfo"><span class="mname">' + datass.net[a].name + '</span> <span class="mage">גיל: ' + datass.net[a].age + '</span><div class="status"><img src="http://commondatastorage.googleapis.com/lnd/mob/active.gif" /> <span><a href="go.php" class="viewprofile" target="_blank">View Profile</a></span></div></div></div>'),
 size: new google.maps.Size(50, 400)
 });
 google.maps.event.addListener(marker, "click", geoLander.openInfoWindow(d, marker));
