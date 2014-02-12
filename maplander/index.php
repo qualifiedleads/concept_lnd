@@ -7,16 +7,12 @@
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src='http://j.maxmind.com/app/geoip.js'></script>
 <script type="text/javascript" src="markers.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="style.css" />
 <meta name="viewport" content="width=device-width" />
 <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-touch-fullscreen" content="yes" /> 
 
-<!--[if IE]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 
 <body>
