@@ -173,10 +173,9 @@ body, .golden-forms {
     display: block;
 }
 .golden-forms .lbl-text {
-    text-transform: uppercase;
     margin-bottom: 5px;
     letter-spacing: 1px;
-    font-size: 10px;
+    font-size: 1.1em;
     display: block;
     color: #333;
 }
