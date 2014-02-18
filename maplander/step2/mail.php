@@ -19,12 +19,13 @@
 		$mail->ClearAddresses();
 		$mail->addAddress('leadsbackup@conce.pt', 'Qualified Leads');
 		if(!$mail->Send()) {
-		   echo 'Message could not be sent.';
-		   echo 'Mailer Error: ' . $mail->ErrorInfo;
-		   exit;
+		   session_start();
+		   $_SESSION['error'] ='error';
+		   header("Location: install.php");
 		}else{
-			echo 'Message has been sent';
-			header ("Location: index-received.html");
+			session_start();
+			$_SESSION['error'] = 'success';
+			header("Location: install.php");
 		}
 	}
 ?>
