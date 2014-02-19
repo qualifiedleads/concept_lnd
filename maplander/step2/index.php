@@ -30,11 +30,11 @@
 <label class="lbl-ui">
 <input type="text" name="email" id="email" class="input" placeholder="דואייל" value="דואייל"/>
 </label>                          
-<div class="email-suggestion">Probably, you mistyped ? <a href="#" class="apply"><span>user</span>@<b>domain.com</b></a><a href="#" class="close">✖</a></div> 
+<div class="email-suggestion">האם התכוונת <a href="#" class="apply"><span>user</span>@<b>domain.com</b></a><a href="#" class="close">✖</a></div> 
 </section>  
 
 <section>
-<label for="tele" class="lbl-text">טלפון:</label>
+<label for="tele" class="lbl-text">טלפון נייד:</label>
 <label class="lbl-ui">
 <input type="tel" name="tele" id="tele" class="input" data-placeholder="05" value="05"/>
 </label>                            
