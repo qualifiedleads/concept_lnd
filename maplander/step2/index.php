@@ -17,7 +17,7 @@
 <div class="form-section">
 			<section>
             <a href="tel:03-771-3022"/>
-            <input type="tel" value="Call Now &#9742;" class="button red" /> 
+            <input type="tel" value="התקשרי עכשיו &#9742;" class="button red" /> 
             </a>
             </section>
 <section>
@@ -31,24 +31,23 @@
 </label>                              
 </section>
 <section>
+<label for="tele" class="lbl-text">טלפון נייד:</label>
+<label class="lbl-ui">
+<input type="tel" name="tele" id="tele" class="input" data-placeholder="05" value="05"/>
+</label>                            
+</section>
+<section>
 <label for="email" class="lbl-text">דואייל:</label>
 <label class="lbl-ui">
 <input type="text" name="email" id="email" class="input" placeholder="דואייל" value="דואייל"/>
 </label>                          
 <div class="email-suggestion">האם התכוונת <a href="#" class="apply"><span>user</span>@<b>domain.com</b></a><a href="#" class="close">✖</a></div> 
-</section>  
-
-<section>
-<label for="tele" class="lbl-text">טלפון נייד:</label>
-<label class="lbl-ui">
-<input type="tel" name="tele" id="tele" class="input" data-placeholder="05" value="05"/>
-</label>                            
-</section>       
+</section> 
 </div>
 </div>
 <div class="form-buttons">
 <section>
-<input type="submit" value="Join" class="button blue"/>
+<input type="submit" value="שלח" class="button blue"/>
 </section>
 </div>
 </form>
