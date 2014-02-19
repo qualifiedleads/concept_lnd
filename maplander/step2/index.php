@@ -15,6 +15,11 @@
 </div>
 <div class="form-enclose">
 <div class="form-section">
+			<section>
+            <a href="tel:03-771-3022"/>
+            <input type="tel" value="Call Now &#9742;" class="button red" /> 
+            </a>
+            </section>
 <section>
 <section style="overflow:hidden;margin-bottom:10px">
 <section style="float:left;margin-top:10px;color:#ff4444"><?php session_start(); if(isset($_SESSION['error'])){ if($_SESSION['error']=="success"){?>תודה לך על התעניינותך. אנחנו ניצור איתך קשר בקרוב מאוד!<?php }else{?>סליחה שאנחנו לא יכולים להשלים requeat שלך באותו הרגע. אנא נסה שוב!<?php }unset($_SESSION['errmsg']);}?></section>
