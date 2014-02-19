@@ -39,7 +39,7 @@
 <section>
 <label for="email" class="lbl-text">דואייל:</label>
 <label class="lbl-ui">
-<input type="text" name="email" id="email" class="input" placeholder="דואייל" value="דואייל"/>
+<input type="email" name="email" id="email" class="input" placeholder="דואייל" value="דואייל"/>
 </label>                          
 <div class="email-suggestion">האם התכוונת <a href="#" class="apply"><span>user</span>@<b>domain.com</b></a><a href="#" class="close">✖</a></div> 
 </section> 
