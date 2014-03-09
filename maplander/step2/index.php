@@ -16,7 +16,7 @@
 <div class="form-enclose">
 <div class="form-section">
 			<section>
-            <a href="tel:03-771-3022"/>
+            <a href="tel:03-771-3015"/>
             <input type="tel" value="התקשרי עכשיו &#9742;" class="button red" /> 
             </a>
             </section>
