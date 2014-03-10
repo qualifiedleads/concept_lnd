@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<?php $clickThruLink819 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=819&'.$_SERVER['QUERY_STRING']; ?>
+<?php  global $clickThruLink; $clickThruLink = 'http://trk.conce.pt/tracking202/redirect/lp.php?lpip=8152&'.$_SERVER['QUERY_STRING']; ?>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -75,19 +75,17 @@ body {background-color: #EEF0F7}
 }
 </style>
 </head>
-
 <body>
 <div class="container">
 <h1>קריירה בסטיילינג מתחילה פה</h1>
 <img src="http://commondatastorage.googleapis.com/lnd/mob/pilot.jpg" class="image"> 
 <h2>בלעדי לסטייליסטים בוגרי קונספט-
 תעודה של אגודת הסטייליסטים בישראל</h2><p style="text-align: center">
-<section>
+	<section>
             <a href="tel:03-771-3015"/>
             <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" /> 
             </a>
-            </section>
-
+    </section>
 <p style="text-align:right">
 <ul>
 <li>אהבה עמוקה לסטיילינג ואופנה</li>
@@ -99,6 +97,6 @@ body {background-color: #EEF0F7}
 <li>מרפקים להראות מי את באמת!</li>
 </ul>
 </p>
-<a href="<?php echo $clickThruLink819; ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
+<a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 <h3>תנאים להצלחה כסטייליסטית:</h3>
 </div></body>
