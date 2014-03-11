@@ -16,7 +16,6 @@
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
  * FITNESS FOR A PARTICULAR PURPOSE.
  */
-
 /**
  * PHPMailer SPL autoloader.
  * @param string $classname The name of the class to load
