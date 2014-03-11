@@ -1,6 +1,6 @@
 [PHP]
 <?php
-header("Location:http://www.concept-academy.co.il/maplander/step2/index.php");
+header("Location:http://www.concept-academy.co.il/lnd/maplander/step2/index.php");
 
 ?>
 [/PHP]
