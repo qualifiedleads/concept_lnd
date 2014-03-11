@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<?php  global $clickThruLink; $clickThruLink = 'http://trk.conce.pt/tracking202/redirect/lp.php?lpip=6236&'.$_SERVER['QUERY_STRING']; ?>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -98,6 +99,6 @@ body {background-color: #EEF0F7}
 <li>מרפקים להראות מי את באמת!</li>
 </ul>
 </p>
-<a href="go.php" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
+<a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 <h3>תנאים להצלחה כסטייליסטית:</h3>
 </div></body>
