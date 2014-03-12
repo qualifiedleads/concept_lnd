@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html dir="rtl" lang="he">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>מילגה לשנקר או בצלאל</title>
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Cache-Control" content="no-cache">
+<link href="./files/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="optbox">
+  <div class="header">
+    <div class="inr1">  המכינה המומלצת להכנת תיקי עבודות</div>
+    <div class="inr2"> מילגה של 1000 ש' לפונים מעמוד זה!
+                אנו מתחייבים לקבלתכם לשנקר, בצלאל, HIT, אונ' ת"א, הטכניון, ויצ"ו חיפה או מכללה למנהל
+                המכינה המעשית ביותר, פחות תאוריות יותר התנסות חוויתית! 
+                </div>
+  </div>
+  <p align="center"> * כמות המילגות מוגבלת, הבטח את זכאותך</p>
+  <form action="#" method="POST" onsubmit="return validateForm();" name="myForm"  >
+    <p align="center">
+    <select name="uni" id="uni" class="select">
+        <option value="shenkar">שנקר</option>
+        <option value="bezalel">בצלאל</option>
+        <option value="HIT">HIT</option>
+        <option value="technion">טכניון</option>
+        <option value="TAV-university">אונ' ת"א</option>
+      </select>
+      <input class="text" name="name" type="text" size="20" value="שם:" placeholder="שם:" onblur="if (this.value == &#39;&#39;) {this.value = &#39;שם:&#39;;}" onfocus="if (this.value == &#39;שם:&#39;) {this.value = &#39;&#39;;}">
+      <input class="text" type="tel" name="tel" size="20" value="טלפון:" placeholder="טלפון:" onblur="if (this.value == &#39;&#39;) {this.value = &#39;טלפון:&#39;;}" onfocus="if (this.value == &#39;טלפון:&#39;) {this.value = &#39;&#39;;}">
+      
+      <br>
+      <br>
+      <input class="button1" type="submit" name="submit" value="הגש בקשה" >
+    </p>
+  </form>
+</div>
+<div id="footertext">
+  <p align="center">This is a service from Concept.ac. <br>
+    <img src="./files/padlock.png" width="21" height="25" style="margin-left:5px;"> Your Information is 100% Secure With Us And Will Never Be Shared With Anyone</p>
+  <p align="center">&nbsp;</p>
+  <p align="center"> כל הזכויות שמורות לקונספט המכללה לעיצו בע"מ  שפע טל 10, תל אביב , 03-561-2029 ©</a> </p>
+</div>
+<script>function validateForm(){var x=document.forms["myForm"]["name"].value;var y=document.forms["myForm"]["tel"].value;if(x.length<4){alert("Please enter a valid Name");return false;}if(y.length<7){alert("Please enter a valid Telephone Number");return false;}}</script>
+</body>
+</html>

@@ -1,0 +1,131 @@
+@charset "utf-8";
+    @font-face {
+    font-family: gisharegular;
+    src: url(gisha-webfont.eot);
+    src: url(gisha-webfont.eot?#iefix) format('embedded-opentype'), url(gisha-webfont.woff) format('woff'), url(gisha-webfont.ttf) format('truetype'), url(gisha-webfont.svg#gisharegular) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: gishabold;
+    src: url(gishabd-webfont.eot);
+    src: url(gishabd-webfont.eot?#iefix) format('embedded-opentype'), url(gishabd-webfont.woff) format('woff'), url(gishabd-webfont.ttf) format('truetype'), url(gishabd-webfont.svg#gishabold) format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+html {
+    background: url(http://storage.googleapis.com/lnd/s_diamond.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    margin: 0;
+    font-family: gisharegular;
+    font-size: 13px;
+    line-height: 1.25;
+}
+#wrap {
+    margin: 0 auto 10px;
+    text-align: center;
+}
+.optbox {
+    width: 472px;
+    margin: 30px auto 0;
+    -webkit-border-radius: 10px;
+    -khtml-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 25px;
+    color: #FFF;
+}
+.header {
+    width: 472px;
+    margin-bottom: 10px;
+}
+.header div.inr1 {
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 2px 2px 1px rgba(214, 214, 214, .75);
+    letter-spacing: -1.5px;
+    font-weight: 100;
+}
+.header div.inr2 {
+    width: 340px;
+    text-align: center;
+    font-size: 20px;
+    margin: 15px auto 0;
+    font-weight: 700;
+    text-shadow: -1px -2px 1px rgba(124, 124, 124, .94);
+}
+.center {
+    margin: 0 auto;
+}
+input[type=text], select {
+    width: 300px;
+}
+label {
+    font-weight: 700;
+}
+form .text {
+    background-color: #fff;
+    border: 3px solid #FDC327;
+    color: #333;
+    font-size: 19px;
+    margin-bottom: 6px;
+    padding: 15px;
+    width: 260px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: inset 1px 2px 3px #ccc;
+    -webkit-box-shadow: inset 1px 2px 3px #ccc;
+    box-shadow: inset 1px 2px 3px #ccc;
+}
+form .select {
+    background-color: #fff;
+    border: 3px solid #FDC327;
+    color: #333;
+    font-size: 2.1em;
+    margin-bottom: 6px;
+    padding: 15px;
+    width: 294px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-box-shadow: inset 1px 2px 3px #ccc;
+    -webkit-box-shadow: inset 1px 2px 3px #ccc;
+    box-shadow: inset 1px 2px 3px #ccc;
+}
+.button1 {
+    color: #142a52;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    filter: dropshadow(color=#FFF, offx=0, offy=-1);
+    font-size: 28px;
+    padding: 12px 20px;
+    text-decoration: none;
+    border: 2px solid #994700;
+    background: #FEE94F;
+    background: -moz-linear-gradient(top, #FEE94F 0, #fe7300 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #FEE94F), color-stop(100%, #fe7300));
+    background: -webkit-linear-gradient(top, #FEE94F 0, #fe7300 100%);
+    background: -o-linear-gradient(top, #FEE94F 0, #fe7300 100%);
+    background: -ms-linear-gradient(top, #FEE94F 0, #fe7300 100%);
+    background: linear-gradient(top, #FEE94F 0, #fe7300 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FEE94F',  endColorstr='#fe7300',  GradientType=0);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    display: block;
+    margin: 0 30px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -1.5px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
