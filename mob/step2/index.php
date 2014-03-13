@@ -22,7 +22,13 @@
             </section>
 <section>
 <section style="overflow:hidden;margin-bottom:10px">
-<section style="float:left;margin-top:10px;color:#ff4444"><?php session_start(); if(isset($_SESSION['error'])){ if($_SESSION['error']=="success"){?>תודה לך על התעניינותך. אנחנו ניצור איתך קשר בקרוב מאוד!<?php }else{?>סליחה שאנחנו לא יכולים להשלים requeat שלך באותו הרגע. אנא נסה שוב!<?php }unset($_SESSION['errmsg']);}?></section>
+<section style="float:left;margin-top:10px;color:#ff4444">
+  <?php session_start(); if(isset($_SESSION['error'])){ if($_SESSION['error']=="success"){?>
+  תודה לך על התעניינותך. אנחנו ניצור איתך קשר בקרוב מאוד!<img height="1" width="1" border="0" style="display: none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=" />
+  <?php }else{?>
+  סליחה שאנחנו לא יכולים להשלים requeat שלך באותו הרגע. אנא נסה שוב!
+  <?php }unset($_SESSION['errmsg']);}?>
+</section>
 <section>
 <section>
 <label for="names" class="lbl-text">שם</label>
