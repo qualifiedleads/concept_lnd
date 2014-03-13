@@ -36,9 +36,9 @@
 		"380309"=>"http://www.concept-academy.co.il/lnd/mob/stylist_m.php",
 		"380913"=>"http://www.concept-academy.co.il/lnd/mob/stylist_m.php"
 	);
-	if(isset($_GET['adid'])){
-		if (array_key_exists($_GET['adid'], $array)) {
-			$url=$array[$_GET['adid']]."?".$_SERVER['QUERY_STRING'];
+	if(isset($_GET['c2'])){
+		if (array_key_exists($_GET['c2'], $array)) {
+			$url=$array[$_GET['c2']]."?".$_SERVER['QUERY_STRING'];
 		}else{
 			if($_SERVER['QUERY_STRING']){
 				$url="http://www.concept-academy.co.il/lnd/maplander/"."?".$_SERVER['QUERY_STRING'];
