@@ -18,7 +18,7 @@
 		"380275"=> "http://www.concept-academy.co.il/lnd/mob/stylist-green.php",
 		"380282"=> "http://www.concept-academy.co.il/lnd/mob/stylist-green.php",
 		"378827"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hairbob.php",
-		"378834"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hairbob.php",														
+		"378834"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hairbob.php",
 		"380276"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hairbob.php",
 		"380283"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hairbob.php",
 		"378828"=>"http://www.concept-academy.co.il/lnd/mob/stylist-hat.php",
