@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<?php  global $clickThruLink; $clickThruLink = 'http://trk.conce.pt/tracking202/redirect/lp.php?lpip=621&'.$_SERVER['QUERY_STRING']; ?>
+<?php $clickThruLink614 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];?>
+<?php $clickThruLink512 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];?>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
@@ -83,11 +84,11 @@ body {background-color: #EEF0F7}
 <h2>בלעדי לסטייליסטים בוגרי קונספט-
 תעודה של אגודת הסטייליסטים בישראל</h2><p style="text-align: center">
 <section>
-            <a href="tel:03-771-3015"/>
-            <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" /> 
-            </a>
-            </section>
-
+    <a href="tel:03-771-3015"/>
+	    <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" onClick="sh();"/> 
+        <div class="imagetrk"></div>
+    </a>
+</section>
 <p style="text-align:right">
 <ul>
 <li>אהבה עמוקה לסטיילינג ואופנה</li>
@@ -101,4 +102,17 @@ body {background-color: #EEF0F7}
 </p>
 <a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 <h3>תנאים להצלחה כסטייליסטית:</h3>
-</div></body>
+</div>
+<script>
+	function sh(){
+		var xmlhttp=new XMLHttpRequest();
+		xmlhttp.onreadystatechange=function(){
+			if (xmlhttp.readyState==4 && xmlhttp.status==200){
+				document.getElementById("imagetrk").innerHTML=xmlhttp.responseText;
+			}
+	  	}
+		xmlhttp.open("GET",<?php echo $clickThruLink512; ?>,true);
+		xmlhttp.send();
+	}
+</script>
+</body>
