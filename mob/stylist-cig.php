@@ -100,7 +100,7 @@ body {background-color: #EEF0F7}
 <li>מרפקים להראות מי את באמת!</li>
 </ul>
 </p>
-<a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
+<a href="<?php echo $clickThruLink614 ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 <h3>תנאים להצלחה כסטייליסטית:</h3>
 </div>
 <script>
@@ -111,7 +111,7 @@ body {background-color: #EEF0F7}
 				document.getElementById("imagetrk").innerHTML=xmlhttp.responseText;
 			}
 	  	}
-		xmlhttp.open("GET",<?php echo $clickThruLink512; ?>,true);
+		xmlhttp.open("GET","<?php echo $clickThruLink512; ?>",true);
 		xmlhttp.send();
 	}
 </script>
