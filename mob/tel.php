@@ -1,0 +1,1 @@
+<?php echo '<img height="1" width="1" border="0" style="display: none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&cid=2" />';?>
