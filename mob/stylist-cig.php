@@ -1,7 +1,7 @@
 <?php 
 	session_start();
-	$WebForm = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
-	$click2call = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
+	$clickThruLink614 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
+	$clickThruLink512 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
 ?>
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -20,7 +20,7 @@
   <h2>בלעדי לסטייליסטים בוגרי קונספט-
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
-  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $click2call; ?>" <?php }else{?>href="tel:03-771-3015"<?php }?> id="calllink"/>
+  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $clickThruLink512; ?>" <?php }else{?>href="tel:03-771-3015"<?php }?> id="calllink"/>
     <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button"/>
     <?php if(isset($_SESSION['callclick'])){?>
     <img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
@@ -37,7 +37,7 @@
     <li>מרפקים להראות מי את באמת!</li>
   </ul>
   </p>
-  <a href="<?php echo $WebForm ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
+  <a href="<?php echo $clickThruLink614 ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
   <h3>תנאים להצלחה כסטייליסטית:</h3>
 </div>
 </body>
