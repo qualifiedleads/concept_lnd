@@ -1,7 +1,7 @@
 <?php 
 	session_start();
 	$WebForm = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
-	$callclick = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
+	$click2call = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
 ?>
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -20,7 +20,7 @@
   <h2>בלעדי לסטייליסטים בוגרי קונספט-
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
-  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $callclick; ?>" <?php }else{?>href="tel:03-771-3015"<?php }?> id="calllink"/>
+  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $click2call; ?>" <?php }else{?>href="tel:03-771-3015"<?php }?> id="calllink"/>
     <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button"/>
     <?php if(isset($_SESSION['callclick'])){?>
     <img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
