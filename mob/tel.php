@@ -6,7 +6,7 @@
 <title>קריירה בסטיילינג מתחילה פה</title>
 </head>
 <body>
-  <a href="tel:03-771-3015" id="calllink"></a>
+  <a href="tel:03-771-3015" id="calllink" style="display:none">one</a>
   <img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
