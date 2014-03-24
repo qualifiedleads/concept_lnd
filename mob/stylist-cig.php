@@ -1,6 +1,6 @@
 <?php 
+	$clickThruLink341 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=341&'.$_SERVER['QUERY_STRING'];
 	$clickThruLink614 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
-	$clickThruLink512 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
 ?>
 <!DOCTYPE html>
 <html lang="he" dir="rtl">
@@ -19,7 +19,7 @@
   <h2>בלעדי לסטייליסטים בוגרי קונספט-
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
-  <section> <a href="<?php echo $clickThruLink512; ?>" id="calllink"/>
+  <section> <a href="<?php echo $clickThruLink341; ?>" id="calllink"/>
     <button class="css4button"> &#9742; אני רוצה להיות סטייליסטית </button>
   </a> </section>
   <p style="text-align:right">
