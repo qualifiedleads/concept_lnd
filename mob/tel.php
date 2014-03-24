@@ -11,7 +11,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
-      setTimeout(function(){$('#calllink').click(function(){console.log('clicked');});$("#calllink").trigger('click');}, 15);
+      setTimeout(function(){$('a[href="tel:03-771-3015"]').click(function(){console.log('clicked');});$('a[href="tel:03-771-3015"]').trigger('click');}, 15);
     });
   </script>
 </body>
