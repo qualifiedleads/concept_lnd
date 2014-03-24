@@ -1,9 +1,12 @@
-<img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
-<?php 
-sleep(1);
-session_start();
-$_SESSION['callclick']=1;
-echo $_SESSION['callclick'];
-header("Location: stylist-cig.php");
-die();
-?>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>קריירה בסטיילינג מתחילה פה</title>
+</head>
+<body>
+  <a href="tel:03-771-3015" id="calllink"></a>
+  <img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
+</body>
+</html>
