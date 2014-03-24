@@ -11,7 +11,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
-      $("#calllink").trigger("click");
+      $("#calllink").click();
     });
   </script>
 </body>
