@@ -19,7 +19,7 @@
   <h2>בלעדי לסטייליסטים בוגרי קונספט-
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
-  <section> <a href="<?php echo $clickThruLink341; ?>" id="calllink"/>
+  <section> <a href="<?php echo $clickThruLink341 ?>" id="calllink"/>
     <button class="css4button"> &#9742; אני רוצה להיות סטייליסטית </button>
   </a> </section>
   <p style="text-align:right">
