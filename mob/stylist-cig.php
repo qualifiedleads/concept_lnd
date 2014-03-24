@@ -20,7 +20,7 @@
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
   <section> <a href="<?php echo $clickThruLink512; ?>" id="calllink"/>
-    <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" />
+    <button class="css4button"> &#9742; אני רוצה להיות סטייליסטית </button>
   </a> </section>
   <p style="text-align:right">
   <ul>
