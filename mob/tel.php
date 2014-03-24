@@ -11,11 +11,7 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
   <script>
     $(document).ready(function(){
-      $("#calllink").click(function(e) {
-       e.preventDefault();  //stop the browser navigating
-       window.location.href = 'tel:03-771-3015';
-      }
-    );
+      setTimeout(function(){$('a#calllink').click()}, 15);
     });
   </script>
 </body>
