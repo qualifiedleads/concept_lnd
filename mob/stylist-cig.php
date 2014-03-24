@@ -21,7 +21,7 @@
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
   <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $clickThruLink512; ?>" <?php }else{?>href="tel:03-771-3015"<?php unset($_SESSION['callclick']);session_destroy(); }?> id="calllink"/>
-    <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button"/>
+    <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" <?php if(!isset($_SESSION['callclick'])){?> onclick="return false;" <?php }?> />
   </a> </section>
   <p style="text-align:right">
   <ul>
