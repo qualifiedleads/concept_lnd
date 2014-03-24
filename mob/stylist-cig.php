@@ -1,5 +1,4 @@
 <?php 
-	session_start();
 	$clickThruLink614 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
 	$clickThruLink512 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=521&'.$_SERVER['QUERY_STRING'];
 ?>
