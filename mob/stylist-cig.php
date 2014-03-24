@@ -20,12 +20,9 @@
   <h2>בלעדי לסטייליסטים בוגרי קונספט-
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
-  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $clickThruLink512; ?>" <?php }else{?>href="tel:03-771-3015"<?php }?> id="calllink"/>
+  <section> <a <?php if(!isset($_SESSION['callclick'])){?> href="<?php echo $clickThruLink512; ?>" <?php }else{?>href="tel:03-771-3015"<?php unset($_SESSION['callclick']);session_destroy(); }?> id="calllink"/>
     <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button"/>
-    <?php if(isset($_SESSION['callclick'])){?>
-    <img height="1" width="1" border="0" style="display:none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=&amp;cid=2">
-    <?php unset($_SESSION['callclick']);session_destroy();}?>
-    </a> </section>
+  </a> </section>
   <p style="text-align:right">
   <ul>
     <li>אהבה עמוקה לסטיילינג ואופנה</li>
