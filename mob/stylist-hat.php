@@ -16,6 +16,7 @@ li {text-align: right;}
 body {background-color: #EEF0F7}
 .container {background-color: #eee; border: thin red dotted; margin: 0 auto; width: 96%; text-align: center;}
 .css3button {
+    text-align:center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
@@ -43,6 +44,7 @@ body {background-color: #EEF0F7}
 	text-shadow:
 		0px -1px 0px rgba(0,0,0,1),
 		0px 1px 0px rgba(255,255,255,0.2);
+        text-decoration: none;
 }
 .css4button {
 	font-family: Arial, Helvetica, sans-serif;
@@ -72,6 +74,7 @@ body {background-color: #EEF0F7}
 	text-shadow:
 		0px -1px 0px rgba(0,0,0,1),
 		0px 1px 0px rgba(255,255,255,0.2);
+    
 }
 </style>
 </head>
@@ -84,11 +87,12 @@ body {background-color: #EEF0F7}
 תעודה של אגודת הסטייליסטים בישראל</h2><p style="text-align: center">
 <section>
             <a href="tel:03-771-3015"/>
-            <input type="tel" value="&#9742; אני רוצה להיות סטייליסטית " class="css4button" /> 
+            <input type="tel" value="&#9742; התקשרי אלינו כעת" class="css4button" /> 
             </a>
             </section>
 
 <p style="text-align:right">
+<h3 style="text-align:right">תנאים להצלחה בסטיילינג:</h3>
 <ul>
 <li>אהבה עמוקה לסטיילינג ואופנה</li>
 <li>תשוקה לקניות, טרנדים, תסרוקות וכל מה שהולך...</li>
@@ -100,5 +104,5 @@ body {background-color: #EEF0F7}
 </ul>
 </p>
 <a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
-<h3>תנאים להצלחה כסטייליסטית:</h3>
+
 </div></body>
