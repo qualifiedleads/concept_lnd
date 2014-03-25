@@ -1,5 +1,8 @@
+<?php 
+	$clickThruLink341 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=341&'.$_SERVER['QUERY_STRING'];
+	$clickThruLink614 = 'http://trk.conce.pt/tracking202/redirect/off.php?acip=614&'.$_SERVER['QUERY_STRING'];
+?>
 <!DOCTYPE html>
-<?php  global $clickThruLink; $clickThruLink = 'http://trk.conce.pt/tracking202/redirect/lp.php?lpip=985&'.$_SERVER['QUERY_STRING']; ?>
 <html lang="he" dir="rtl">
 <head>
 <meta charset="utf-8">
