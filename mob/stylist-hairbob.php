@@ -45,6 +45,7 @@ body {background-color: #EEF0F7}
 		0px 1px 0px rgba(255,255,255,0.2);
 }
 .css4button {
+	text-align:center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
@@ -89,6 +90,7 @@ body {background-color: #EEF0F7}
             </section>
 
 <p style="text-align:right">
+<h3 style="text-align:right">תנאים להצלחה בסטיילינג:</h3>
 <ul>
 <li>אהבה עמוקה לסטיילינג ואופנה</li>
 <li>תשוקה לקניות, טרנדים, תסרוקות וכל מה שהולך...</li>
@@ -100,5 +102,4 @@ body {background-color: #EEF0F7}
 </ul>
 </p>
 <a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
-<h3>תנאים להצלחה כסטייליסטית:</h3>
 </div></body>

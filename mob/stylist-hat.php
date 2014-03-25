@@ -47,6 +47,7 @@ body {background-color: #EEF0F7}
         text-decoration: none;
 }
 .css4button {
+	text-align:center;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 1.1rem;
 	color: #ffffff;
