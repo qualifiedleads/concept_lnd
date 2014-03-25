@@ -20,11 +20,9 @@
 <img src="http://commondatastorage.googleapis.com/lnd/mob/hat.jpg" class="image"> 
 <h2>בלעדי לסטייליסטים בוגרי קונספט-
 תעודה של אגודת הסטייליסטים בישראל</h2><p style="text-align: center">
-<section>
-            <a href="tel:03-771-3015"/>
-            <input type="tel" value="&#9742; התקשרי אלינו כעת" class="css4button" /> 
-            </a>
-            </section>
+  <section> <a href="<?php echo $clickThruLink341 ?>" id="calllink"/>
+    <button class="css4button"> &#9742; אני רוצה להיות סטייליסטית </button>
+  </a> </section>
 
 <p style="text-align:right">
 <h3 style="text-align:right">תנאים להצלחה בסטיילינג:</h3>
@@ -38,6 +36,6 @@
 <li>מרפקים להראות מי את באמת!</li>
 </ul>
 </p>
-<a href="<?php echo $clickThruLink ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
+<a href="<?php echo $clickThruLink614 ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 
 </div></body>
