@@ -24,7 +24,7 @@
 <section style="overflow:hidden;margin-bottom:10px">
 <section style="float:left;margin-top:10px;color:#ff4444">
   <?php session_start(); if(isset($_SESSION['error'])){ if($_SESSION['error']=="success"){?>
-  תודה לך על התעניינותך. אנחנו ניצור איתך קשר בקרוב מאוד!<img height="1" width="1" border="0" style="display: none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=" />
+  תודה לך על התעניינותך. אנחנו ניצור איתך קשר בקרוב מאוד!<img height="1" width="1" border="0" style="display: none;" src="http://trk.conce.pt/tracking202/static/gpx.php?amount=" /> <img src="http://clickserv.sitescout.com/conv/201ce00e7ef9aebe" border="0">
   <?php }else{?>
   סליחה שאנחנו לא יכולים להשלים requeat שלך באותו הרגע. אנא נסה שוב!
   <?php }unset($_SESSION['errmsg']);}?>
