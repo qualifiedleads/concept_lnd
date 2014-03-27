@@ -33,19 +33,19 @@
 <section>
 <label for="names" class="lbl-text">שם</label>
 <label class="lbl-ui">
-<input type="text" name="names" id="names" class="input" data-placeholder="שם:" value="שם:" autofocus />
+<input type="text" name="names" id="names" class="input" autofocus required />
 </label>                              
 </section>
 <section>
 <label for="tele" class="lbl-text">טלפון נייד:</label>
 <label class="lbl-ui">
-<input type="tel" name="tele" id="tele" class="input" data-placeholder="05" value="05"/>
+<input type="tel" name="tele" id="tele" class="input" required />
 </label>                            
 </section>
 <section>
 <label for="email" class="lbl-text">דואייל:</label>
 <label class="lbl-ui">
-<input type="email" name="email" id="email" class="input" placeholder="דואייל" value="דואייל"/>
+<input type="email" name="email" id="email" class="input" />
 </label>                          
 <div class="email-suggestion">האם התכוונת <a href="#" class="apply"><span>user</span>@<b>domain.com</b></a><a href="#" class="close">✖</a></div> 
 </section> 
