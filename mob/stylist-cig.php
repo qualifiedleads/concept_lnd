@@ -20,7 +20,7 @@
     תעודה של אגודת הסטייליסטים בישראל</h2>
   <p style="text-align: center">
   <section> <a href="<?php echo $clickThruLink341 ?>" id="calllink"/>
-    <button class="css4button"> &#9742; אני רוצה להיות סטייליסטית </button>
+    <button class="css4button"> &#9742; התקשרי כעת </button>
   </a> </section>
   <p style="text-align:right">
 	<h3 style="text-align:right">תנאים להצלחה בסטיילינג:</h3>
@@ -36,5 +36,10 @@
   </p>
   <a href="<?php echo $clickThruLink614 ?>" class="css3button" align="center">אני רוצה להיות סטייליסטית</a>
 </div>
+<script type='text/javascript'>
+var ssa = '5629bda8f1df744a';
+var ssaUrl = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'pixel.sitescout.com/iap/' + ssa;
+new Image().src=ssaUrl;
+</script>
 </body>
 </html>
