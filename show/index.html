@@ -8,6 +8,14 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "http://connect.facebook.net/en_US/sdk.js#xfbml=1&appId=196695680432243&version=v2.0";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="container-fluid">
   <div class="row branding">
   	<div class="col-sm-12">
@@ -15,12 +23,8 @@
 	        <div class="logo"></div>
         </a>
         <div class="section">
-    	    <a href="http://www.concept-academy.co.il/node/282">Fashion &amp; Style</a>
+    	    <a href="http://www.concept-academy.co.il/lnd/show/index-rtl.html">עברית</a>
         </div>
-        <ul class="share-tools">
-        	<li class="share-tool share-tool-twitter"><a href="#">Twitter</a></li>
-	        <li class="share-tool share-tool-facebook "><a href="#">Facebook</a></li>
-        </ul>
     </div>
   </div>
   <div class="row header">
@@ -51,8 +55,12 @@
       <div class="description">
         <h3>Designer 1</h3>
         <p>A beautiful, innovative collection in which the designer layered references to urban tribes, ’80s art, handcraft and even, seemingly, radical chicks of the 1920s. It added up to a modern expression of fashion. </p>
-        <p class="related">Read more: <a href="#">here</a> 
+        <p class="related">
+        
         </p>
+          <div class="share-tools">
+			<div class="fb-like" data-href="http://www.concept-academy.co.il/lnd/show/index-rtl.html" data-layout="button" data-action="like" data-share="true"></div>
+		</div>
       </div>
     </div>
     <div class="col-sm-9">
@@ -63,56 +71,12 @@
       </div>
     </div>
   </div>
-  <div class="row graphic-row">
-    <div class="col-sm-3">
-      <div class="description">
-        <h3>Designer 2</h3>
-        <p>A challenging collection, inspired by the notion of home and interiors, it nonetheless showed the designers in a simpler vein. </p>
-        <p class="related">Read more: <a href="http://runway.blogs.nytimes.com/2013/09/12/calvin-klein-in-full-color/">here</a> 
-        </p>
-      </div>
-    </div>
-    <div class="col-sm-9">
-      <div class="graphic">
-        <div class="editor-picks">
-          <div class="collection" data-slug="roof" data-size="27"> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row graphic-row">
-    <div class="col-sm-3">
-      <div class="description">
-        <h3>Designer 3</h3>
-        <p>Sometimes fashion is all about timing. His conservative-chic clothes, including navy blazers, cuffed denim shorts and belted full-skirted dresses, sounded an optimistic note. </p>
-        <p class="related">Read more: <a href="#">here</a> 
-        </p>
-      </div>
-    </div>
-    <div class="col-sm-9">
-      <div class="graphic">
-        <div class="editor-picks">
-          <div class="collection" data-slug="roof" data-size="27"> </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row graphic-row">
-    <div class="col-sm-3">
-      <div class="description">
-        <h3>Designer 4</h3>
-        <p>It was just a skirt and a shirt, but done with <strong>sophistication</strong>. And he refreshed the idea of the practical, inspiring high fashion. </p>
-        <p class="related">Read more: <a href="#">here</a> 
-        </p>
-      </div>
-    </div>
-    <div class="col-sm-9">
-      <div class="graphic">
-        <div class="editor-picks">
-          <div class="collection" data-slug="roof" data-size="27"> </div>
-        </div>
-      </div>
-    </div>
+
+   <div class="row graphic-row">
+  <div class="row">
+	<div class="col-sm-4 col-sm-offset-4">
+	<h3>Comments</h3>
+	<div class="fb-comments" data-href="http://www.concept-academy.co.il/lnd/show/index-rtl.html" data-width="100%" data-numposts="20" data-colorscheme="dark"></div></div>
   </div>
   
 <div class="footer row">
@@ -121,12 +85,6 @@
 <div class="modal fade" id="popup" tabindex="-1" role="dialog" aria-labelledby="popup" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
-      <!--<div class="modal-header">
-        <!--<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>-->
-        
-        <!--<button type="button" class="btn btn-info btn-sm" id="btnp"><span class="glyphicon glyphicon-chevron-left"></span></button>
-        <button type="button" class="btn btn-info btn-sm" ><span class="glyphicon glyphicon-chevron-right"></span></button>
-      </div>-->
       <div class="modal-body">
 	      <a class="left carousel-control" id="btnp" href="#carousel-example-generic" data-slide="prev" style="z-index:9999"><span class="glyphicon glyphicon-chevron-left"></span></a>
     	  <a class="right carousel-control" id="btnn" href="#carousel-example-generic" data-slide="next" style="z-index:9999"><span class="glyphicon glyphicon-chevron-right"></span></a>
