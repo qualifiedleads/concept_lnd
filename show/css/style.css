@@ -16,13 +16,12 @@ a {
 	color: #959595;
 }
 .branding .logo {
-	background: url("http://graphics8.nytimes.com/newsgraphics/2013/09/13/fashion-week-editors-picks/e2e355157a66c53141657c4af5431fed6add83f7/logo.png") center center no-repeat;
+	background: url("http://commondatastorage.googleapis.com/roof/concept-reversemini.png") center center no-repeat;
 	float: left;
-	width: 133px;
-	height: 19px;
+	width: 150px;
+	height: 30px;
 	margin-right: 10px;
 	padding: 0;
-	opacity: 0.7;
 }
 .branding .section {
 	vertical-align: top;
