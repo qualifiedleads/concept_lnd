@@ -40,8 +40,8 @@ a {
 .share-tools {
 	float: right;
 	margin-right: 2em;
-	padding: 0;
-	margin: 0 0 0 3em;
+	padding: 5;
+	margin: 1em;
 }
 .share-tool {
 	background: none;
@@ -124,7 +124,7 @@ a {
 }
 /* Graphic */
 .graphic-row {
-	padding: 40px 2%;
+	padding: 10px 2%;
 	background: #222;
 	overflow: hidden;
 }
