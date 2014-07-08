@@ -1,4 +1,0 @@
-﻿<IfModule mod_rewrite.c>
-   RewriteEngine On
-   RewriteRule ^(.*)/thank_you_land\.php /lnd/$1/thanks.html  [NC,QSA,R=301]
-</IfModule>
