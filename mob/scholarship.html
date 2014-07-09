@@ -33,6 +33,16 @@ h2 {
    margin: 0px;
 }
 
+h5 {
+   color: #fff; 
+   text-shadow: 1px 1px 0 rgba(0,0,0,0.4);
+   padding-top: 5px;
+   font-size: .75em; 
+   text-align: center;
+   font-family: 'Alef Hebrew', sans-serif;
+   margin: 0px;
+}
+
 #feedback-page{
 	text-align:center;
 }
@@ -87,6 +97,7 @@ h2 {
 	border:#30aed6 solid 3px;
 }
 
+
 /* Icons ---------------------------------- */
 #tel{
 	background-image: url(phone54.svg);
@@ -107,7 +118,10 @@ img.sponsors{
 	float: left;
 	padding: 2px;
 	height: 18px;
-	margin: auto;
+	width: 100px;
+    display: block;
+	margin-left: auto;
+    margin-right: auto;
 }
 textarea {
     width: 100%;
@@ -121,7 +135,51 @@ input:focus, textarea:focus {
 	background-color:white;
 }
 
-#button-pink{
+
+
+#button-pink {
+	-moz-box-shadow: 0px 0px 0px 0px #fbafe3;
+	-webkit-box-shadow: 0px 0px 0px 0px #fbafe3;
+	box-shadow: 0px 0px 0px 0px #fbafe3;
+	background-color:#ff006a;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:1.31px;
+	border:4px solid #fbfbfb;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:65px;
+	line-height:65px;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #c70067;
+}
+
+.button-pink:hover {
+	background-color:#ef027d;
+}
+
+.button-pink:active {
+	position:relative;
+	top:1px;
+}
+
+// #button-pink{
 	font-family: 'Alef Hebrew', sans-serif;
 	float:left;
 	width: 100%;
@@ -130,8 +188,8 @@ input:focus, textarea:focus {
 	background-color: #ff006c;
 	color:white;
 	font-size:22px;
-	padding-top:22px;
-	padding-bottom:22px;
+	padding-top:8px;
+	padding-bottom:8px;
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
@@ -139,18 +197,11 @@ input:focus, textarea:focus {
     font-weight:700;
 }
 
-#button-pink:hover{
-	background-color: rgba(0,0,0,0);
-	color: #ff006c;
-}
-	
-.submit:hover {
-	color: #3498db;
-}
+
 	
 .ease {
 	width: 0px;
-	height: 74px;
+	height: 4px;
 	background-color: #fbfbfb;
 	-webkit-transition: .3s ease;
 	-moz-transition: .3s ease;
@@ -159,7 +210,7 @@ input:focus, textarea:focus {
 	transition: .3s ease;
 }
 
-.submit:hover .ease{
+.submit:active .ease{
   width:100%;
   background-color:white;
 }
@@ -182,20 +233,23 @@ input:focus, textarea:focus {
     <form class="form" id="form1">
       <h1>מַעֲנָק לִמוּדִים</h1>
 	  <h2>!אתה יכול להיות הזוכה המאושר של היום מישראל</h2>
+	  <h2>Find out if you Qualify</h2>
       <p class="tel">
         <input name="tel" type="tel" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Tel" id="tel" />
       </p>
       
       <div class="submit">
-        <input type="submit" value="שלה" id="button-pink"/>
         <div class="ease"></div>
-		<h2>Find out if you Qualify for a Fashion Scholarship.</h2>
-		<h2>Requests handled within 7 days.</h2>
+		<input type="submit" value="שלה" id="button-pink"/>
+        <h2>Applications reviewed within 7 days.</h2>
 		<div>
-		<img class="sponsors" src="mob/img/castro.png"/>
-		<img class="sponsors" src="mob/img/fox.png"/>
-		<img class="sponsors" src="mob/img/diesel.png"/>
-		<img class="sponsors" src="mob/img/golf.png"/>
+		<h5>Job placements include:</h5>
+		<img class="sponsors" src="img/castro.png"/>
+		<img class="sponsors" src="img/fox.png"/>
+		<img class="sponsors" src="img/diesel.png"/>
+		<img class="sponsors" src="img/golf.png"/>
+		<img class="sponsors" src="img/honigman.png"/>
+		<img class="sponsors" src="img/renuar.png"/>
 		</div>
       </div>
     </form>
