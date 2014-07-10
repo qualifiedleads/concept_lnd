@@ -242,7 +242,8 @@ input[type="submit"] {
     <div class="submit">
       <div class="ease"></div>
 		<input type="submit" value="שלח" id="button-pink" onclick='registerUser();false;'/>
-        <h2>* מס' מלגות מוגבל</h2>
+        <h2>* מס' מלגות מוגבל
+		<div id="spaces" style="font-size:20px;">loading..</div></h2>
 		<div>
 		<h5>מקומות עבודה אפשריים:</h5>
 		<img class="sponsors" src="img/castro.png" width="85" height="13"/>
@@ -255,6 +256,7 @@ input[type="submit"] {
     </div>
     </form>
   </div>
+	/* VIPLUS */
   	<script language='javascript' type='text/javascript'>
 	var APIKEY = "5d697233-0702-419b-992e-a62951ba439a";
 	var r = false;
@@ -332,5 +334,72 @@ input[type="submit"] {
 		return re.test(e);
 	}
 	</script>
+	/* countdown */
+	<script>
+        var minSpaces = 11; //Minimum spaces to start with
+        var maxSpaces = 19; //Maximum spaces to start with
+        var maxDecTime = 6000; //Max time interval between decrements
+         var minDecTime = 300; //Min time interval between decrements
+        var redirectWhenDone = 0; //Redirect = 1 set to 0 for no redirect
+        var stopSpaces = 1; //Number it will stop at if not using redirect
+        var redirectLocation = 'http://www.google.com';
+
+        if(readCookie("countdown")) {
+		document.write (document.cookie); 
+            maxSpaces = parseInt(readCookie("countdown"));
+            minSpaces = Math.max(maxSpaces-5, 1);
+        }
+        var spaces = Math.floor(Math.random()*(maxSpaces-minSpaces+1)+minSpaces);
+
+function createCookie(name,value,days) {
+	if (days) {
+		var date = new Date();
+		date.setTime(date.getTime()+(days*24*60*60*1000));
+		var expires = "; expires="+date.toGMTString();
+	}
+	else var expires = "";
+	document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+	var nameEQ = name + "=";
+	var ca = document.cookie.split(';');
+	for(var i=0;i < ca.length;i++) {
+		var c = ca[i];
+		while (c.charAt(0)==' ') c = c.substring(1,c.length);
+		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+	}
+	return null;
+}        
+
+function updateSpaces() {
+            spaces--;
+            createCookie ("countdown", parseInt(spaces), 14);
+            document.getElementById('spaces').innerHTML = 
+                '<span style="color:pink;">('+spaces+')</span> scholarship places left!';
+            var intvl = Math.round(Math.random()*maxDecTime) + minDecTime;
+            if(spaces>stopSpaces){
+                setTimeout(updateSpaces, intvl);
+            }
+           else {//No spaces left, redirect!
+                if(redirectWhenDone==1) {
+                    window.top.location = redirectLocation;
+                }
+    }}
+        window.onload=updateSpaces();
+    </script>
+	
+	/* GA JS */
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-6240543-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
