@@ -12,6 +12,12 @@
 html{ background:url(http://commondatastorage.googleapis.com/roof/april2014_16.jpg) no-repeat;
   background-size: cover;
   height:100%;
+  -webkit-appearance: none; 
+  -webkit-touch-callout:none;                /* prevent callout to copy image, etc when tap to hold */
+  -webkit-text-size-adjust:none;             /* prevent webkit from resizing text to fit */
+  -webkit-tap-highlight-color:rgba(0,0,0,0); /* prevent tap highlight color / shadow */
+  -webkit-user-select:none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+  border-radius: 0;
 }
 h1 {
    color: #fff; 
@@ -21,6 +27,7 @@ h1 {
    text-align: center;
    font-family: 'Alef Hebrew', sans-serif;
    margin: 0px;
+   line-height: 0.75em;
 }
 
 h2 {
@@ -43,6 +50,13 @@ h5 {
    margin: 0px;
 }
 
+p {
+display: block;
+-webkit-margin-before: 0.15em;
+-webkit-margin-after: 0.15em;
+-webkit-margin-start: 4px;
+-webkit-margin-end: 4px;
+}
 #feedback-page{
 	text-align:center;
 }
@@ -57,12 +71,12 @@ h5 {
 	background-color:rgba(72,72,72,0.4);
 	padding-left:25px;
 	padding-right:25px;
-	padding-bottom:25px;
+	padding-bottom:6px;
 	position: fixed;
-    bottom: 32px;
+    bottom: 6px;
 	left: 220px;
-  -moz-border-radius: 7px;
-  -webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 0px;
 }
 
 .feedback-input {
@@ -117,13 +131,10 @@ img.sponsors{
 	position: relative;
 	float: left;
 	padding: 2px;
-	height: 18px;
-	width: 100px;
     display: block;
-	margin-left: auto;
-    margin-right: auto;
 }
 textarea {
+   -webkit-appearance: none
     width: 100%;
     height: 150px;
     line-height: 150%;
@@ -138,6 +149,8 @@ input:focus, textarea:focus {
 
 
 #button-pink {
+	-webkit-appearance: none
+	-webkit-border-radius: 0
 	-moz-box-shadow: 0px 0px 0px 0px #fbafe3;
 	-webkit-box-shadow: 0px 0px 0px 0px #fbafe3;
 	box-shadow: 0px 0px 0px 0px #fbafe3;
@@ -161,15 +174,20 @@ input:focus, textarea:focus {
 	font-size:1.3em;
 	font-weight:bold;
 	font-style:normal;
-	height:65px;
-	line-height:65px;
+	height:45px;
+	line-height:45px;
 	width:100%;
 	text-decoration:none;
 	text-align:center;
 	text-shadow:1px 1px 0px #c70067;
 }
 
+input[type="submit"] {
+	padding: 2px;
+	-webkit-appearance: none;
+}
 .button-pink:hover {
+	-webkit-appearance: none
 	background-color:#ef027d;
 }
 
@@ -178,26 +196,6 @@ input:focus, textarea:focus {
 	top:1px;
 }
 
-// #button-pink{
-	font-family: 'Alef Hebrew', sans-serif;
-	float:left;
-	width: 100%;
-	border: #fbfbfb solid 4px;
-	cursor:pointer;
-	background-color: #ff006c;
-	color:white;
-	font-size:22px;
-	padding-top:8px;
-	padding-bottom:8px;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-    margin-top:-4px;
-    font-weight:700;
-}
-
-
-	
 .ease {
 	width: 0px;
 	height: 4px;
@@ -223,6 +221,11 @@ input:focus, textarea:focus {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
+	
+	#button-pink {
+		-webkit-appearance: none
+		-webkit-border-radius: 0
+}	
 }
 </style>
 
@@ -233,23 +236,23 @@ input:focus, textarea:focus {
       <h1>מלגה ללימודי עיצוב</h1>
 	  <h2>בדוק זכאותך למלגה:</h2>
       <p class="tel">
-        <input name="tel" type="tel" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="סלולאר" id="tel" />
+        <input name="tel" type="tel" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="סלולאר" id="txtHomePhone" name="txtHomePhone" id="tel" />
       </p>
       
-      <div class="submit">
-        <div class="ease"></div>
-		<input type="submit" value="שלח" id="button-pink"/>
+    <div class="submit">
+      <div class="ease"></div>
+		<input type="submit" value="שלח" id="button-pink" onclick='registerUser();false;'/>
         <h2>* מס' מלגות מוגבל</h2>
 		<div>
 		<h5>מקומות עבודה אפשריים:</h5>
-		<img class="sponsors" src="img/castro.png"/>
-		<img class="sponsors" src="img/fox.png"/>
-		<img class="sponsors" src="img/diesel.png"/>
-		<img class="sponsors" src="img/golf.png"/>
-		<img class="sponsors" src="img/honigman.png"/>
-		<img class="sponsors" src="img/renuar.png"/>
-		</div>
-      </div>
+		<img class="sponsors" src="img/castro.png" width="85" height="13"/>
+		<img class="sponsors" src="img/honigman.png" width="85" height="10"/>
+		<img class="sponsors" src="img/golf.png" width="30" height="12"/>
+		<img class="sponsors" src="img/fox.png" width="42" height="12"/>
+		<img class="sponsors" src="img/diesel.png" width="26" height="15"/>
+		<img class="sponsors" src="img/renuar.png" width="100" height="17"/>
+	 </div>
+    </div>
     </form>
   </div>
   	<script language='javascript' type='text/javascript'>
@@ -278,7 +281,7 @@ input:focus, textarea:focus {
 		url = 'http://api.viplus.com/Gates/Ws-'+APIKEY+'.asmx/RMembers_Import' + 
 		'?cellphone=' + escape(cell) + 
 		'&viplists=64518';
-		try{														// Try to register
+		try{	// Try to register
 			r.overrideMimeType('text');
 			r.open('GET', url, true); 
 			r.onreadystatechange = updatePage; 
@@ -311,7 +314,7 @@ input:focus, textarea:focus {
 	}
 	function isValid(){
 		var phone = document.getElementById('tel');	// Get phone input field
-		var valid = true;// Boolean flag of validity.
+		var valid = true;										// Boolean flag of validity.
 		
 		/* Phone validation check: the length must to be in interval [7..11] digits. Can include dash '-' symbol  */
 		if(phone.value == '' || phone.value.length > 11 || phone.value.length < 7 || !validatePhone(phone.value)){
