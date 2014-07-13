@@ -49,13 +49,12 @@ h5 {
    font-family: 'Alef Hebrew', sans-serif;
    margin: 0px;
 }
-
 p {
-display: block;
--webkit-margin-before: 0.15em;
--webkit-margin-after: 0.15em;
--webkit-margin-start: 4px;
--webkit-margin-end: 4px;
+	display: block;
+	-webkit-margin-before: 0.15em;
+	-webkit-margin-after: 0.15em;
+	-webkit-margin-start: 4px;
+	-webkit-margin-end: 4px;
 }
 #feedback-page{
 	text-align:center;
@@ -94,7 +93,7 @@ display: block;
 	-moz-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	box-sizing: border-box;
-  border: 3px solid rgba(0,0,0,0);
+	border: 3px solid rgba(0,0,0,0);
 }
 
 .feedback-input:focus{
@@ -103,14 +102,13 @@ display: block;
 	border: 3px solid #3498db;
 	color: #3498db;
 	outline: none;
-  padding: 13px 13px 13px 54px;
+	padding: 13px 13px 13px 54px;
 }
 
 .focused{
 	color:#30aed6;
 	border:#30aed6 solid 3px;
 }
-
 
 /* Icons ---------------------------------- */
 #tel{
@@ -127,6 +125,10 @@ display: block;
     background-position: 11px 8px;
 	background-repeat: no-repeat;
 }
+.sponsors-wrapper{
+	text-align:center;
+	margin-top:10px;
+}
 img.sponsors{
 	position: relative;
 	float: left;
@@ -140,14 +142,11 @@ textarea {
     line-height: 150%;
     resize:vertical;
 }
-
-input:hover, textarea:hover,
-input:focus, textarea:focus {
+input:hover, textarea:hover, input:focus, textarea:focus {
 	background-color:white;
 }
-
 #spaces {
-text-shadow: 0px;
+	text-shadow: 0px;
 }
 
 
@@ -214,7 +213,6 @@ input[type="submit"] {
   width:100%;
   background-color:white;
 }
-
 @media only screen and (max-width: 580px) {
 	#form-div{
 		left: 3%;
@@ -224,44 +222,40 @@ input[type="submit"] {
 		padding-left: 3%;
 		padding-right: 3%;
 	}
-	
 	#button-pink {
 		-webkit-appearance: none
 		-webkit-border-radius: 0
-}	
+	}	
 }
 </style>
 
 <body>
-	<div id="form-main">
-  <div id="form-div">
-    <form class="form" id="form1">
+<div id="form-main">
+	<div id="form-div">
       <h1><div id="spaces" style="font-size:20px;">...</div></h1>
 	  <h1>מלגה ללימודי עיצוב</h1>
 	  <h2>בדוק זכאותך למלגה:</h2>
-      <p class="tel">
-        <input name="tel" type="tel" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="סלולאר" id="txtHomePhone" name="txtHomePhone" id="tel" />
-      </p>
-      
-    <div class="submit">
-      <div class="ease"></div>
-		<input type="submit" value="שלח" id="button-pink" onclick='registerUser();false;'/>
-        <h2>* מס' מלגות מוגבל</h2>
-
-		<div>
-		<h5>מקומות עבודה אפשריים:</h5>
-		<img class="sponsors" src="img/castro.png" width="85" height="13"/>
+      <div id="form-div-inner">
+		  <p class="tel">
+			<input name="tel" type="tel" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="סלולאר" id="tel" />
+		  </p>
+		  <div class="submit">
+			<input type="submit" value="שלה" id="button-pink" name="cmdOK" onclick='registerUser();false;'/>
+		    <div class="ease"></div>
+			<h2>* מס' מלגות מוגבל</h2>
+		  </div>
+	  </div>
+	  <div class="sponsors-wrapper">
+        <h5>מקומות עבודה אפשריים:</h5>
 		<img class="sponsors" src="img/honigman.png" width="85" height="10"/>
 		<img class="sponsors" src="img/golf.png" width="30" height="12"/>
 		<img class="sponsors" src="img/fox.png" width="42" height="12"/>
 		<img class="sponsors" src="img/diesel.png" width="26" height="15"/>
 		<img class="sponsors" src="img/renuar.png" width="100" height="17"/>
-	 </div>
-    </div>
-    </form>
-  </div>
-
-  	<script language='javascript' type='text/javascript'>
+      </div>
+	</div>
+</div>	
+	<script language='javascript' type='text/javascript'>
 	var APIKEY = "5d697233-0702-419b-992e-a62951ba439a";
 	var r = false;
 	var success_message = '<h2>Thank you</h2>';
@@ -287,7 +281,7 @@ input[type="submit"] {
 		url = 'http://api.viplus.com/Gates/Ws-'+APIKEY+'.asmx/RMembers_Import' + 
 		'?cellphone=' + escape(cell) + 
 		'&viplists=64518';
-		try{	// Try to register
+		try{														// Try to register
 			r.overrideMimeType('text');
 			r.open('GET', url, true); 
 			r.onreadystatechange = updatePage; 
@@ -307,7 +301,7 @@ input[type="submit"] {
 			}catch(e){document.getElementById('form-div-inner').innerHTML = '<h2>Connection error</h2>';}
 		}
 	}
-	
+
 	function updatePage() {
 		if (r.readyState == 4) {
 			if(r.status == 200 || r.status == 0){
@@ -321,7 +315,7 @@ input[type="submit"] {
 	function isValid(){
 		var phone = document.getElementById('tel');	// Get phone input field
 		var valid = true;										// Boolean flag of validity.
-		
+
 		/* Phone validation check: the length must to be in interval [7..11] digits. Can include dash '-' symbol  */
 		if(phone.value == '' || phone.value.length > 11 || phone.value.length < 7 || !validatePhone(phone.value)){
 			phone.style.background = '#FFB6C1';
@@ -330,7 +324,7 @@ input[type="submit"] {
 		else
 			phone.style.background = 'none';
 		/* End of phone validation check */
-		
+
 		return valid;
 	}
 	function validatePhone(e){
@@ -338,7 +332,6 @@ input[type="submit"] {
 		return re.test(e);
 	}
 	</script>
-
 	<script>
         var minSpaces = 11; //Minimum spaces to start with
         var maxSpaces = 19; //Maximum spaces to start with
@@ -355,55 +348,52 @@ input[type="submit"] {
         }
         var spaces = Math.floor(Math.random()*(maxSpaces-minSpaces+1)+minSpaces);
 
-function createCookie(name,value,days) {
-	if (days) {
-		var date = new Date();
-		date.setTime(date.getTime()+(days*24*60*60*1000));
-		var expires = "; expires="+date.toGMTString();
-	}
-	else var expires = "";
-	document.cookie = name+"="+value+expires+"; path=/";
-}
+		function createCookie(name,value,days) {
+			if (days) {
+				var date = new Date();
+				date.setTime(date.getTime()+(days*24*60*60*1000));
+				var expires = "; expires="+date.toGMTString();
+			}
+			else var expires = "";
+			document.cookie = name+"="+value+expires+"; path=/";
+		}
 
-function readCookie(name) {
-	var nameEQ = name + "=";
-	var ca = document.cookie.split(';');
-	for(var i=0;i < ca.length;i++) {
-		var c = ca[i];
-		while (c.charAt(0)==' ') c = c.substring(1,c.length);
-		if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-	}
-	return null;
-}        
+		function readCookie(name) {
+			var nameEQ = name + "=";
+			var ca = document.cookie.split(';');
+			for(var i=0;i < ca.length;i++) {
+				var c = ca[i];
+				while (c.charAt(0)==' ') c = c.substring(1,c.length);
+				if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+			}
+			return null;
+		}        
 
-function updateSpaces() {
-            spaces--;
-            createCookie ("countdown", parseInt(spaces), 14);
-            document.getElementById('spaces').innerHTML = 
-                '<span style="color:#ff006a;">('+spaces+')</span> scholarship places left!';
-            var intvl = Math.round(Math.random()*maxDecTime) + minDecTime;
-            if(spaces>stopSpaces){
-                setTimeout(updateSpaces, intvl);
-            }
-           else {//No spaces left, redirect!
-                if(redirectWhenDone==1) {
-                    window.top.location = redirectLocation;
-                }
-    }}
+		function updateSpaces() {
+					spaces--;
+					createCookie ("countdown", parseInt(spaces), 14);
+					document.getElementById('spaces').innerHTML = 
+						'<span style="color:#ff006a;">('+spaces+')</span> scholarship places left!';
+					var intvl = Math.round(Math.random()*maxDecTime) + minDecTime;
+					if(spaces>stopSpaces){
+						setTimeout(updateSpaces, intvl);
+					}
+				   else {//No spaces left, redirect!
+						if(redirectWhenDone==1) {
+							window.top.location = redirectLocation;
+						}
+			}
+		}
         window.onload=updateSpaces();
     </script>
-	
-
-	
 	<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-6240543-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
+		ga('create', 'UA-6240543-1', 'auto');
+		ga('send', 'pageview');
+	</script>
 </body>
 </html>
