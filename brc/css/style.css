@@ -1,0 +1,211 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	background: #161616;
+	color: #aaa;
+	margin: 0;
+	font-family: Arial;
+}
+a {
+	text-decoration: none;
+}
+.branding{
+	padding:15px 2%;		
+}
+.branding a {
+	color: #959595;
+}
+.branding .logo {
+	background: url("http://storage.googleapis.com/roof/logo.png") center center no-repeat;
+	float: left;
+	width: 150px;
+	height: 30px;
+	margin-right: 10px;
+	padding: 0;
+}
+.branding .section {
+	vertical-align: top;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	text-transform: uppercase;
+	float: left;
+	border-left: 1px solid #575757;
+	line-height: 23px;
+	padding-left: 10px;
+	padding-top: 3px;
+	margin-top: -3px;
+}
+.share-tools {
+	float: left;
+	margin-left: 2em;
+	padding: 0;
+	margin: -1em 0 0 0;
+}
+.share-tool {
+	background: none;
+	float: left;
+	margin: 0;
+	padding-left: 0;
+	padding-right: 6px;
+	list-style: none;
+	cursor: pointer;
+}
+.share-tool-twitter a {
+	background-position: 0 0;
+}
+.share-tool-facebook a {
+	background-position: -20px 0;
+}
+.share-tool a {
+	background-image: url(http://graphics8.nytimes.com/newsgraphics/2013/09/13/fashion-week-editors-picks/e2e355157a66c53141657c4af5431fed6add83f7/share.png);
+}
+.share-tool a {
+	width: 20px;
+	height: 20px;
+	background-repeat: no-repeat;
+	padding: 0;
+	text-indent: -10000px;
+	overflow: hidden;
+	display: block;
+}
+.share-tool-facebook:hover a {
+background-position: -20px -20px;
+}
+.share-tool-twitter:hover a {
+background-position: 0 -20px;
+}
+.branding a:hover {
+text-decoration: none;
+color: white;
+}
+.header{
+	padding:2%;	
+}
+.dateline {
+	color: #777;
+	font-family: Arial;
+	font-size: 11px;
+	overflow: hidden;
+	margin-top: 13px;
+}
+.dateline .date {
+	margin-left: 10px;
+	padding-left: 10px;
+	border-left: solid 1px #444;
+}
+.dateline .byline, .dateline .date {
+	float: left;
+}
+.byline span {
+	text-transform: uppercase;
+}
+#BIG_AD {
+	width: 100%;
+	height: 250px;
+	background: #222;
+}
+.header h1 {
+	font-family: Georgia, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	margin-top: 40px;
+	margin-bottom: 0;
+	color: white;
+	font-size: 50px;
+	-webkit-font-smoothing: antialiased;
+}
+.header-summary {
+	color: #999;
+	font: 17px/23px Arial;
+	font-weight: 200;
+	margin-top: 12px;
+}
+/* Graphic */
+.graphic-row{
+	padding: 40px 2%;
+	background: #222;
+	overflow: hidden;
+}
+.graphic {
+	margin: 15px;
+	overflow: hidden;
+}
+.graphic-row a {
+	color: white;
+	text-decoration: none;
+}
+.graphic a:hover {
+	text-decoration: underline;
+}
+.collection {
+	position: relative;
+	text-align: left;
+	/*height: 320px;*/
+	position: relative;
+	display: block;
+	/*margin: 0 0 20px 0;*/
+	padding: 0 0 15px 0;
+}
+.collection .description {
+	font-size: 15px;
+	line-height: 1.4em;
+	margin: 0 20px 0 0;
+	color: #999;
+}
+.collection .description h3 {
+	display: inline;
+	color: #ddd;
+	font-size: 22px;
+	font-weight: 200;
+	margin: 0 0 0 0;
+}
+.description p {
+	margin: 4px 0;
+}
+.description p.related {
+	font-size: 12px;
+	margin-top: 10px;
+	padding-top: 6px;
+	border-top: solid 1px #333;
+}
+.collection canvas {
+	border: solid 1px #444;
+	border-top-color: #000;
+	border-bottom-color: #555;
+	background: #000;
+}
+
+h2 {
+	font: 100 42px Georgia;
+	color: #fff;
+	padding: 0 0 20px 0;
+	margin: 40px 0;
+	border-bottom: solid 1px #666;
+}
+.footer {
+	padding: 20px 2%;
+	border-top: solid 1px #444;
+	font: 12px sans-serif;
+	background-color: #2e2e2e;
+}
+.modal-content{
+  background-color: #4B4B4B;
+}
+.modal-header{
+	border:0;	
+	padding:0
+}
+.modal-body {
+    max-height: 900px;
+}
+.modal-body .img-responsive{max-height:95%;}
+@media screen and (min-width: 768px){
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-prev, .carousel-control .icon-next {
+width: 30px;
+height: 30px;
+margin-top: -15px;
+margin-left: -2px;
+font-size: 30px;}
+}
