@@ -16,10 +16,10 @@ a {
 	color: #959595;
 }
 .branding .logo {
-	background: url("http://commondatastorage.googleapis.com/roof/concept-reversemini.png") center center no-repeat;
+	background: url("http://storage.googleapis.com/roof/logo.png") center center no-repeat;
 	float: right;
-	width: 150px;
-	height: 30px;
+	width: 152px;
+	height: 42px;
 	margin-left: 10px;
 	padding: 0;
 }
