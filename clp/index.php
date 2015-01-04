@@ -1,7 +1,6 @@
 <?php 
 require_once 'Mobile-Detect/Mobile_Detect.php';
 $detect = new Mobile_Detect;
-
 ?>
 <!DOCTYPE html dir="rtl" lang="he">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
