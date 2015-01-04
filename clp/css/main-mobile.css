@@ -281,6 +281,8 @@ body{
     font-family: arial;
     text-align: center;
     background-repeat: no-repeat;
+	background-position:center;
+	background-size:50px 60px;
 }
 .fitem a:hover{
     border-style: solid;
