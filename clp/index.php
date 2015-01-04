@@ -1,10 +1,7 @@
 <?php 
 require_once 'Mobile-Detect/Mobile_Detect.php';
 $detect = new Mobile_Detect;
-$flag = 0;
-if ( $detect->isMobile() || $detect->isTablet()) {
-	$flag = 1;
-}
+
 ?>
 <!DOCTYPE html dir="rtl" lang="he">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -18,7 +15,7 @@ if ( $detect->isMobile() || $detect->isTablet()) {
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <?php if($flag):?>
+        <?php if ( $detect->isMobile() || $detect->isTablet()):?>
         <link rel="stylesheet" href="css/main-mobile.css">
         <?php else:?>
         <link rel="stylesheet" href="css/main.css">
@@ -34,8 +31,7 @@ if ( $detect->isMobile() || $detect->isTablet()) {
                     </div>
                 </div>
                 <div class="header-row">
-                    <?php if($flag):?>
-        			<div class="header-content">
+                    <div class="header-content">
                         <h1>Design Just Blows My Mind</h1>
                         <p>We have listed examples of the types of templates you may consider to submit in these categories however. </p>
                         <div class="header-video">
@@ -67,41 +63,7 @@ if ( $detect->isMobile() || $detect->isTablet()) {
                             </div>
                         </form>
                     </div>
-					<?php else:?>
-                    <div class="header-form">
-                        <h1>Apply Now For a Home!</h1>
-                        <p>The Best Unbounce templates that are considered to be within these categories.</p>
-                        <div id="error_display"></div>
-                        <form method="post" id="contact-form" autocomplete="off">
-                            <div class="form-field">
-                                <label for="contact-name">Full Name *</label>
-                                <input type="text" name="name" id="contact-name" class="text">
-                                <span id="name-error"></span>
-                            </div>
-                            <div class="form-field">
-                                <label for="contact-email">Email *</label>
-                                <input type="text" name="email" id="contact-email" class="text">
-                                <span id="email-error"></span>
-                            </div>
-                            <div class="form-field">
-                                <label for="contact-phone">Phone Number</label>
-                                <input type="text" name="phone" id="contact-phone" class="text">
-                                <span id="phone-error"></span>
-                            </div>
-                            <div class="form-btn">
-                                <input type="submit" value="Submit Your Information" class="btn" name="contact-form-btn">
-                            </div>
-                        </form>
-                    </div>
-                    <div class="header-content">
-                        <h1>_______________המסלול המרוכז והמעשי ביותר לקריירה ב</h1>
-                        <p>We have listed examples of the types of templates you may consider to submit in these categories however. </p>
-                        <div class="header-video">
-                            <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" width="536" height="302" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
-                        </div>
-                    </div>
-                  	<?php endif;?>
-               </div>
+               	</div>
             </div>    
         </div>
         <div class="features" style="background:rgba(238,238,238,1);">
