@@ -34,7 +34,7 @@ $detect = new Mobile_Detect;
                         <h1>Design Just Blows My Mind</h1>
                         <p>We have listed examples of the types of templates you may consider to submit in these categories however. </p>
                         <div class="header-video">
-                            <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" width="300" height="169" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
+                            <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
                         </div>
                     </div>
                     <div class="header-form">

@@ -151,6 +151,7 @@ body{
 }
 .header-row{
     clear: both;
+	width: 960px;
 }
 .header-form{
     width: 340px;
@@ -174,6 +175,19 @@ body{
     font-size:16px;
     line-height: 26px;
     text-align: right;
+}
+.header-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.header-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 #error_display{
     font-size: 14px;
@@ -252,11 +266,21 @@ body{
     text-align: right;
 }
 .header-content .header-video{
-    height: 302px;
-    width: 536px;
     margin-top: 35px;
 }
-
+.header-video {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.header-video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 .features{
     height: 300px;
     display: block;
