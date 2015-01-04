@@ -255,7 +255,7 @@ body{
 }
 .header-video {
 	position: relative;
-	padding-bottom: 56.25%; /* 16:9 */
+	padding-bottom: 53.25%; /* 16:9 */
 	padding-top: 25px;
 	height: 0;
 }
@@ -285,8 +285,8 @@ body{
 }
 .fitem a{
     display: block;
-    width: 98px;
-    height: 98px;
+    width: 125px;
+    height: 125px;
     border-radius: 100px;
     margin: 45px auto 0 auto;
     color: #fff;
@@ -300,7 +300,7 @@ body{
     text-align: center;
     background-repeat: no-repeat;
 	background-position:center;
-	background-size:50px 60px;
+	background-size:95px 95px;
 }
 .fitem a:hover{
     border-style: solid;
