@@ -95,7 +95,7 @@ $detect = new Mobile_Detect;
             <div class="container">
                 <div class="pitem-heading">The Beauty of Contrast</div>
                 <div class="pitem-subheading">We turn you on to pro lighting strategies to highlight the most of indoor and outdoor rooms</div>
-                 <?php if(!$flag):?>
+                 <?php if(!($detect->isMobile() || $detect->isTablet())):?>
                 <div class="pitem-row">
                     <div class="pitem">
                         <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
