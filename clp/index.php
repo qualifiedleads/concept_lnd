@@ -110,23 +110,23 @@ if ( $detect->isMobile() || $detect->isTablet()) {
                 <div class="fitem-row">
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390857_basic2-170_box_gift-128.png)"></a>
-                        <h2>Great Support</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>המסלול המותאם לצורכי התעשייה</h2>
+                        <p>לימודים ממוקדים הכוללים סטז'ים כבר במהלך הלימודים- מסיימים עם ניסיון!</p>
                     </div>
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390854_map_orientation-128.png)"></a>
-                        <h2>Made with Love</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>להיות מעצב עצמאי</h2>
+                        <p>ערכת יזמות עסקית למעצבים עצמאיים( כולל בנייה וניהול מותג אישי)</p>
                     </div>
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390865_user_group_users_like_love_favorite_friend-128.png)"></a>
-                        <h2>Pixel Perfect</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>עבודה בעיצוב</h2>
+                        <p>השמה תעסוקתית לבוגרי בקונספט להשתלבות מהירה כמעצבים</p>
                     </div>
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390864_Brainstorming-128.png)"></a>
-                        <h2>Five Stars</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>תואר בינלאומי בעיצוב</h2>
+                        <p>אפשרות להשלים לתואר בינלאומי בעיצוב (בתוך כשנתיים)* בלעדי לבוגרי קונספט</p>
                     </div>
                 </div>
             </div>    
@@ -210,24 +210,24 @@ if ( $detect->isMobile() || $detect->isTablet()) {
                 <div class="fitem-row">
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390858_relations-128.png)"></a>    
-                        <h2>Great Support</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>ליווי אישי וקרוב</h2>
+                        <p>מרצים מהשורה הראשונה בתעשייה ילוו אותך באופן אישי, יהיו זמינים עבורך בכל עת גם לאחר סיום הלימודים…</p>
                     </div>
                     <div class="fitem">
                         
                         <a href="#" style="background-image:url(img/icons/1420390863_startup-128.png)"></a>
-                        <h2>Made with Love</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>איפה לומדים</h2>
+                        <p>במכללת קונספט בתל אביב, 2 דקות הליכה מעזריאלי. *מגיעים בקלות עם כל תחבורה</p>
                     </div>
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
-                        <h2>Pixel Perfect</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>הצלחה מוכחת</h2>
+                        <p>87% מבוגרנו כבר פתחו עסקים או השתלבו בתעשייה כמעצבים </p>
                     </div>
                     <div class="fitem">
                         <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
-                        <h2>Five Stars</h2>
-                        <p>Design becoming like this is one of your goals here are some general pointers.</p>
+                        <h2>הטבה לנרשמים</h2>
+                        <p>מלגה של 3000 ש' לנרשמים מדף זה</p>
                     </div>
                 </div>
             </div>    
