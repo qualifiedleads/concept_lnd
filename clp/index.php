@@ -1,6 +1,10 @@
 <?php 
 require_once 'Mobile-Detect/Mobile_Detect.php';
 $detect = new Mobile_Detect;
+$flag = 0;
+if ( $detect->isMobile() || $detect->isTablet()) {
+	$flag = 1;
+}
 ?>
 <!DOCTYPE html dir="rtl" lang="he">
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
@@ -14,7 +18,7 @@ $detect = new Mobile_Detect;
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <?php if ( $detect->isMobile() || $detect->isTablet()):?>
+        <?php if($flag):?>
         <link rel="stylesheet" href="css/main-mobile.css">
         <?php else:?>
         <link rel="stylesheet" href="css/main.css">
@@ -30,7 +34,8 @@ $detect = new Mobile_Detect;
                     </div>
                 </div>
                 <div class="header-row">
-                    <div class="header-content">
+                    <?php if($flag):?>
+        			<div class="header-content">
                         <h1>Design Just Blows My Mind</h1>
                         <p>We have listed examples of the types of templates you may consider to submit in these categories however. </p>
                         <div class="header-video">
@@ -38,8 +43,8 @@ $detect = new Mobile_Detect;
                         </div>
                     </div>
                     <div class="header-form">
-                        <h1>Apply Now For a Home!</h1>
-                        <p>The Best Unbounce templates that are considered to be within these categories.</p>
+                        <h1>לקבלת תאריכי פתיחה ותכנית לימוד מלאה</h1>
+                        
                         <div id="error_display"></div>
                         <form method="post" id="contact-form" autocomplete="off">
                             <div class="form-field">
@@ -60,31 +65,66 @@ $detect = new Mobile_Detect;
                             <div class="form-btn">
                                 <input type="submit" value="Submit Your Information" class="btn" name="contact-form-btn">
                             </div>
+							<p>מפגש התרשמות מרוכז פעם בחודש. הזמנה תשלח במייל</p>
                         </form>
                     </div>
-               	</div>
+					<?php else:?>
+                    <div class="header-form">
+                        <h1>לקבלת תאריכי פתיחה ותכנית לימוד מלאה</h1>
+                        <div id="error_display"></div>
+                        <form method="post" id="contact-form" autocomplete="off">
+                            <div class="form-field">
+                                <label for="contact-name">Full Name *</label>
+                                <input type="text" name="name" id="contact-name" class="text">
+                                <span id="name-error"></span>
+                            </div>
+                            <div class="form-field">
+                                <label for="contact-email">Email *</label>
+                                <input type="text" name="email" id="contact-email" class="text">
+                                <span id="email-error"></span>
+                            </div>
+                            <div class="form-field">
+                                <label for="contact-phone">Phone Number</label>
+                                <input type="text" name="phone" id="contact-phone" class="text">
+                                <span id="phone-error"></span>
+                            </div>
+                            <div class="form-btn">
+                                <input type="submit" value="Submit Your Information" class="btn" name="contact-form-btn">
+                            </div>
+							<p>מפגש התרשמות מרוכז פעם בחודש. הזמנה תשלח במייל</p>
+                        </form>
+                    </div>
+                    <div class="header-content">
+                        <h1>_______________המסלול המרוכז והמעשי ביותר לקריירה ב</h1>
+                        <p>We have listed examples of the types of templates you may consider to submit in these categories however. </p>
+                        <div class="header-video">
+                            <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" width="536" height="302" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
+                        </div>
+                    </div>
+                  	<?php endif;?>
+               </div>
             </div>    
         </div>
         <div class="features" style="background:rgba(238,238,238,1);">
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390857_basic2-170_box_gift-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/guarantee.png)"></a>
                         <h2>המסלול המותאם לצורכי התעשייה</h2>
                         <p>לימודים ממוקדים הכוללים סטז'ים כבר במהלך הלימודים- מסיימים עם ניסיון!</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390854_map_orientation-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/lamp.png)"></a>
                         <h2>להיות מעצב עצמאי</h2>
                         <p>ערכת יזמות עסקית למעצבים עצמאיים( כולל בנייה וניהול מותג אישי)</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390865_user_group_users_like_love_favorite_friend-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/dollar.png)"></a>
                         <h2>עבודה בעיצוב</h2>
                         <p>השמה תעסוקתית לבוגרי בקונספט להשתלבות מהירה כמעצבים</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390864_Brainstorming-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/mortar.png)"></a>
                         <h2>תואר בינלאומי בעיצוב</h2>
                         <p>אפשרות להשלים לתואר בינלאומי בעיצוב (בתוך כשנתיים)* בלעדי לבוגרי קונספט</p>
                     </div>
@@ -169,23 +209,23 @@ $detect = new Mobile_Detect;
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390858_relations-128.png)"></a>    
+                        <a href="#" style="background-image:url(img/icons/heart.png)"></a>    
                         <h2>ליווי אישי וקרוב</h2>
                         <p>מרצים מהשורה הראשונה בתעשייה ילוו אותך באופן אישי, יהיו זמינים עבורך בכל עת גם לאחר סיום הלימודים…</p>
                     </div>
                     <div class="fitem">
                         
-                        <a href="#" style="background-image:url(img/icons/1420390863_startup-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/map.png)"></a>
                         <h2>איפה לומדים</h2>
                         <p>במכללת קונספט בתל אביב, 2 דקות הליכה מעזריאלי. *מגיעים בקלות עם כל תחבורה</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/startup.png)"></a>
                         <h2>הצלחה מוכחת</h2>
                         <p>87% מבוגרנו כבר פתחו עסקים או השתלבו בתעשייה כמעצבים </p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
+                        <a href="#" style="background-image:url(img/icons/giftbox.png)"></a>
                         <h2>הטבה לנרשמים</h2>
                         <p>מלגה של 3000 ש' לנרשמים מדף זה</p>
                     </div>
@@ -213,7 +253,7 @@ $detect = new Mobile_Detect;
                 </div>
                 <div class="copyright">
                    <p><span>Made with</span>
-                    <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/1kvyvol-heart-small.png" alt=""><span>in Earth | All rights reserved Copyright © 2014 MYFLAT</span><p>
+                    <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/1kvyvol-heart-small.png" alt=""><span>in Earth | All rights reserved Copyright © 2014 Concept</span><p>
                 </div>
             </div>
         </div>
