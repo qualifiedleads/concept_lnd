@@ -286,18 +286,6 @@ body{
     text-align: center;
     background-repeat: no-repeat;
 }
-.fitem a.fitem-one{
-    background-image: url(../img/support-1.png);
-}
-.fitem a.fitem-two{
-    background-image: url(../img/love-2.png);
-}
-.fitem a.fitem-three{
-    background-image: url(../img/pixel-3.png);
-}
-.fitem a.fitem-four{
-    background-image: url(../img/star-4.png);
-}
 .fitem a:hover{
     border-style: solid;
     border-width: 1px;

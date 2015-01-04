@@ -109,22 +109,22 @@ if ( $detect->isMobile() || $detect->isTablet()) {
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" class="fitem-one"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390857_basic2-170_box_gift-128.png)"></a>
                         <h2>Great Support</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-two"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390854_map_orientation-128.png)"></a>
                         <h2>Made with Love</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-three"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390865_user_group_users_like_love_favorite_friend-128.png)"></a>
                         <h2>Pixel Perfect</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-four"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390864_Brainstorming-128.png)"></a>
                         <h2>Five Stars</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
@@ -209,22 +209,23 @@ if ( $detect->isMobile() || $detect->isTablet()) {
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" class="fitem-one"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390858_relations-128.png)"></a>    
                         <h2>Great Support</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-two"></a>
+                        
+                        <a href="#" style="background-image:url(img/icons/1420390863_startup-128.png)"></a>
                         <h2>Made with Love</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-three"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
                         <h2>Pixel Perfect</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" class="fitem-four"></a>
+                        <a href="#" style="background-image:url(img/icons/1420390866_earnings-128.png)"></a>
                         <h2>Five Stars</h2>
                         <p>Design becoming like this is one of your goals here are some general pointers.</p>
                     </div>
