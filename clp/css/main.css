@@ -113,7 +113,7 @@ body{
     margin: 0;  
 }
 .parallax-1 {
-    height: 740px;
+	padding-bottom:40px;
 }
 .parallax-2{
     height: 226px;
@@ -126,6 +126,10 @@ body{
 .header-nav .header-logo{
     float: right;
     color: #fff;
+}
+.header-logo img{
+	height: 115px;
+	margin: 10px;	
 }
 .header-logo p{
     text-align: right;

@@ -113,7 +113,7 @@ body{
     margin: 0;  
 }
 .parallax-1 {
-    height: 1050px;
+	padding-bottom:40px;
 }
 .parallax-2{
     height: 327px;
@@ -121,10 +121,15 @@ body{
 .header-nav{
     clear: both;
     width: 300px;
-    height: 100px;
 }
 .header-nav .header-logo{
     color: #fff;
+	 text-align: center;
+	 margin-bottom:20px;
+}
+.header-logo img{
+	height: 115px;
+	margin: 10px;	
 }
 .header-logo p{
     text-align: center;
