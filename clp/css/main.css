@@ -151,7 +151,6 @@ body{
 }
 .header-row{
     clear: both;
-	width:960px;
 }
 .header-form{
     width: 340px;
@@ -240,8 +239,8 @@ body{
     padding-top: 15px;
 }
 .header-content h1{
-    line-height: 26px;
-    font-size: 26px;
+    line-height: 30px;
+    font-size: 39px;
     color: #fff;
     text-align: right;
     font-weight: 500;
