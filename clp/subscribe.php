@@ -12,7 +12,7 @@ class subscribe{
 			'cellphone' => $phone
 		);
 		
-		$rVal = self::register_viplus('6c575165-e64f-4f80-81e6-749b42c8b4e4', $fields);
+		$rVal = self::register_viplus('0193775f-5f44-40ae-a67a-37a43c78766a', $fields);
 		
 		if($rVal['status'] == 'ok'){
 			return 1;
