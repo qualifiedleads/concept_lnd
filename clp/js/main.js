@@ -1,12 +1,12 @@
 $(document).ready(function() { 
-    
     $("#contact-form").submit(function(e) {
         e.preventDefault();
         $('#error_display').empty();
         $('.form-field span').empty();
         $('.form-field').css("margin-bottom","20px");
         if(validateData()){
-            $.post("subscribe.php", {
+			$("#contact-form .btn").toggleClass('clicked');
+    	    $.post("subscribe.php", {
                 name: $("#contact-name").val(),
                 email:$("#contact-email").val(),
                 phone: $("#contact-phone").val()
@@ -19,9 +19,11 @@ $(document).ready(function() {
                     var google_conversion_label = "L50SCIfwxVgQ1M3c3AM";
                     var google_remarketing_only = false;
                     $.getScript( "http://www.googleadservices.com/pagead/conversion.js" );
-                    $("#error_display").append("Registered Successfully!");
+				    $('#contact-form .btn p').text(function(i, text) {return text === "Sent!" ? "Send" : "Sent!";});
+					$("#error_display").append("Registered Successfully!");
                 }else{
                     $("#error_display").append(data);
+					$("#contact-form .btn").toggleClass('clicked');					
                 }
             });
         }
