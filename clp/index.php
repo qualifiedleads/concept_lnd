@@ -106,17 +106,17 @@ $detect = new Mobile_Detect;
                  <?php if(!($detect->isMobile() || $detect->isTablet())):?>
                 <div class="pitem-row">
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/1.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                     </div>
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/2.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                     </div>
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/3.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                     </div>
@@ -124,17 +124,17 @@ $detect = new Mobile_Detect;
                 <?php endif;?>
                 <div class="pitem-row">
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/4.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                     </div>
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/5.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                     </div>
                     <div class="pitem">
-                        <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/craftsman-kitchen.original.jpg">
+                        <img src="img/6.jpg">
                         <h2>Beautiful New Kitchen</h2>
                         <p>great deal with awesome new features it is realy incredible design and price.</p>
                         <!--<div class="pitem-btns">
