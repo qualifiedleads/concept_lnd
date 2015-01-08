@@ -419,11 +419,11 @@ body{
     color: #0eb798;
 }*/
 .testimonials{
-    height: 380px;
     display: block;
     overflow: hidden;
     background:rgba(238,238,238,1);
     width: 100%;
+	padding-bottom:50px;
 }
 .testimonials-heading{
     font-size: 28px;
@@ -452,7 +452,6 @@ body{
 .testimonials-row{
     width: 960px;
     clear: both;
-    height: 250px;
 }
 .testimonial{
     width: 480px;
@@ -464,7 +463,7 @@ body{
     border-style: none;
     margin-left: 57px;
     width: 400px;
-    height: 195px;
+    height: 240px;
     border-radius: 4px;
     float: right;
 }

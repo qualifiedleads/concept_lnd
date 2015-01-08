@@ -153,21 +153,13 @@ $detect = new Mobile_Detect;
                     <div class="testimonial">
                         <div class="tinr">
                             <div class="timg" style="background-image:url(img/meirav.jpg)"></div>
-                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שלי" קרתה הרבה יותר מהר ממה שדמיינתי..."</p>
-                            <div class="via">
-                                <span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">בוגר</span><span style="color:#66cc33;"> </span><span style="color:#0099ff;">מירב גרוסמן</span>
-                            </div>
+                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שלי" קרתה הרבה יותר מהר ממה שדמיינתי..."<br><span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">בוגר</span><span style="color:#66cc33;"> </span><span style="color:#0099ff;">מירב גרוסמן</span></p>
                         </div>
                     </div>
                     <div class="testimonial">
                         <div class="tinr">
                             <div class="timg" style="background-image:url(img/shirli.jpg)"></div>
-                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי" עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים."</p>
-                            <div class="via">
-                                <span style="color:#66cc33;">&nbsp;</span>
-                                <span style="color:#d3d3d3;">בוגר</span>
-                                <span style="color:#66cc33;">&nbsp;שירלי חיון</span>
-                            </div>
+                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי" עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים."<br><span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">בוגר</span><span style="color:#66cc33;">&nbsp;שירלי חיון</span></p>
                         </div>
                     </div>
                 </div>
