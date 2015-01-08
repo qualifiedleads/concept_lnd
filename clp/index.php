@@ -153,20 +153,20 @@ $detect = new Mobile_Detect;
                     <div class="testimonial">
                         <div class="tinr">
                             <div class="timg" style="background-image:url(img/unboune-logo.original.png)"></div>
-                            <p>Im a web designer, you guys are very inspiring I wish to see more work from you maybe more freebies.</p>
+                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שלי קרתה הרבה יותר מהר ממה שדמיינתי...</p>
                             <div class="via">
-                                <span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">via</span><span style="color:#66cc33;"> </span><span style="color:#0099ff;">unbounce.com</span>
+                                <span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">בוגר</span><span style="color:#66cc33;"> </span><span style="color:#0099ff;">מירב גרוסמן</span>
                             </div>
                         </div>
                     </div>
                     <div class="testimonial">
                         <div class="tinr">
                             <div class="timg" style="background-image:url(img/envato-logo.original.png)"></div>
-                            <p>Im a web designer, you guys are very inspiring I wish to see more work from you maybe more freebies.</p>
+                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים.</p>
                             <div class="via">
                                 <span style="color:#66cc33;">&nbsp;</span>
-                                <span style="color:#d3d3d3;">via</span>
-                                <span style="color:#66cc33;">&nbsp;envato.com</span>
+                                <span style="color:#d3d3d3;">בוגר</span>
+                                <span style="color:#66cc33;">&nbsp;שירלי חיון</span>
                             </div>
                         </div>
                     </div>
