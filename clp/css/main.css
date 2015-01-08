@@ -156,7 +156,7 @@ body{
 .header-form{
     width: 340px;
     display: block;
-    background: rgba(15,211,179,0.12);
+    background: rgba(221, 229, 228, 0.29);
     border-style: none;
     border-radius: 3px;
     padding: 15px;
@@ -171,7 +171,7 @@ body{
     font-weight: 500;
 }
 .header-form p{
-    color:#add8e6;
+    color:#fff;
     font-size:16px;
     line-height: 26px;
     text-align: right;
@@ -805,8 +805,8 @@ body{
     display: block;
     width: 340px;
     border-radius: 3px;
-    background: rgba(14,183,152,1);
-    box-shadow: inset 0px 1px 0px #4ed0b8,inset 0 -1px 2px #013d2b;
+    background: rgba(223, 30, 51, 1);
+    box-shadow: inset 0px 1px 0px #F8D905,inset 0 -1px 2px #013d2b;
     color: #fff;
     border-style: none;
     font-size: 16px;
@@ -815,8 +815,8 @@ body{
     text-align: center;
 }
 .form-btn .btn:hover {
-  background:rgba(11,174,139,1);
-  box-shadow:inset 0px 1px 0px #48c7ac,inset 0 -1px 2px #013825;
+  background:rgba(132, 22, 34, 0.7);
+  box-shadow:inset 0px 1px 0px #AB9606,inset 0 -1px 2px #013825;
   color:#fff;
 }
 
