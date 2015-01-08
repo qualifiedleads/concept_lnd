@@ -147,13 +147,13 @@ $detect = new Mobile_Detect;
         </div>
         <div class="testimonials">
             <div class="container">
-                <div class="testimonials-heading">Our Awesome Clients</div>
-                <div class="testimonials-subheading">We turn you on to pro lighting strategies to highlight the most of indoor and outdoor rooms</div>
+                <div class="testimonials-heading">בוגרים טריים</div>
+                <div class="testimonials-subheading">Sub text</div>
                 <div class="testimonials-row">
                     <div class="testimonial">
                         <div class="tinr">
-                            <div class="timg" style="background-image:url(img/unboune-logo.original.png)"></div>
-                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שלי קרתה הרבה יותר מהר ממה שדמיינתי...</p>
+                            <div class="timg" style="background-image:url(img/meirav.jpg)"></div>
+                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שלי" קרתה הרבה יותר מהר ממה שדמיינתי..."</p>
                             <div class="via">
                                 <span style="color:#66cc33;">&nbsp;</span><span style="color:#d3d3d3;">בוגר</span><span style="color:#66cc33;"> </span><span style="color:#0099ff;">מירב גרוסמן</span>
                             </div>
@@ -161,8 +161,8 @@ $detect = new Mobile_Detect;
                     </div>
                     <div class="testimonial">
                         <div class="tinr">
-                            <div class="timg" style="background-image:url(img/envato-logo.original.png)"></div>
-                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים.</p>
+                            <div class="timg" style="background-image:url(img/shirli.jpg)"></div>
+                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי" עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים."</p>
                             <div class="via">
                                 <span style="color:#66cc33;">&nbsp;</span>
                                 <span style="color:#d3d3d3;">בוגר</span>
