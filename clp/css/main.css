@@ -263,10 +263,10 @@ body{
 	height: 100%;
 }
 .features{
-    height: 300px;
     display: block;
     overflow: hidden;
     width: 100%;
+	padding-bottom: 30px;
 }
 .fitem-row{
     width: 960px;
