@@ -194,7 +194,7 @@ $detect = new Mobile_Detect;
         </div>
         <div class="plogos parallax parallax-2">
             <div class="container">
-                <img src="img/plogos.png">
+                <img src="img/logos_interior.png">
             </div>
         </div>
         <div class="tfooter">
