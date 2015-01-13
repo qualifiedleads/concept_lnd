@@ -2,14 +2,15 @@
 
 class subscribe{
 
-	public static function saveData($fname, $email, $phone,$lname=""){
+	public static function saveData($fname, $email, $phone,$lname="",$newsletter="yes"){
 		
 		$fields = array( 
 			'viplists'=>urlencode('79767'),
 			'email' => $email,
 			'firstname' => $fname,
 			'lastname' => $lname,
-			'cellphone' => $phone
+			'cellphone' => $phone,
+			'conceptlp_newsletter'=>$newsletter
 		);
 		
 		$rVal = self::register_viplus('0193775f-5f44-40ae-a67a-37a43c78766a', $fields);

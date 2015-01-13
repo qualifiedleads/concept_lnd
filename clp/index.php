@@ -20,7 +20,7 @@ $detect = new Mobile_Detect;
         <link rel="stylesheet" href="css/main.css">
 		<?php endif;?>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-		<link rel="shortcut icon" href="favicon.ico" />
+   		<link rel="shortcut icon" href="favicon.ico" />
     </head>
     <body>
        <div class="header parallax parallax-1">
@@ -152,18 +152,16 @@ $detect = new Mobile_Detect;
         <div class="testimonials">
             <div class="container">
                 <div class="testimonials-heading">בוגרי המסלול לעיצוב פנים ממליצים:</div>
-
                 <div class="testimonials-row">
                     <div class="testimonial">
                         <div class="tinr">
-                            <div class="timg" style="background-image:url(img/meirav.jpg)"></div>
                             <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שתכננתי קרתה הרבה יותר מהר ממה שדמיינתי.
 בזכות התוכנית ליזמים של קונספט, הצלחתי לקבל עבודות ופרוייקטים גדולים<span style="color:#66cc33;">&nbsp;</span><span style="color:#66cc33;"> </span><br><span style="color:#0099ff;">מירב גרוסמן</span></p>
                         </div>
                     </div>
                     <div class="testimonial">
                         <div class="tinr">
-                            <div class="timg" style="background-image:url(img/shirli.jpg)"></div>
+                            <!--<div class="timg" style="background-image:url(img/shirli.jpg)"></div>-->
                             <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי" עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים."<br><span style="color:#66cc33;">&nbsp;</span><span style="color:#66cc33;">&nbsp;שירלי חיון</span></p>
                         </div>
                     </div>
@@ -196,6 +194,25 @@ $detect = new Mobile_Detect;
                     </div>
                 </div>
             </div>    
+        </div>
+        <div class="testimonials">
+            <div class="container">
+                <div class="testimonials-heading">בוגרי המסלול לעיצוב פנים ממליצים:</div>
+                <div class="testimonials-row">
+                    <div class="testimonial">
+                        <div class="tinr">
+                            <p>הלימודים בקונספט הם ההשקעה הכי טובה שעשיתי בחיים שלי, כבר במהלך הלימודים התחלתי לעבוד בתחום, כך שההסבה המקצועית שתכננתי קרתה הרבה יותר מהר ממה שדמיינתי.
+בזכות התוכנית ליזמים של קונספט, הצלחתי לקבל עבודות ופרוייקטים גדולים<span style="color:#66cc33;">&nbsp;</span><span style="color:#66cc33;"> </span><br><span style="color:#0099ff;">מירב גרוסמן</span></p>
+                        </div>
+                    </div>
+                    <div class="testimonial">
+                        <div class="tinr">
+                            <!--<div class="timg" style="background-image:url(img/shirli.jpg)"></div>-->
+                            <p>מתוך אהבה גדולה לעיצוב פנים נרשמתי ללימודים בקונספט, שמכל הסילבוסים היו הכי מעשיים וממוקדים בעיני. במסלול עצמו גיליתי" עד כמה תכני הלימודים פרקטיים ומכינים אותנו למציאות, כך שבקלות התקבלתי לעבודה כמעצבת פנים."<br><span style="color:#66cc33;">&nbsp;</span><span style="color:#66cc33;">&nbsp;שירלי חיון</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
         <div class="plogos parallax parallax-2">
             <div class="container">
