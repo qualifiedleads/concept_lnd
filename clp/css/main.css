@@ -108,7 +108,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-image: url("../img/interior-design.png");  
+    background-image: url("../img/interior-design.jpg");  
 }
 .parallax h1 {
     color: rgba(255, 255, 255, 0.8);
