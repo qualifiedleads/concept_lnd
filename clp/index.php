@@ -20,6 +20,7 @@ $detect = new Mobile_Detect;
         <link rel="stylesheet" href="css/main.css">
 		<?php endif;?>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+		<link rel="shortcut icon" href="favicon.ico" />
     </head>
     <body>
        <div class="header parallax parallax-1">
