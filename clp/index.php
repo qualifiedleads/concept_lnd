@@ -59,6 +59,10 @@ $detect = new Mobile_Detect;
                                 <input type="text" name="phone" id="contact-phone" class="text">
                                 <span id="phone-error"></span>
                             </div>
+                            <div class="form-field">
+                                <input type="checkbox" name="newsletter" id="newsletter" checked >
+                                <label for="newsletter">Subscribe to Newsletter</label>                                
+                            </div>
                             <div class="form-btn">
                                 <button type="submit" class="btn button" name="contact-form-btn">
                                   <p>שלחו לי עכשיו</p>
