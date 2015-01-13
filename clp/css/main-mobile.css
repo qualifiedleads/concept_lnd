@@ -271,7 +271,7 @@ body{
     width: 300px;
     float: left;
 }
-.fitem a{
+.fitem .fitem-img{
     display: block;
     width: 125px;
     height: 125px;
@@ -290,7 +290,7 @@ body{
 	background-position:center;
 	background-size:95px 95px;
 }
-.fitem a:hover{
+.fitem .fitem-img:hover{
     border-style: solid;
     border-width: 1px;
     border-color: #0eb798;

@@ -79,24 +79,24 @@ $detect = new Mobile_Detect;
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/guarantee.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/guarantee.png)"></div>
                         <h2>התמחות מעשית במהלך הלימודים</h2>
                         <p>לימודים ממוקדים הכוללים סטזי'ם כבר במהלך הלימודים.
 מסיימים עם נסיון!</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/lamp.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/lamp.png)"></div>
                         <h2>יזמות עיסקית למעצבים</h2>
                         <p>תוכנית ייחודית למעצבים יזמים 
 אשר מעוניינם להקים ולנהל מותג אישי</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/dollar.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/dollar.png)"></div>
                         <h2>עבודה בעיצוב</h2>
                         <p>השמה תעסוקתית לבוגרי קונספט להשתלבות מהירה כמעצבים</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/mortar.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/mortar.png)"></div>
                         <h2>תואר בינלאומי בעיצוב</h2>
                         <p>אפשרות להשלים לתואר בינלאומי בעיצוב (בתוך כשנתיים)* בלעדי לבוגרי קונספט</p>
                     </div>
@@ -172,23 +172,22 @@ $detect = new Mobile_Detect;
             <div class="container">
                 <div class="fitem-row">
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/heart.png)"></a>    
+                        <div class="fitem-img" style="background-image:url(img/icons/heart.png)"></div>    
                         <h2>ליווי אישי וקרוב</h2>
                         <p>מרצים מהשורה הראשונה בתעשייה ילוו אותך באופן אישי, יהיו זמינים עבורך בכל עת גם לאחר סיום הלימודים…</p>
                     </div>
                     <div class="fitem">
-                        
-                        <a href="#" style="background-image:url(img/icons/map.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/map.png)"></div>
                         <h2>איפה לומדים</h2>
                         <p>במכללת קונספט בתל אביב, 2 דקות הליכה מעזריאלי. *מגיעים בקלות עם כל תחבורה</p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/startup.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/startup.png)"></div>
                         <h2>הצלחה מוכחת</h2>
                         <p>87% מבוגרנו כבר פתחו עסקים או השתלבו בתעשייה כמעצבים </p>
                     </div>
                     <div class="fitem">
-                        <a href="#" style="background-image:url(img/icons/giftbox.png)"></a>
+                        <div class="fitem-img" style="background-image:url(img/icons/giftbox.png)"></div>
                         <h2>הטבה לנרשמים</h2>
                         <p>מלגה של 3000 ש' לנרשמים מדף זה</p>
                     </div>
