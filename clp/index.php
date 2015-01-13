@@ -236,7 +236,7 @@ $detect = new Mobile_Detect;
 
                 <div class="copyright">
                    <p><span>Made with</span>
-                    <img src="http://d9hhrg4mnvzow.cloudfront.net/unbouncepages.com/master-desktop/1kvyvol-heart-small.png" alt=""><span>in Tel Aviv | All rights reserved Copyright © 2014 Concept Academy</span><p>
+                    <img src="img/icons/heart-small.png" alt=""><span>in Tel Aviv | All rights reserved Copyright © 2014 Concept Academy</span><p>
                 </div>
             </div>
         </div>
