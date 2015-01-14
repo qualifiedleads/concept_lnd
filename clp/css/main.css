@@ -473,7 +473,23 @@ body{
     float: right;
 	padding:15px;
 }
-/*.timg{
+.tinr p{
+    display: block;
+    color:#000;
+    font-size: 16px;
+    line-height: 26px;
+}
+.tinr .via{
+    float: right;
+    font-size: 14px;
+    line-height: 22px;
+    margin-right: 20px;
+    margin-top: -10px;    
+}
+#t1{
+	margin-right:60px;
+}
+#t1 .tinr .timg{
     display: block;
     background: rgba(255,255,255,1);
     background-repeat: no-repeat;
@@ -488,19 +504,16 @@ body{
     height: 75px;
     position: relative;
     border-radius: 148px;
-}*/
-.tinr p{
-    display: block;
-    color:#000;
-    font-size: 16px;
-    line-height: 26px;
 }
-.tinr .via{
-    float: right;
-    font-size: 14px;
-    line-height: 22px;
-    margin-right: 20px;
-    margin-top: -10px;    
+
+#t1 .tinr{
+	padding:0px;
+	height:225px;
+}
+#t1 .tinr p{
+	margin-right:60px;
+	width:306px;
+	margin-top:-60px;	
 }
 .tfooter{
     display: block;
