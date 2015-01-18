@@ -201,7 +201,7 @@ $detect = new Mobile_Detect;
         </div>
         <div class="testimonials">
             <div class="container">
-                <div class="testimonials-heading">בוגרי המסלול לעיצוב פנים ממליצים:</div>
+                <div class="testimonials-heading">תכנים מרכזיים במסלול המקצועי למעצבי פנים:</div>
                 <div class="testimonials-row">
                     <div class="testimonial">
                         <div class="tinr">
@@ -224,8 +224,8 @@ $detect = new Mobile_Detect;
                             <!--<div class="timg" style="background-image:url(img/shirli.jpg)"></div>-->
                             <p>
 							<ul>
-								<li>חומרי בנייה - בטון, טיח, עץ, זכוכית, נחושת, פלדה, חומרי גמר, טקסטורות ועוד</li>
-								<li>תכניות הריסה, בנייה, אינסטלציה, ריצוף, חשמל, תאורה, מיזוג אוויר ועוד</li>
+								<li>חומרי בנייה - בטון, טיח, עץ, זכוכית, נחושת, פלדה ועוד</li>
+								<li>תכניות הריסה, בנייה, אינסטלציה, ריצוף, חשמל, תאורה ועוד</li>
 								<li>זרמים וסגנונות בעיצוב פנים ואדריכלות</li>
 								<li>הנדסת אנוש והיבטים פסיכולוגיים אנושיים</li>
 								<li>תוכנת AutoCad וסקצ'אפ - התוכנות הנפוצות ביותר לשרטוט והדמיה</li>
