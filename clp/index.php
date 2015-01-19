@@ -244,7 +244,11 @@ $detect = new Mobile_Detect;
         </div>
         <div class="plogos parallax parallax-2">
             <div class="container">
-                <img src="img/logos_interior.png">
+                <?php if($detect->isMobile() || $detect->isTablet()):?>
+				<img src="img/mob-logos.png">
+        		<?php else:?>
+		        <img src="img/logos_interior.png">
+				<?php endif;?>
             </div>
         </div>
         <div class="tfooter">
