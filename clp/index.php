@@ -61,7 +61,7 @@ $detect = new Mobile_Detect;
                             </div>
                             <div class="form-field">
                                 <input type="checkbox" name="newsletter" id="newsletter" checked >
-                                <label for="newsletter">Subscribe to Newsletter</label>                                
+                                <label for="newsletter">אני מאשר קבלת מידע מקונספט</label>                                
                             </div>
                             <div class="form-btn">
                                 <button type="submit" class="btn button" name="contact-form-btn">
