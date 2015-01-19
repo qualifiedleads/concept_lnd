@@ -36,6 +36,9 @@ $detect = new Mobile_Detect;
                         <p>מכללת קונספט מתחייבת להגשים לכם את החלום ולהפוך אתכם למעצבים מצליחים.
 בכיתות קטנות ויחס אישי, עם מרצים מהשורה הראשונה בארץ, תקבלו את כל הידע הדרוש 
 במרוכז וכולל התמחות מעשית במהלך הלימודים!</p>
+						<?php if($detect->isMobile()):?>
+                        <button onclick="goog_report_conversion('tel:949-555-1234')" class="call-btn">Call 949-555-1234</button>
+                        <?php endif;?>
                         <div class="header-video">
                             <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
                         </div>
