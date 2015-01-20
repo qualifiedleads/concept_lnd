@@ -37,7 +37,7 @@ $detect = new Mobile_Detect;
 בכיתות קטנות ויחס אישי, עם מרצים מהשורה הראשונה בארץ, תקבלו את כל הידע הדרוש 
 במרוכז וכולל התמחות מעשית במהלך הלימודים!</p>
 						<?php if($detect->isMobile()):?>
-                        <button onclick="goog_report_conversion('tel:949-555-1234')" class="call-btn">Call 949-555-1234</button>
+                        <button onclick="goog_report_conversion('tel:037713018')" class="call-btn">התקשרו כעת</button>
                         <?php endif;?>
                         <div class="header-video">
                             <iframe src="https://player.vimeo.com/video/115902396?portrait=0&amp;wmode=opaque" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" id="videohead"></iframe>
@@ -77,6 +77,7 @@ $detect = new Mobile_Detect;
                                 <!--<input type="submit" value="Submit Your Information" class="btn button" name="contact-form-btn">-->
                             </div>
 							<p>מתנה מיוחדת בשווי 600 ש' לפונים מדף זה</p>
+							<p><span>03-561-2029</span>התקשרו כעת</p>
                         </form>
                     </div>
                </div>
