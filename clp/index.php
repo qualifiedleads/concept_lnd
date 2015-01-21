@@ -77,7 +77,7 @@ $detect = new Mobile_Detect;
                                 <!--<input type="submit" value="Submit Your Information" class="btn button" name="contact-form-btn">-->
                             </div>
 							<p>מתנה מיוחדת בשווי 600 ש' לפונים מדף זה</p>
-							<p><span>03-561-2029</span>התקשרו כעת</p>
+							<p> התקשרו כעת <span>03-561-2029</span></p>
                         </form>
                     </div>
                </div>
