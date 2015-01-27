@@ -12,16 +12,9 @@ $(document).ready(function() {
                 phone: $("#contact-phone").val()
             }).done(function( data ) {
                 if(data == 1){
-					/*var google_conversion_id = 999761620;
-                    var google_conversion_language = "en";
-                    var google_conversion_format = "3";
-                    var google_conversion_color = "ffffff";
-                    var google_conversion_label = "L50SCIfwxVgQ1M3c3AM";
-                    var google_remarketing_only = false;
-                    $.getScript( "http://www.googleadservices.com/pagead/conversion.js" );*/
-					var conversioncode ='<div style="display:inline;"><img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/999761620/?label=L50SCIfwxVgQ1M3c3AM&amp;guid=ON&amp;script=0"/></div>';
-				    $('#contact-form .btn p').text(function(i, text) {return text === "Sent!" ? "Send" : "Sent!";});
-					$('#contact-form .btn').append(conversioncode);
+					var image = new Image(1,1); 
+         			image.src = "//www.googleadservices.com/pagead/conversion/999761620/?label=L50SCIfwxVgQ1M3c3AM&amp;guid=ON&amp;script=0";
+					$('#contact-form .btn p').text(function(i, text) {return text === "Sent!" ? "Send" : "Sent!";});
 					$("#error_display").append("Registered Successfully!");
                 }else{
                     $("#error_display").append(data);
