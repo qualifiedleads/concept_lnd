@@ -274,7 +274,8 @@ $detect = new Mobile_Detect;
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-		<!-- Google Code for Call Conversion Page
+		<?php if($detect->isMobile()):?>
+        <!-- Google Code for Call Conversion Page
 		In your html page, add the snippet and call
 		goog_report_conversion when someone clicks on the
 		phone number link or button. -->
@@ -304,8 +305,8 @@ $detect = new Mobile_Detect;
 		}
 		/* ]]> */
 		</script>
-		<script type="text/javascript"
-		  src="//www.googleadservices.com/pagead/conversion_async.js">
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion_async.js">
+		<?php endif; ?>
 		</script>
 
     </body>
