@@ -1,4 +1,5 @@
 <?php 
+require_once('PHPMailer/PHPMailerAutoload.php');
 
 class subscribe{
 
@@ -16,6 +17,7 @@ class subscribe{
 		$rVal = self::register_viplus('0193775f-5f44-40ae-a67a-37a43c78766a', $fields);
 		
 		if($rVal['status'] == 'ok'){
+			send_email($fields);
 			return 1;
 		}else{
 			$message = $rVal['error'];
@@ -23,7 +25,30 @@ class subscribe{
 		}
 		
 	}
-
+	
+	public static function send_email($field){
+		$mail = new PHPMailer;
+		$mail->isSMTP();
+		$mail->SMTPDebug = 2;
+		$mail->Debugoutput = 'html';
+		$mail->Host = 'smtp.gmail.com';
+		$mail->Port = 465;
+		$mail->SMTPSecure = 'ssl';
+		$mail->SMTPAuth = true;
+		$mail->Username = "newsleads@concept.ac";
+		$mail->Password = "shailesh88";
+		$mail->setFrom('newsleads@concept.ac', 'New Leads');
+		$mail->addReplyTo('replyto@example.com', 'First Last');
+		$mail->addAddress('whoto@example.com', 'John Doe');
+		$mail->Subject = 'Concept Landing Page New Leads - Details';
+		$html="Email: ".$field['email']."<br>Name: ".$field['firstname']."<br>Phone: ".$field['cellphone']."<br>Newsletter: ".$field['conceptlp_newsletter']."<br>";
+		$mail->msgHTML($html);
+		if (!$mail->send()) {
+			echo "Mailer Error: " . $mail->ErrorInfo;
+		} else {
+			echo "Message sent!";
+		}
+	}
 
 	public static function register_viplus($api_key, $param) {
 
